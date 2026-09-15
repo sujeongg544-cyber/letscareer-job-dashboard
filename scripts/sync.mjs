@@ -82,7 +82,7 @@ const exists = (p) => access(p).then(() => true, () => false);
 
 // ── 1. 인스타그램 콘텐츠 (letscareer.job) ─────────────────
 const MEDIA_FIELDS =
-  "id,caption,media_type,media_product_type,media_url,thumbnail_url,permalink,timestamp," +
+  "id,caption,media_type,media_product_type,media_url,thumbnail_url,permalink,timestamp,like_count,comments_count," +
   "children{media_type,media_url,thumbnail_url}";
 const INSIGHT_METRICS = ["views", "reach", "likes", "comments", "saved", "shares", "profile_visits", "follows"];
 const unsupported = new Map(); // 게시물 유형별 미지원 지표 (오류 메시지에 지표 이름이 있을 때만 기록)
@@ -261,6 +261,7 @@ async function fetchAds(media) {
     const isOurs = m.username === cfg.igUsername && new Date(normTs(m.timestamp)).getTime() >= since;
     if (!isOurs) return { target: null, owner: `${m.username ?? "알 수 없음"} (${m.timestamp ? toKstDate(m.timestamp) : "-"})` };
     if (!ids.has(m.id)) {
+      m.fromAd = true; // 게시물 목록에는 없고 광고로 찾은 게시물
       media.push(m);
       ids.add(m.id);
       byCode.set(shortcode(m.permalink), m.id);
@@ -388,8 +389,8 @@ async function main() {
       cover: covers.get(m.id),
       organic: {
         views: o.views ?? null,
-        likes: o.likes ?? null,
-        comments: o.comments ?? null,
+        likes: o.likes ?? m.like_count ?? null, // 광고 게시물은 인사이트 대신 게시물 정보의 좋아요·댓글 수 사용
+        comments: o.comments ?? m.comments_count ?? null,
         saves: o.saved ?? null,
         shares: o.shares ?? null,
         profileVisits: o.profile_visits ?? null,
@@ -401,6 +402,13 @@ async function main() {
 
   await writeManualFollows(manual, posts);
 
+  // 광고로 추가한 게시물이 목록의 게시물과 겹치는지 확인 (같은 날짜 + 같은 캡션 앞부분)
+  const sig = (m) => `${toKstDate(m.timestamp)}|${String(m.caption ?? "").replace(/\s+/g, "").slice(0, 40)}`;
+  const listedSigs = new Map(media.filter((m) => !m.fromAd).map((m) => [sig(m), m.permalink]));
+  const possibleDuplicates = media
+    .filter((m) => m.fromAd && listedSigs.has(sig(m)))
+    .map((m) => ({ adPost: m.permalink, listedPost: listedSigs.get(sig(m)) }));
+
   const times = media.map((m) => toKstDate(m.timestamp)).sort();
   const sync = {
     syncedAt: new Date().toISOString(),
@@ -411,6 +419,7 @@ async function main() {
     mediaCount: media.length,
     mediaRange: { oldest: times[0] ?? null, newest: times.at(-1) ?? null },
     addedFromAds: ads.addedFromAds,
+    possibleDuplicates: { count: possibleDuplicates.length, sample: possibleDuplicates.slice(0, 5) },
     adCount: ads.adCount,
     adsMatched: ads.adsMatched,
     adsWithoutPost: ads.adsWithoutPost,
