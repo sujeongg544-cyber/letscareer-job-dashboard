@@ -85,7 +85,8 @@ const MEDIA_FIELDS =
   "id,caption,media_type,media_product_type,media_url,thumbnail_url,permalink,timestamp," +
   "children{media_type,media_url,thumbnail_url}";
 const INSIGHT_METRICS = ["views", "reach", "likes", "comments", "saved", "shares", "profile_visits", "follows"];
-const unsupported = new Map(); // 게시물 유형별 미지원 지표
+const unsupported = new Map(); // 게시물 유형별 미지원 지표 (오류 메시지에 지표 이름이 있을 때만 기록)
+const insightErrors = new Map(); // "유형 | 오류 메시지" → 게시물 수
 
 async function resolveIgUserId() {
   if (cfg.igUserId) return cfg.igUserId;
@@ -144,24 +145,30 @@ function parseInsights(json) {
 }
 
 async function fetchInsights(m) {
-  const key = m.media_product_type ?? m.media_type;
-  const skip = unsupported.get(key) ?? new Set();
+  const type = m.media_product_type ?? m.media_type;
+  if (!unsupported.has(type)) unsupported.set(type, new Set());
+  const skip = unsupported.get(type);
   const metrics = INSIGHT_METRICS.filter((x) => !skip.has(x));
   try {
     return parseInsights(await graph(`${m.id}/insights`, { metric: metrics.join(",") }));
   } catch (e) {
     if (!(e instanceof GraphError) || RATE_LIMIT_CODES.includes(e.detail.code)) throw e;
-    // 유형(릴스 등)에 따라 지원하지 않는 지표가 있으면 하나씩 받아 가능한 것만 사용
+    // 지표를 하나씩 다시 요청해 받을 수 있는 것만 사용
     const result = {};
     for (const metric of metrics) {
       try {
         Object.assign(result, parseInsights(await graph(`${m.id}/insights`, { metric })));
       } catch (err) {
-        if (err instanceof GraphError && !RATE_LIMIT_CODES.includes(err.detail.code)) skip.add(metric);
-        else throw err;
+        if (!(err instanceof GraphError) || RATE_LIMIT_CODES.includes(err.detail.code)) throw err;
+        const key = `${type} | ${err.detail.message}`;
+        insightErrors.set(key, (insightErrors.get(key) ?? 0) + 1);
+        if (err.detail.message.includes(metric)) {
+          skip.add(metric); // 이 유형에서 지원하지 않는 지표 → 같은 유형 게시물은 다음부터 제외
+          continue;
+        }
+        break; // 게시물 자체의 문제 → 나머지 지표도 같은 이유로 실패하므로 중단
       }
     }
-    unsupported.set(key, skip);
     return result;
   }
 }
@@ -281,7 +288,8 @@ async function main() {
     adsWithoutPost: ads.adsWithoutPost,
     adsOnOtherAccount: ads.adsOnOtherAccount,
     actionTypes: ads.actionTypes,
-    unsupportedMetrics: Object.fromEntries([...unsupported].map(([k, v]) => [k, [...v]])),
+    unsupportedMetrics: Object.fromEntries([...unsupported].filter(([, v]) => v.size).map(([k, v]) => [k, [...v]])),
+    insightErrors: [...insightErrors].sort((x, y) => y[1] - x[1]).slice(0, 20).map(([error, posts]) => ({ error, posts })),
   };
 
   await writeFile(`${DATA_DIR}/posts.json`, JSON.stringify(posts, null, 2));
