@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-15T16:00:56.431Z",
+  "syncedAt": "2026-09-15T16:05:30.995Z",
   "account": "letscareer.job",
   "campaignKeyword": "오공고",
   "startDate": "2026-01-01",
@@ -31,16 +31,11 @@
     "post_reaction",
     "video_view"
   ],
-  "unsupportedMetrics": {
-    "FEED": [
-      "views",
-      "reach",
-      "likes",
-      "comments",
-      "saved",
-      "shares",
-      "profile_visits",
-      "follows"
-    ]
-  }
+  "unsupportedMetrics": {},
+  "insightErrors": [
+    {
+      "error": "FEED | (#10) Application does not have permission for this action",
+      "posts": 299
+    }
+  ]
 }
