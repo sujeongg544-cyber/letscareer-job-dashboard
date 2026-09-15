@@ -1,6 +1,6 @@
 // letscareer.job 게시물 성과 + 캠페인명에 '오공고'가 포함된 광고 성과 수집
 // 결과: docs/data/posts.json, docs/data/sync.json, docs/covers/{게시물ID}.jpg
-import { access, mkdir, writeFile } from "node:fs/promises";
+import { access, mkdir, readFile, writeFile } from "node:fs/promises";
 
 function env(key, fallback) {
   const v = process.env[key] ?? fallback;
@@ -18,11 +18,11 @@ const cfg = {
   keyword: env("CAMPAIGN_KEYWORD", "오공고"),
   startDate: env("START_DATE", "2026-01-01"),
   profileVisitTypes: list(env("AD_PROFILE_VISIT_ACTION_TYPES", "ig_profile_visit,profile_visit")),
-  followTypes: list(env("AD_FOLLOW_ACTION_TYPES", "ig_follow,follow")),
 };
 
 const DATA_DIR = "docs/data";
 const COVER_DIR = "docs/covers";
+const MANUAL_FOLLOWS = "manual/ad-follows.csv"; // 광고 팔로우 수 직접 입력 파일
 
 // ── 공통 유틸 ─────────────────────────────────────────────
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -203,23 +203,22 @@ async function fetchAdInsights() {
     return await graphAll(`${cfg.adAccount}/insights`, { ...params, fields: `${base},objective,optimization_goal,results` });
   } catch (e) {
     if (!(e instanceof GraphError) || e.detail.code !== 100) throw e;
-    return await graphAll(`${cfg.adAccount}/insights`, { ...params, fields: base }); // results 필드 미지원 시
+    return await graphAll(`${cfg.adAccount}/insights`, { ...params, fields: base });
   }
 }
 
+// media 배열에 광고로 찾은 letscareer.job 게시물을 추가할 수 있음
 async function fetchAds(media) {
   const rows = (await fetchAdInsights()).filter((r) => String(r.campaign_name ?? "").includes(cfg.keyword));
 
-  const actionTypes = new Set();
   const resultIndicators = new Set();
   const objectives = new Set();
   for (const r of rows) {
-    (r.actions ?? []).forEach((a) => actionTypes.add(a.action_type));
     (r.results ?? []).forEach((x) => resultIndicators.add(x.indicator));
     if (r.objective) objectives.add(`${r.objective} / ${r.optimization_goal ?? "-"}`);
   }
 
-  // 광고 소재에 연결된 게시물 (게시물 ID와 게시물 링크 둘 다 받아둠)
+  // 광고 소재에 연결된 게시물
   const linkOf = new Map();
   const toLink = (ad) => ({
     mediaId: ad.creative?.effective_instagram_media_id ?? null,
@@ -228,7 +227,7 @@ async function fetchAds(media) {
   const adList = await graphAll(`${cfg.adAccount}/ads`, { fields: `id,${CREATIVE_FIELDS}`, filtering: campaignFilter(), limit: "200" });
   for (const ad of adList) linkOf.set(ad.id, toLink(ad));
   for (const r of rows) {
-    if (linkOf.has(r.ad_id)) continue; // 목록에서 빠진 광고(보관·삭제 등)는 하나씩 조회
+    if (linkOf.has(r.ad_id)) continue;
     try {
       linkOf.set(r.ad_id, toLink(await graph(r.ad_id, { fields: CREATIVE_FIELDS })));
     } catch (e) {
@@ -237,46 +236,121 @@ async function fetchAds(media) {
     }
   }
 
-  // letscareer.job 게시물과 매칭: 게시물 ID 우선, 안 맞으면 게시물 링크로
   const ids = new Set(media.map((m) => m.id));
   const byCode = new Map(media.map((m) => [shortcode(m.permalink), m.id]));
+  const since = new Date(`${cfg.startDate}T00:00:00+09:00`).getTime();
+  const lookedUp = new Map(); // 게시물 ID → 조회 결과
+  let addedFromAds = 0;
+
+  // 목록에서 못 찾은 게시물은 ID로 직접 조회해서 letscareer.job 게시물이면 추가
+  async function resolve(link) {
+    if (ids.has(link.mediaId)) return { target: link.mediaId };
+    const code = shortcode(link.permalink);
+    if (code && byCode.has(code)) return { target: byCode.get(code) };
+    if (!link.mediaId) return { target: null, owner: null };
+    if (!lookedUp.has(link.mediaId)) {
+      try {
+        lookedUp.set(link.mediaId, await graph(link.mediaId, { fields: `${MEDIA_FIELDS},username` }));
+      } catch (e) {
+        if (!(e instanceof GraphError) || RATE_LIMIT_CODES.includes(e.detail.code)) throw e;
+        lookedUp.set(link.mediaId, { error: e.detail.message });
+      }
+    }
+    const m = lookedUp.get(link.mediaId);
+    if (m.error) return { target: null, owner: `조회 실패: ${m.error}` };
+    const isOurs = m.username === cfg.igUsername && new Date(normTs(m.timestamp)).getTime() >= since;
+    if (!isOurs) return { target: null, owner: `${m.username ?? "알 수 없음"} (${m.timestamp ? toKstDate(m.timestamp) : "-"})` };
+    if (!ids.has(m.id)) {
+      media.push(m);
+      ids.add(m.id);
+      byCode.set(shortcode(m.permalink), m.id);
+      addedFromAds++;
+    }
+    return { target: m.id };
+  }
 
   const byMedia = new Map();
   let adsWithoutPost = 0;
-  let adsOnOtherAccount = 0;
+  let adsUnmatched = 0;
   const unmatchedSample = [];
   for (const r of rows) {
     const link = linkOf.get(r.ad_id);
     if (!link.mediaId && !link.permalink) { adsWithoutPost++; continue; }
-    const code = shortcode(link.permalink);
-    const target = ids.has(link.mediaId) ? link.mediaId : code && byCode.has(code) ? byCode.get(code) : null;
+    const { target, owner } = await resolve(link);
     if (!target) {
-      adsOnOtherAccount++;
-      if (unmatchedSample.length < 5) {
-        unmatchedSample.push({ ad: r.ad_name, campaign: r.campaign_name, mediaId: link.mediaId, permalink: link.permalink });
-      }
+      adsUnmatched++;
+      if (unmatchedSample.length < 5) unmatchedSample.push({ ad: r.ad_name, permalink: link.permalink, owner });
       continue;
     }
-    const agg = byMedia.get(target) ?? { adCount: 0, spend: 0, impressions: 0, profileVisits: 0, follows: 0 };
+    const agg = byMedia.get(target) ?? { adCount: 0, adNames: [], spend: 0, impressions: 0, profileVisits: 0, follows: null };
     agg.adCount += 1;
+    agg.adNames.push(r.ad_name);
     agg.spend += Number(r.spend ?? 0);
     agg.impressions += Number(r.impressions ?? 0);
     agg.profileVisits += sumActions(r.actions, cfg.profileVisitTypes) + sumResults(r.results, cfg.profileVisitTypes);
-    agg.follows += sumActions(r.actions, cfg.followTypes) + sumResults(r.results, cfg.followTypes);
     byMedia.set(target, agg);
   }
 
   return {
     byMedia,
     adCount: rows.length,
-    adsMatched: rows.length - adsWithoutPost - adsOnOtherAccount,
+    adsMatched: rows.length - adsWithoutPost - adsUnmatched,
     adsWithoutPost,
-    adsOnOtherAccount,
+    adsUnmatched,
+    addedFromAds,
     unmatchedSample,
     objectives: [...objectives].sort(),
     resultIndicators: [...resultIndicators].sort(),
-    actionTypes: [...actionTypes].sort(),
   };
+}
+
+// ── 3. 광고 팔로우 수 (manual/ad-follows.csv 직접 입력) ──────
+function parseCsv(text) {
+  const rows = [];
+  let row = [], cell = "", quoted = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (quoted) {
+      if (c === '"' && text[i + 1] === '"') { cell += '"'; i++; }
+      else if (c === '"') quoted = false;
+      else cell += c;
+    } else if (c === '"') quoted = true;
+    else if (c === ",") { row.push(cell); cell = ""; }
+    else if (c === "\n" || c === "\r") {
+      if (c === "\r" && text[i + 1] === "\n") i++;
+      row.push(cell); rows.push(row); row = []; cell = "";
+    } else cell += c;
+  }
+  if (cell || row.length) { row.push(cell); rows.push(row); }
+  return rows.filter((r) => r.some((x) => x.trim()));
+}
+const csvCell = (v) => (/[",\n]/.test(String(v)) ? `"${String(v).replace(/"/g, '""')}"` : String(v));
+
+async function loadManualFollows() {
+  const map = new Map(); // 게시물 코드 → { follows, row }
+  const text = await readFile(MANUAL_FOLLOWS, "utf8").catch(() => "");
+  const [, ...rows] = parseCsv(text.replace(/^\uFEFF/, ""));
+  for (const [date, ads, link, follows] of rows) {
+    const code = shortcode(link);
+    if (!code) continue;
+    const n = String(follows ?? "").replace(/[^\d]/g, "");
+    map.set(code, { date, ads, link, follows: n === "" ? null : Number(n) });
+  }
+  return map;
+}
+
+// 광고 집행 게시물을 파일에 채워 넣음 (이미 입력한 팔로우 수는 유지)
+async function writeManualFollows(manual, posts) {
+  for (const p of posts) {
+    if (!p.ad) continue;
+    const code = shortcode(p.permalink);
+    const prev = manual.get(code);
+    manual.set(code, { date: p.date, ads: p.ad.adNames.join(" / "), link: p.permalink, follows: prev?.follows ?? null });
+  }
+  const rows = [...manual.values()].sort((a, b) => String(b.date).localeCompare(String(a.date)));
+  const lines = ["게시일,광고명,게시물 링크,광고 팔로우", ...rows.map((r) => [r.date, r.ads, r.link, r.follows ?? ""].map(csvCell).join(","))];
+  await mkdir("manual", { recursive: true });
+  await writeFile(MANUAL_FOLLOWS, lines.join("\n") + "\n");
 }
 
 // ── 실행 ─────────────────────────────────────────────────
@@ -286,7 +360,11 @@ async function main() {
 
   const igUserId = await resolveIgUserId();
   const media = await listMedia(igUserId);
-  console.log(`${cfg.igUsername} 게시물 ${media.length}개 확인`);
+  const listed = media.length;
+  console.log(`${cfg.igUsername} 게시물 목록 ${listed}개 확인`);
+
+  const ads = await fetchAds(media); // 목록에 없던 광고 게시물이 media에 추가될 수 있음
+  media.sort((a, b) => normTs(b.timestamp).localeCompare(normTs(a.timestamp)));
 
   const covers = new Map();
   const organic = new Map();
@@ -295,10 +373,12 @@ async function main() {
     organic.set(m.id, await fetchInsights(m));
   });
 
-  const ads = await fetchAds(media);
+  const manual = await loadManualFollows();
 
   const posts = media.map((m) => {
     const o = organic.get(m.id) ?? {};
+    const ad = ads.byMedia.get(m.id) ?? null;
+    if (ad) ad.follows = manual.get(shortcode(m.permalink))?.follows ?? null;
     return {
       id: m.id,
       date: toKstDate(m.timestamp),
@@ -315,24 +395,31 @@ async function main() {
         profileVisits: o.profile_visits ?? null,
         follows: o.follows ?? null,
       },
-      ad: ads.byMedia.get(m.id) ?? null,
+      ad,
     };
   });
 
+  await writeManualFollows(manual, posts);
+
+  const times = media.map((m) => toKstDate(m.timestamp)).sort();
   const sync = {
     syncedAt: new Date().toISOString(),
     account: cfg.igUsername,
     campaignKeyword: cfg.keyword,
     startDate: cfg.startDate,
+    mediaListed: listed,
     mediaCount: media.length,
+    mediaRange: { oldest: times[0] ?? null, newest: times.at(-1) ?? null },
+    addedFromAds: ads.addedFromAds,
     adCount: ads.adCount,
     adsMatched: ads.adsMatched,
     adsWithoutPost: ads.adsWithoutPost,
-    adsOnOtherAccount: ads.adsOnOtherAccount,
+    adsUnmatched: ads.adsUnmatched,
     unmatchedSample: ads.unmatchedSample,
+    adPostsWithFollows: posts.filter((p) => p.ad?.follows != null).length,
+    adPosts: posts.filter((p) => p.ad).length,
     objectives: ads.objectives,
     resultIndicators: ads.resultIndicators,
-    actionTypes: ads.actionTypes,
     unsupportedMetrics: Object.fromEntries([...unsupported].filter(([, v]) => v.size).map(([k, v]) => [k, [...v]])),
     insightErrors: [...insightErrors].sort((x, y) => y[1] - x[1]).slice(0, 20).map(([error, posts]) => ({ error, posts })),
   };
