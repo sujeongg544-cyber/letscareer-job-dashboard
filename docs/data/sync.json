@@ -1,0 +1,46 @@
+{
+  "syncedAt": "2026-09-15T16:00:56.431Z",
+  "account": "letscareer.job",
+  "campaignKeyword": "오공고",
+  "startDate": "2026-01-01",
+  "mediaCount": 299,
+  "adCount": 43,
+  "adsWithoutPost": 2,
+  "adsOnOtherAccount": 41,
+  "actionTypes": [
+    "comment",
+    "landing_page_view",
+    "like",
+    "link_click",
+    "omni_landing_page_view",
+    "onsite_conversion.messaging_block",
+    "onsite_conversion.messaging_conversation_started_7d",
+    "onsite_conversion.messaging_first_reply",
+    "onsite_conversion.post_net_comment",
+    "onsite_conversion.post_net_like",
+    "onsite_conversion.post_net_save",
+    "onsite_conversion.post_save",
+    "onsite_conversion.post_unlike",
+    "onsite_conversion.post_unsave",
+    "onsite_conversion.total_messaging_connection",
+    "page_engagement",
+    "post",
+    "post_engagement",
+    "post_interaction_gross",
+    "post_interaction_net",
+    "post_reaction",
+    "video_view"
+  ],
+  "unsupportedMetrics": {
+    "FEED": [
+      "views",
+      "reach",
+      "likes",
+      "comments",
+      "saved",
+      "shares",
+      "profile_visits",
+      "follows"
+    ]
+  }
+}
