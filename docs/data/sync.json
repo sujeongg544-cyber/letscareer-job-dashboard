@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-15T16:37:23.675Z",
+  "syncedAt": "2026-09-15T16:42:34.164Z",
   "account": "letscareer.job",
   "campaignKeyword": "오공고",
   "startDate": "2026-01-01",
@@ -10,6 +10,27 @@
     "newest": "2026-09-15"
   },
   "addedFromAds": 41,
+  "possibleDuplicates": {
+    "count": 4,
+    "sample": [
+      {
+        "adPost": "https://www.instagram.com/p/DdA02UuDMz1/",
+        "listedPost": "https://www.instagram.com/p/Dc_d4DQj3YV/"
+      },
+      {
+        "adPost": "https://www.instagram.com/p/DcaHIO1DETB/",
+        "listedPost": "https://www.instagram.com/p/DcYxfIcj3KW/"
+      },
+      {
+        "adPost": "https://www.instagram.com/p/DcQ6KJxjCZM/",
+        "listedPost": "https://www.instagram.com/p/DcQNnizgUg7/"
+      },
+      {
+        "adPost": "https://www.instagram.com/p/DcQ6I4eDLz0/",
+        "listedPost": "https://www.instagram.com/p/DcQvtIEgeJK/"
+      }
+    ]
+  },
   "adCount": 43,
   "adsMatched": 41,
   "adsWithoutPost": 2,
@@ -37,14 +58,6 @@
   },
   "insightErrors": [
     {
-      "error": "AD | (#100) The Media Insights API does not support the likes metric for this media product type.",
-      "posts": 4
-    },
-    {
-      "error": "AD | (#100) The Media Insights API does not support the comments metric for this media product type.",
-      "posts": 4
-    },
-    {
       "error": "AD | (#100) The Media Insights API does not support the shares metric for this media product type.",
       "posts": 4
     },
@@ -58,6 +71,14 @@
     },
     {
       "error": "AD | (#100) The Media Insights API does not support the views metric for this media product type.",
+      "posts": 2
+    },
+    {
+      "error": "AD | (#100) The Media Insights API does not support the likes metric for this media product type.",
+      "posts": 2
+    },
+    {
+      "error": "AD | (#100) The Media Insights API does not support the comments metric for this media product type.",
       "posts": 2
     }
   ]
