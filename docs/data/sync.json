@@ -1,36 +1,41 @@
 {
-  "syncedAt": "2026-09-15T16:42:34.164Z",
+  "syncedAt": "2026-09-15T16:53:49.224Z",
   "account": "letscareer.job",
   "campaignKeyword": "오공고",
   "startDate": "2026-01-01",
   "mediaListed": 299,
-  "mediaCount": 340,
+  "mediaCount": 300,
   "mediaRange": {
     "oldest": "2026-01-01",
     "newest": "2026-09-15"
   },
   "addedFromAds": 41,
-  "possibleDuplicates": {
-    "count": 4,
+  "mergedAdPosts": {
+    "count": 40,
     "sample": [
       {
-        "adPost": "https://www.instagram.com/p/DdA02UuDMz1/",
-        "listedPost": "https://www.instagram.com/p/Dc_d4DQj3YV/"
+        "adPost": "https://www.instagram.com/p/DXwLvm2DDM5/",
+        "mergedInto": "https://www.instagram.com/p/DXrPuFjjwbM/"
       },
       {
-        "adPost": "https://www.instagram.com/p/DcaHIO1DETB/",
-        "listedPost": "https://www.instagram.com/p/DcYxfIcj3KW/"
+        "adPost": "https://www.instagram.com/p/DXwL5vCjAMR/",
+        "mergedInto": "https://www.instagram.com/p/DXo2UNND7Rj/"
       },
       {
-        "adPost": "https://www.instagram.com/p/DcQ6KJxjCZM/",
-        "listedPost": "https://www.instagram.com/p/DcQNnizgUg7/"
+        "adPost": "https://www.instagram.com/p/DX9MLinjNfF/",
+        "mergedInto": "https://www.instagram.com/p/DX63ZGWD2IC/"
       },
       {
-        "adPost": "https://www.instagram.com/p/DcQ6I4eDLz0/",
-        "listedPost": "https://www.instagram.com/p/DcQvtIEgeJK/"
+        "adPost": "https://www.instagram.com/p/DYUxqUjDIs7/",
+        "mergedInto": "https://www.instagram.com/p/DYRUDX8jzQF/"
+      },
+      {
+        "adPost": "https://www.instagram.com/p/DYUxqO8DM75/",
+        "mergedInto": "https://www.instagram.com/p/DYPYKqrDw7G/"
       }
     ]
   },
+  "adOnlyPosts": 1,
   "adCount": 43,
   "adsMatched": 41,
   "adsWithoutPost": 2,
@@ -58,28 +63,28 @@
   },
   "insightErrors": [
     {
-      "error": "AD | (#100) The Media Insights API does not support the shares metric for this media product type.",
-      "posts": 4
-    },
-    {
-      "error": "AD | (#100) The Media Insights API does not support the profile_visits metric for this media product type.",
-      "posts": 4
-    },
-    {
-      "error": "AD | (#100) The Media Insights API does not support the follows metric for this media product type.",
-      "posts": 4
-    },
-    {
       "error": "AD | (#100) The Media Insights API does not support the views metric for this media product type.",
-      "posts": 2
+      "posts": 1
     },
     {
       "error": "AD | (#100) The Media Insights API does not support the likes metric for this media product type.",
-      "posts": 2
+      "posts": 1
     },
     {
       "error": "AD | (#100) The Media Insights API does not support the comments metric for this media product type.",
-      "posts": 2
+      "posts": 1
+    },
+    {
+      "error": "AD | (#100) The Media Insights API does not support the shares metric for this media product type.",
+      "posts": 1
+    },
+    {
+      "error": "AD | (#100) The Media Insights API does not support the profile_visits metric for this media product type.",
+      "posts": 1
+    },
+    {
+      "error": "AD | (#100) The Media Insights API does not support the follows metric for this media product type.",
+      "posts": 1
     }
   ]
 }
