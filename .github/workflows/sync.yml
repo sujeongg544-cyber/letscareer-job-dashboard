@@ -35,12 +35,14 @@ jobs:
           AD_PROFILE_VISIT_ACTION_TYPES: ig_profile_visit,profile_visit
           AD_FOLLOW_ACTION_TYPES: ig_follow,follow
 
-      - name: 변경된 데이터 커밋
+           - name: 변경된 데이터 커밋
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
           git add docs/data docs/covers
           if git diff --staged --quiet; then
-            echo "변경사항 없음"
+            echo "no changes"
           else
-            git commit -m "data: $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M') 성과
+            git commit -m "data update"
+            git push
+          fi
