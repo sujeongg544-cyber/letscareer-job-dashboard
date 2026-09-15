@@ -17,11 +17,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
-          node-version: 20
+          node-version: 24
 
       - name: Meta API에서 성과 수집
         run: node scripts/sync.mjs
@@ -31,7 +31,7 @@ jobs:
           IG_USERNAME: letscareer.job
           CAMPAIGN_KEYWORD: 오공고
           START_DATE: "2026-01-01"
-          GRAPH_VERSION: v23.0
+          GRAPH_VERSION: v26.0
           AD_PROFILE_VISIT_ACTION_TYPES: ig_profile_visit,profile_visit
           AD_FOLLOW_ACTION_TYPES: ig_follow,follow
 
