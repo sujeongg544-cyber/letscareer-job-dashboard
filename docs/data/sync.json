@@ -1,41 +1,64 @@
 {
-  "syncedAt": "2026-09-15T16:05:30.995Z",
+  "syncedAt": "2026-09-15T16:37:23.675Z",
   "account": "letscareer.job",
   "campaignKeyword": "오공고",
   "startDate": "2026-01-01",
-  "mediaCount": 299,
+  "mediaListed": 299,
+  "mediaCount": 340,
+  "mediaRange": {
+    "oldest": "2026-01-01",
+    "newest": "2026-09-15"
+  },
+  "addedFromAds": 41,
   "adCount": 43,
+  "adsMatched": 41,
   "adsWithoutPost": 2,
-  "adsOnOtherAccount": 41,
-  "actionTypes": [
-    "comment",
-    "landing_page_view",
-    "like",
-    "link_click",
-    "omni_landing_page_view",
-    "onsite_conversion.messaging_block",
-    "onsite_conversion.messaging_conversation_started_7d",
-    "onsite_conversion.messaging_first_reply",
-    "onsite_conversion.post_net_comment",
-    "onsite_conversion.post_net_like",
-    "onsite_conversion.post_net_save",
-    "onsite_conversion.post_save",
-    "onsite_conversion.post_unlike",
-    "onsite_conversion.post_unsave",
-    "onsite_conversion.total_messaging_connection",
-    "page_engagement",
-    "post",
-    "post_engagement",
-    "post_interaction_gross",
-    "post_interaction_net",
-    "post_reaction",
-    "video_view"
+  "adsUnmatched": 0,
+  "unmatchedSample": [],
+  "adPostsWithFollows": 0,
+  "adPosts": 41,
+  "objectives": [
+    "LINK_CLICKS / LINK_CLICKS",
+    "LINK_CLICKS / PROFILE_VISIT"
   ],
-  "unsupportedMetrics": {},
+  "resultIndicators": [
+    "actions:link_click",
+    "profile_visit_view"
+  ],
+  "unsupportedMetrics": {
+    "AD": [
+      "views",
+      "likes",
+      "comments",
+      "shares",
+      "profile_visits",
+      "follows"
+    ]
+  },
   "insightErrors": [
     {
-      "error": "FEED | (#10) Application does not have permission for this action",
-      "posts": 299
+      "error": "AD | (#100) The Media Insights API does not support the likes metric for this media product type.",
+      "posts": 4
+    },
+    {
+      "error": "AD | (#100) The Media Insights API does not support the comments metric for this media product type.",
+      "posts": 4
+    },
+    {
+      "error": "AD | (#100) The Media Insights API does not support the shares metric for this media product type.",
+      "posts": 4
+    },
+    {
+      "error": "AD | (#100) The Media Insights API does not support the profile_visits metric for this media product type.",
+      "posts": 4
+    },
+    {
+      "error": "AD | (#100) The Media Insights API does not support the follows metric for this media product type.",
+      "posts": 4
+    },
+    {
+      "error": "AD | (#100) The Media Insights API does not support the views metric for this media product type.",
+      "posts": 2
     }
   ]
 }

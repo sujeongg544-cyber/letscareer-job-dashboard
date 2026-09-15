@@ -7,13 +7,13 @@
     "permalink": "https://www.instagram.com/p/DdT7cFUjxTC/",
     "cover": "covers/18339203722248741.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 13240,
+      "likes": 18,
+      "comments": 0,
+      "saves": 92,
+      "shares": 0,
+      "profileVisits": 48,
+      "follows": 0
     },
     "ad": null
   },
@@ -25,13 +25,13 @@
     "permalink": "https://www.instagram.com/p/DdQ7q6jj0D0/",
     "cover": "covers/17958438639207774.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 20185,
+      "likes": 42,
+      "comments": 0,
+      "saves": 250,
+      "shares": 69,
+      "profileVisits": 45,
+      "follows": 1
     },
     "ad": null
   },
@@ -43,13 +43,13 @@
     "permalink": "https://www.instagram.com/p/DdQDYbxDzKE/",
     "cover": "covers/18139734262607731.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 22953,
+      "likes": 34,
+      "comments": 0,
+      "saves": 102,
+      "shares": 51,
+      "profileVisits": 118,
+      "follows": 1
     },
     "ad": null
   },
@@ -61,13 +61,13 @@
     "permalink": "https://www.instagram.com/p/DdMRV1xD6BA/",
     "cover": "covers/17901749391586978.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 29705,
+      "likes": 46,
+      "comments": 0,
+      "saves": 336,
+      "shares": 97,
+      "profileVisits": 133,
+      "follows": 2
     },
     "ad": null
   },
@@ -79,13 +79,13 @@
     "permalink": "https://www.instagram.com/p/DdJr7DWDxVQ/",
     "cover": "covers/18114697897783051.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 39604,
+      "likes": 73,
+      "comments": 0,
+      "saves": 320,
+      "shares": 181,
+      "profileVisits": 111,
+      "follows": 5
     },
     "ad": null
   },
@@ -97,13 +97,13 @@
     "permalink": "https://www.instagram.com/p/DdG_qKrjwd7/",
     "cover": "covers/17916436593445663.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 21239,
+      "likes": 50,
+      "comments": 0,
+      "saves": 129,
+      "shares": 37,
+      "profileVisits": 26,
+      "follows": 2
     },
     "ad": null
   },
@@ -115,15 +115,42 @@
     "permalink": "https://www.instagram.com/p/DdGeVzyD-9h/",
     "cover": "covers/17997555479812256.jpg",
     "organic": {
+      "views": 36137,
+      "likes": 49,
+      "comments": 0,
+      "saves": 230,
+      "shares": 167,
+      "profileVisits": 87,
+      "follows": 6
+    },
+    "ad": null
+  },
+  {
+    "id": "18118410145924864",
+    "date": "2026-09-10",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨]\n\n삼성 신입 공채 떴다🔥\n\n삼성 전 계열사 모두 채용 중이며,\n자세한 사항은 계열사별 직무기술서를 꼭 확인해 주세요!\n\n모집 기간은 딱 일주일, 15일까지니까\n삼성 공채 기다리셨던 분들은 놓치지 말고 지원하세요!\n\n⏰ ~ 9월 15일(화) 17:00\n\n🔗자세한 공고 내용은 프로필 링크에서!\n 👇더 많은 취업·공고 컨텐츠는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/DdF5FtHjOB8/",
+    "cover": "covers/18118410145924864.jpg",
+    "organic": {
       "views": null,
       "likes": null,
       "comments": null,
-      "saves": null,
+      "saves": 0,
       "shares": null,
       "profileVisits": null,
       "follows": null
     },
-    "ad": null
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "0910_삼성"
+      ],
+      "spend": 5062,
+      "impressions": 1315,
+      "profileVisits": 56,
+      "follows": null
+    }
   },
   {
     "id": "18126812818684388",
@@ -133,15 +160,42 @@
     "permalink": "https://www.instagram.com/p/DdDY1JQD-x9/",
     "cover": "covers/18126812818684388.jpg",
     "organic": {
+      "views": 73734,
+      "likes": 170,
+      "comments": 0,
+      "saves": 764,
+      "shares": 582,
+      "profileVisits": 273,
+      "follows": 52
+    },
+    "ad": null
+  },
+  {
+    "id": "17872443921650908",
+    "date": "2026-09-08",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨]\n\n📢 LG그룹 계열 광고회사, HSAD 신입 채용 중!\n\n광고·마케팅 업계를 준비하는 취준생이라면 주목 👀\n광고기획부터 미디어, 디지털, AI까지 다양한 직무가 열렸어요!\n\n✔️ 광고기획 AE\n✔️ AD(Art Director)\n✔️ 미디어플래닝\n✔️ 이커머스 마케팅\n✔️ 플랫폼기획\n✔️ AX전략\n\n특히 광고기획·디지털 마케팅·데이터/AI 기반 마케팅에 관심 있다면 눈여겨볼 만한 공고예요.\n신입으로 지원할 수 있는 만큼 관련 경험과 프로젝트를 잘 정리해서 도전해보세요! 🔥\n\n⏰ 9월 21일(월) 17:00 마감\n\n🔗 자세한 공고는 프로필 링크에서 확인!\n\n👇 더 많은 문과 취준생 맞춤 채용공고는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/DdA02UuDMz1/",
+    "cover": "covers/17872443921650908.jpg",
+    "organic": {
       "views": null,
       "likes": null,
       "comments": null,
-      "saves": null,
+      "saves": 0,
       "shares": null,
       "profileVisits": null,
       "follows": null
     },
-    "ad": null
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "0908_HSAD"
+      ],
+      "spend": 19283,
+      "impressions": 6156,
+      "profileVisits": 471,
+      "follows": null
+    }
   },
   {
     "id": "18111198041086780",
@@ -151,13 +205,13 @@
     "permalink": "https://www.instagram.com/p/Dc_d4DQj3YV/",
     "cover": "covers/18111198041086780.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 36370,
+      "likes": 82,
+      "comments": 0,
+      "saves": 392,
+      "shares": 169,
+      "profileVisits": 199,
+      "follows": 11
     },
     "ad": null
   },
@@ -169,13 +223,13 @@
     "permalink": "https://www.instagram.com/p/Dc5kzNBj4Xw/",
     "cover": "covers/18060788522783426.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 36882,
+      "likes": 55,
+      "comments": 0,
+      "saves": 281,
+      "shares": 146,
+      "profileVisits": 119,
+      "follows": 9
     },
     "ad": null
   },
@@ -187,13 +241,13 @@
     "permalink": "https://www.instagram.com/p/Dc5D4v5D-qe/",
     "cover": "covers/17900780505580530.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 27470,
+      "likes": 27,
+      "comments": 1,
+      "saves": 384,
+      "shares": 133,
+      "profileVisits": 89,
+      "follows": 4
     },
     "ad": null
   },
@@ -205,13 +259,13 @@
     "permalink": "https://www.instagram.com/p/Dc3wPIUD6U6/",
     "cover": "covers/18063987482760124.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 48165,
+      "likes": 68,
+      "comments": 0,
+      "saves": 360,
+      "shares": 222,
+      "profileVisits": 244,
+      "follows": 13
     },
     "ad": null
   },
@@ -223,13 +277,13 @@
     "permalink": "https://www.instagram.com/p/Dc3f8kbj-Am/",
     "cover": "covers/18076298564413356.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 35283,
+      "likes": 46,
+      "comments": 1,
+      "saves": 218,
+      "shares": 112,
+      "profileVisits": 127,
+      "follows": 7
     },
     "ad": null
   },
@@ -241,15 +295,69 @@
     "permalink": "https://www.instagram.com/p/Dc2vE_ij04_/",
     "cover": "covers/18481565386107383.jpg",
     "organic": {
+      "views": 24508,
+      "likes": 35,
+      "comments": 0,
+      "saves": 105,
+      "shares": 55,
+      "profileVisits": 90,
+      "follows": 5
+    },
+    "ad": null
+  },
+  {
+    "id": "18009486887765659",
+    "date": "2026-09-03",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨]\n\n포스코 신입 공채 떴다!\n\n오공고가 인문계 채용 공고만 쏙 정리해 왔어요!\n\n마케팅, 구매, 재무, HR 직무 모두 채용 중이니\n세부 업무 내용 및 기타 사항 확인하고\n관심 있는 분들은 놓치지 마세요!\n\n⏰ ~ 9월 16일(수) 15:00\n\n🔗자세한 공고 내용은 프로필 링크에서!\n 👇더 많은 취업·공고 컨텐츠는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/DczX7R-DI24/",
+    "cover": "covers/18009486887765659.jpg",
+    "organic": {
       "views": null,
       "likes": null,
       "comments": null,
-      "saves": null,
+      "saves": 0,
       "shares": null,
       "profileVisits": null,
       "follows": null
     },
-    "ad": null
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "0903_포스코"
+      ],
+      "spend": 5258,
+      "impressions": 1472,
+      "profileVisits": 102,
+      "follows": null
+    }
+  },
+  {
+    "id": "17881780908506272",
+    "date": "2026-09-02",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨]\n\n💄 LG생활건강 신입 채용 떴다!\n뷰티·생활용품 업계 취업을 준비하는 문과생이라면 주목 👀\n\n이번 채용은 \n📍Beauty \n📍HomeCare & DailyBeauty \n📍동남아 & EMEA 조직에서\n마케팅·국내영업·해외영업 직무를 모집해요!\n\n🔥 특히 마케팅 직무는 \nSNS·디지털 마케팅, 데이터 분석, 트렌드 센싱 역량을 \n강조하고 있으니 관련 경험이 있다면 \n자소서에서 꼭 어필해보세요!\n\n⏰ 지원 마감: 9월 13일(일) 23:00\n\n🔗 자세한 공고 및 지원 링크는 프로필 링크에서 확인!\n\n👇 더 많은 문과 취준생 맞춤 채용공고는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/Dcygd-qDAfJ/",
+    "cover": "covers/17881780908506272.jpg",
+    "organic": {
+      "views": null,
+      "likes": null,
+      "comments": null,
+      "saves": 0,
+      "shares": null,
+      "profileVisits": null,
+      "follows": null
+    },
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "0902_LG생건"
+      ],
+      "spend": 6941,
+      "impressions": 1811,
+      "profileVisits": 147,
+      "follows": null
+    }
   },
   {
     "id": "17899914441577003",
@@ -259,13 +367,13 @@
     "permalink": "https://www.instagram.com/p/DcyQWsyj6yP/",
     "cover": "covers/17899914441577003.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 56374,
+      "likes": 100,
+      "comments": 0,
+      "saves": 398,
+      "shares": 365,
+      "profileVisits": 227,
+      "follows": 30
     },
     "ad": null
   },
@@ -277,13 +385,13 @@
     "permalink": "https://www.instagram.com/p/DcyP3Q2jxje/",
     "cover": "covers/18113925487770377.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 37290,
+      "likes": 44,
+      "comments": 0,
+      "saves": 302,
+      "shares": 183,
+      "profileVisits": 125,
+      "follows": 6
     },
     "ad": null
   },
@@ -295,13 +403,13 @@
     "permalink": "https://www.instagram.com/p/Dcx4pHrj_Mw/",
     "cover": "covers/18099881879249012.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 30342,
+      "likes": 44,
+      "comments": 1,
+      "saves": 210,
+      "shares": 86,
+      "profileVisits": 82,
+      "follows": 2
     },
     "ad": null
   },
@@ -313,15 +421,42 @@
     "permalink": "https://www.instagram.com/p/Dcvtc3ej7Hx/",
     "cover": "covers/18127209823691023.jpg",
     "organic": {
+      "views": 53915,
+      "likes": 120,
+      "comments": 2,
+      "saves": 552,
+      "shares": 385,
+      "profileVisits": 293,
+      "follows": 42
+    },
+    "ad": null
+  },
+  {
+    "id": "18131162089673984",
+    "date": "2026-09-01",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨]\n\n뷰티 기업 시총 1위🌟\n에이피알에서 2026 하반기 대규모 인턴 채용해요!\n\n경영지원, 마케팅, 영업, 상품기획 등 다양한 직군에서 채용 중이며\n특히 해외 마케팅은 무려 10개 직무 채용 중이에요!\n\n3개월 인턴 근무 후 기간 내 우수 근무자에 한해\n정규직 전환 기회가 주어집니다!\n\n엄청난 기세로 성장 중인 뷰티 기업에서 커리어를 쌓고 싶다면\n이번 공고 놓치지 말고 꼭 지원해 보세요!\n\n⏰ ~ 9월 20일(일) 23:59\n\n🔗자세한 공고 내용은 프로필 링크에서!\n 👇더 많은 취업·공고 컨텐츠는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/DcviN_TjFEH/",
+    "cover": "covers/18131162089673984.jpg",
+    "organic": {
       "views": null,
       "likes": null,
       "comments": null,
-      "saves": null,
+      "saves": 0,
       "shares": null,
       "profileVisits": null,
       "follows": null
     },
-    "ad": null
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "0901_에이피알"
+      ],
+      "spend": 11261,
+      "impressions": 2621,
+      "profileVisits": 166,
+      "follows": null
+    }
   },
   {
     "id": "18417286627153748",
@@ -331,13 +466,13 @@
     "permalink": "https://www.instagram.com/p/DctP-4xj5ZG/",
     "cover": "covers/18417286627153748.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 44038,
+      "likes": 85,
+      "comments": 0,
+      "saves": 418,
+      "shares": 236,
+      "profileVisits": 303,
+      "follows": 21
     },
     "ad": null
   },
@@ -349,13 +484,13 @@
     "permalink": "https://www.instagram.com/p/DcsOxqFjw90/",
     "cover": "covers/17965724459961842.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 39151,
+      "likes": 71,
+      "comments": 0,
+      "saves": 308,
+      "shares": 147,
+      "profileVisits": 187,
+      "follows": 8
     },
     "ad": null
   },
@@ -367,15 +502,42 @@
     "permalink": "https://www.instagram.com/p/DcoJ_4KD59Y/",
     "cover": "covers/18112303001095213.jpg",
     "organic": {
+      "views": 34486,
+      "likes": 46,
+      "comments": 0,
+      "saves": 266,
+      "shares": 102,
+      "profileVisits": 178,
+      "follows": 16
+    },
+    "ad": null
+  },
+  {
+    "id": "18065211296768242",
+    "date": "2026-08-29",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨]\n\n현대자동차 신입 채용 떴다⭐️\n\n연구개발부터 디자인, 생산/제조, IT등 전분야 채용 예정이며\n문과 직무는 사업/기획, 경영지원 직군 채용 예정이에요!\n\n현대자동차 채용은 9월 1일(화) 오전 9시부터\n9월 14일(월) 17시까지 진행될 예정이니 놓치지 마세요!\n\n직무별 자세한 요건은 채용 홈페이지에서 꼭 확인해 주세요!\n\n⏰ 9월 1일(화) 9:00 ~ 9월 14일(월) 17:00\n\n🔗자세한 공고 내용은 프로필 링크에서!\n 👇더 많은 취업·공고 컨텐츠는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/DcncnYijDYh/",
+    "cover": "covers/18065211296768242.jpg",
+    "organic": {
       "views": null,
       "likes": null,
       "comments": null,
-      "saves": null,
+      "saves": 0,
       "shares": null,
       "profileVisits": null,
       "follows": null
     },
-    "ad": null
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "0829_현대자동차"
+      ],
+      "spend": 24910,
+      "impressions": 9287,
+      "profileVisits": 701,
+      "follows": null
+    }
   },
   {
     "id": "18172302751395620",
@@ -385,13 +547,13 @@
     "permalink": "https://www.instagram.com/p/DclnmbOD72b/",
     "cover": "covers/18172302751395620.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 51137,
+      "likes": 78,
+      "comments": 0,
+      "saves": 456,
+      "shares": 283,
+      "profileVisits": 435,
+      "follows": 47
     },
     "ad": null
   },
@@ -403,13 +565,13 @@
     "permalink": "https://www.instagram.com/p/DclhWihj6TN/",
     "cover": "covers/18455580730143259.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 33554,
+      "likes": 50,
+      "comments": 0,
+      "saves": 156,
+      "shares": 72,
+      "profileVisits": 151,
+      "follows": 5
     },
     "ad": null
   },
@@ -421,15 +583,42 @@
     "permalink": "https://www.instagram.com/p/DcksojSj16n/",
     "cover": "covers/18006751154975998.jpg",
     "organic": {
+      "views": 80861,
+      "likes": 180,
+      "comments": 1,
+      "saves": 578,
+      "shares": 718,
+      "profileVisits": 680,
+      "follows": 71
+    },
+    "ad": null
+  },
+  {
+    "id": "17918730132428563",
+    "date": "2026-08-28",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨]\n\n🔥 국내 통신기업 1위, SKT에서 \n2026년 문과 신입 채용 시작했습니다!\n\n이번 채용에서 꼭 확인해야 할 포인트! 👀\n👉 서류 검토 전에 SKCT를 먼저 응시하는 전형으로 진행돼요.\n지원자 전원 SKCT 응시 → 이후 서류 검토 순서이니 \n지원 전 꼭 체크하세요! 🔥\n\n📌 모집 직무\nB2C 영업 / B2B 영업 / 서비스 기획·운영 / HR / PR / CR / 재무 등 다양한 직무에서 대규모로 신입을 모집하고 있어요!\n\n📅 지원 마감: 8월 30일(일) 17:00\n\n이번 SKT 대규모 채용 기회 놓치지 말고,\n지원과 동시에 SKCT 준비도 바로 시작해보세요! 🔥\n\n🔗 자세한 공고는 프로필 링크에서 확인!\n\n👇 더 많은 문과 취준생 맞춤 채용공고는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/DckgerjDDOW/",
+    "cover": "covers/17918730132428563.jpg",
+    "organic": {
       "views": null,
       "likes": null,
       "comments": null,
-      "saves": null,
+      "saves": 0,
       "shares": null,
       "profileVisits": null,
       "follows": null
     },
-    "ad": null
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "0828_SKT"
+      ],
+      "spend": 24821,
+      "impressions": 7665,
+      "profileVisits": 554,
+      "follows": null
+    }
   },
   {
     "id": "18174846325431344",
@@ -439,13 +628,13 @@
     "permalink": "https://www.instagram.com/p/Dci_9MwDyKF/",
     "cover": "covers/18174846325431344.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 32113,
+      "likes": 47,
+      "comments": 2,
+      "saves": 203,
+      "shares": 174,
+      "profileVisits": 163,
+      "follows": 6
     },
     "ad": null
   },
@@ -457,13 +646,13 @@
     "permalink": "https://www.instagram.com/p/DcgVRtpD7JT/",
     "cover": "covers/18093480413541799.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 50281,
+      "likes": 93,
+      "comments": 0,
+      "saves": 446,
+      "shares": 297,
+      "profileVisits": 385,
+      "follows": 52
     },
     "ad": null
   },
@@ -475,13 +664,13 @@
     "permalink": "https://www.instagram.com/p/Dcf8qHLD3cJ/",
     "cover": "covers/18351778150174538.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 116187,
+      "likes": 1064,
+      "comments": 45,
+      "saves": 593,
+      "shares": 2431,
+      "profileVisits": 741,
+      "follows": 116
     },
     "ad": null
   },
@@ -493,13 +682,13 @@
     "permalink": "https://www.instagram.com/p/Dcd4cprD9gz/",
     "cover": "covers/18028025504850726.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 73829,
+      "likes": 161,
+      "comments": 1,
+      "saves": 764,
+      "shares": 554,
+      "profileVisits": 371,
+      "follows": 63
     },
     "ad": null
   },
@@ -511,15 +700,42 @@
     "permalink": "https://www.instagram.com/p/Dcd4HHoDwU9/",
     "cover": "covers/17872537473573637.jpg",
     "organic": {
+      "views": 35323,
+      "likes": 54,
+      "comments": 1,
+      "saves": 226,
+      "shares": 128,
+      "profileVisits": 169,
+      "follows": 4
+    },
+    "ad": null
+  },
+  {
+    "id": "18094635713093400",
+    "date": "2026-08-25",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨]\n\n🏢 신세계그룹 부동산 전문기업 SMPMC에서 \n문과 직무 인턴 채용 중!\n\n부동산·경영 분야에 관심 있는 취준생이라면 주목 👀\n전환형 인턴으로 실무 경험부터 정규직 전환 기회까지 \n노려볼 수 있어요! 🔥\n\n📌 모집 직무\n• LM (Leasing Marketing)\n• PM (Property Management)\n• 경영관리 - 기획\n• 경영관리 - 회계\n\n💡 특히 이런 분들에게 추천해요!\n• 부동산·상업시설 기획 및 운영에 관심 있는 분\n• 시장·데이터 분석을 기반으로 전략을 세워보고 싶은 분\n• 경영기획·재무·회계 직무를 준비하고 있는 분\n• MS Office 활용 역량을 갖춘 분\n\n📅 지원 마감\n→ 8월 28일(금) 17:00까지\n\n부동산부터 경영기획·회계까지,\n관심 직무가 있다면 자세한 지원 자격과 업무 내용을 \n꼭 확인해보세요! 🙌\n\n🔗 자세한 공고는 프로필 링크에서 확인!\n\n👇 더 많은 문과 취준생 맞춤 채용공고는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/DcctEuVjCox/",
+    "cover": "covers/18094635713093400.jpg",
+    "organic": {
       "views": null,
       "likes": null,
       "comments": null,
-      "saves": null,
+      "saves": 0,
       "shares": null,
       "profileVisits": null,
       "follows": null
     },
-    "ad": null
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "0825_신세계"
+      ],
+      "spend": 24956,
+      "impressions": 8665,
+      "profileVisits": 655,
+      "follows": null
+    }
   },
   {
     "id": "18012559265945080",
@@ -529,15 +745,42 @@
     "permalink": "https://www.instagram.com/p/DcavF3lj4uZ/",
     "cover": "covers/18012559265945080.jpg",
     "organic": {
+      "views": 44543,
+      "likes": 53,
+      "comments": 0,
+      "saves": 349,
+      "shares": 154,
+      "profileVisits": 352,
+      "follows": 41
+    },
+    "ad": null
+  },
+  {
+    "id": "18074481449766821",
+    "date": "2026-08-24",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨]\n\n📺 MBC미디어그룹 자회사 iMBC에서 지금 채용 중!\n\n광고·미디어·엔터테인먼트 분야를 \n준비하고 있는 취준생이라면 주목 👀\n\n신입부터 경력직까지 문과 직무 공고가 열렸습니다! 🔥\n\n📌 모집 직무\n• 온라인 광고 (신입)\n• 연예뉴스 매체사업 (경력)\n\n📅 지원 마감\n→ 8월 28일(금) 18:00까지\n\n미디어·광고·엔터테인먼트 업계 취업을 준비하고 있다면\n놓치지 말고 자세한 직무와 지원 자격을 확인해보세요! 🙌\n\n🔗 자세한 공고는 프로필 링크에서 확인!\n\n👇 더 많은 문과 취준생 맞춤 채용공고는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/DcaHIO1DETB/",
+    "cover": "covers/18074481449766821.jpg",
+    "organic": {
       "views": null,
       "likes": null,
       "comments": null,
-      "saves": null,
+      "saves": 0,
       "shares": null,
       "profileVisits": null,
       "follows": null
     },
-    "ad": null
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "0824_imbc"
+      ],
+      "spend": 24906,
+      "impressions": 8027,
+      "profileVisits": 623,
+      "follows": null
+    }
   },
   {
     "id": "18097090004049695",
@@ -547,15 +790,42 @@
     "permalink": "https://www.instagram.com/p/DcYxfIcj3KW/",
     "cover": "covers/18097090004049695.jpg",
     "organic": {
+      "views": 53607,
+      "likes": 120,
+      "comments": 0,
+      "saves": 425,
+      "shares": 227,
+      "profileVisits": 435,
+      "follows": 21
+    },
+    "ad": null
+  },
+  {
+    "id": "18189090349392650",
+    "date": "2026-08-22",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨]\n\n한화금융 신입 공채 떴습니다!\n\n마케팅 직군에서는 서비스/사업기획, 콘텐츠기획, 브랜드/마케팅 채용 중이에요!\n\n전 직군 전공은 무관하며\n한화에서 글로벌 금융 시장을 선도하고 싶은 분들이라면\n이번 공채 놓치지 말고 꼭 지원해 보세요!\n\n⏰ ~ 9월 18일(금) 15:00\n\n🔗자세한 공고 내용은 프로필 링크에서!\n 👇더 많은 취업·공고 컨텐츠는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/DcV4wnzDByS/",
+    "cover": "covers/18189090349392650.jpg",
+    "organic": {
       "views": null,
       "likes": null,
       "comments": null,
-      "saves": null,
+      "saves": 0,
       "shares": null,
       "profileVisits": null,
       "follows": null
     },
-    "ad": null
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "0822_한화금융"
+      ],
+      "spend": 24359,
+      "impressions": 7931,
+      "profileVisits": 660,
+      "follows": null
+    }
   },
   {
     "id": "18058760861772862",
@@ -565,15 +835,69 @@
     "permalink": "https://www.instagram.com/p/DcThwo7j53n/",
     "cover": "covers/18058760861772862.jpg",
     "organic": {
+      "views": 49452,
+      "likes": 116,
+      "comments": 0,
+      "saves": 728,
+      "shares": 328,
+      "profileVisits": 421,
+      "follows": 41
+    },
+    "ad": null
+  },
+  {
+    "id": "18117065743941308",
+    "date": "2026-08-20",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨]\n\n💛카카오뱅크에서 \n서비스 기획 전환형 인턴 채용 중!\n\n서비스 기획·PM 직무를 준비하고 있다면 주목 👀\n카카오뱅크의 AI Native 서비스 기획자로 \n직접 서비스 기획부터 데이터 분석까지 할 수 있는 직무예요!\n\n관련 경력이 부족하더라도 \n주도성과 적극성을 보여줄 수 있다면 꼭 지원해보세요!🔥\n\n📅 지원 마감\n→ 8월 31일(월) 23:59까지\n\n🔗 자세한 공고는 프로필 링크에서 확인!\n\n👇 더 많은 문과 취준생 맞춤 채용공고는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/DcQ6KJxjCZM/",
+    "cover": "covers/18117065743941308.jpg",
+    "organic": {
       "views": null,
       "likes": null,
       "comments": null,
-      "saves": null,
+      "saves": 0,
       "shares": null,
       "profileVisits": null,
       "follows": null
     },
-    "ad": null
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "0820_카뱅"
+      ],
+      "spend": 24902,
+      "impressions": 8276,
+      "profileVisits": 719,
+      "follows": null
+    }
+  },
+  {
+    "id": "18403681063089261",
+    "date": "2026-08-20",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨]\n\nSK하이닉스 Talent hy-way 기술사무직 신입 채용 떴다!\n\n오공고가 이번 SK하이닉스 신입 공고 중\n문과 직무만 모아서 정리해 왔어요👀\n\n영업, 마케팅, 신제품사업화, 상품기획 직무를 채용 중이니\nSK하이닉스 기다리고 계셨던 분들이라면 놓치지 말고 꼭 지원해 보세요!\n\n특히 이번 공고는 단 6일 동안만 지원 가능하니까\nASAP 지원하세요!\n\n⏰ ~ 8월 26일(수) 오후 5시\n\n🔗자세한 공고 내용은 프로필 링크에서!\n 👇더 많은 취업·공고 컨텐츠는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/DcQ6I4eDLz0/",
+    "cover": "covers/18403681063089261.jpg",
+    "organic": {
+      "views": null,
+      "likes": null,
+      "comments": null,
+      "saves": 0,
+      "shares": null,
+      "profileVisits": null,
+      "follows": null
+    },
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "0820_하이닉스"
+      ],
+      "spend": 24931,
+      "impressions": 9388,
+      "profileVisits": 683,
+      "follows": null
+    }
   },
   {
     "id": "18104964494237834",
@@ -583,13 +907,13 @@
     "permalink": "https://www.instagram.com/p/DcQvtIEgeJK/",
     "cover": "covers/18104964494237834.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 98187,
+      "likes": 219,
+      "comments": 0,
+      "saves": 976,
+      "shares": 1515,
+      "profileVisits": 1010,
+      "follows": 124
     },
     "ad": null
   },
@@ -601,15 +925,42 @@
     "permalink": "https://www.instagram.com/p/DcQNnizgUg7/",
     "cover": "covers/18388207969165775.jpg",
     "organic": {
+      "views": 40377,
+      "likes": 69,
+      "comments": 0,
+      "saves": 294,
+      "shares": 162,
+      "profileVisits": 287,
+      "follows": 22
+    },
+    "ad": null
+  },
+  {
+    "id": "17858721153692168",
+    "date": "2026-08-19",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨]\n\n🏢 코오롱그룹 핵심 계열사, \n코오롱글로벌에서 전환형 인턴 채용 중!\n\n문과 취준생이 지원할 수 있는 경영지원/영업 직무가 열렸습니다! 🔥\n\n📅 지원 마감 → 8월 23일(일) 오후 11:59까지\n\n전환형 인턴으로 \n실무 경험부터 정규직 기회까지 노리고 있다면 이번 공고 놓치지 말고 지원해보세요!\n\n🔗 자세한 공고는 프로필 링크에서 확인!\n\n👇 더 많은 문과 취준생 맞춤 채용공고는 @letscareer.job",
+    "permalink": "https://www.instagram.com/p/DcOFWaUjIvQ/",
+    "cover": "covers/17858721153692168.jpg",
+    "organic": {
       "views": null,
       "likes": null,
       "comments": null,
-      "saves": null,
+      "saves": 0,
       "shares": null,
       "profileVisits": null,
       "follows": null
     },
-    "ad": null
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "0819_코오롱"
+      ],
+      "spend": 24912,
+      "impressions": 8939,
+      "profileVisits": 673,
+      "follows": null
+    }
   },
   {
     "id": "17928700320147052",
@@ -619,13 +970,13 @@
     "permalink": "https://www.instagram.com/p/DcLRchjj1yA/",
     "cover": "covers/17928700320147052.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 53472,
+      "likes": 92,
+      "comments": 0,
+      "saves": 445,
+      "shares": 249,
+      "profileVisits": 391,
+      "follows": 33
     },
     "ad": null
   },
@@ -637,13 +988,13 @@
     "permalink": "https://www.instagram.com/p/DcF_4XpD2z3/",
     "cover": "covers/18100122650345374.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 28497,
+      "likes": 30,
+      "comments": 0,
+      "saves": 71,
+      "shares": 46,
+      "profileVisits": 110,
+      "follows": 1
     },
     "ad": null
   },
@@ -655,13 +1006,13 @@
     "permalink": "https://www.instagram.com/p/DcDdIlZDyQE/",
     "cover": "covers/18041126903815408.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 31593,
+      "likes": 35,
+      "comments": 0,
+      "saves": 201,
+      "shares": 52,
+      "profileVisits": 172,
+      "follows": 3
     },
     "ad": null
   },
@@ -673,13 +1024,13 @@
     "permalink": "https://www.instagram.com/p/DcBZYUxjxCr/",
     "cover": "covers/18099772274255549.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 34393,
+      "likes": 37,
+      "comments": 0,
+      "saves": 124,
+      "shares": 103,
+      "profileVisits": 135,
+      "follows": 5
     },
     "ad": null
   },
@@ -691,13 +1042,13 @@
     "permalink": "https://www.instagram.com/p/Db-4TTdj53R/",
     "cover": "covers/18194340790382162.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 33857,
+      "likes": 70,
+      "comments": 0,
+      "saves": 285,
+      "shares": 173,
+      "profileVisits": 178,
+      "follows": 6
     },
     "ad": null
   },
@@ -709,13 +1060,13 @@
     "permalink": "https://www.instagram.com/p/Db9zhwDj_L5/",
     "cover": "covers/18120882790892713.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 19484,
+      "likes": 8,
+      "comments": 0,
+      "saves": 34,
+      "shares": 3,
+      "profileVisits": 15,
+      "follows": 0
     },
     "ad": null
   },
@@ -727,13 +1078,13 @@
     "permalink": "https://www.instagram.com/p/Db8CC3Tj1k0/",
     "cover": "covers/18332171221257672.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 32318,
+      "likes": 34,
+      "comments": 0,
+      "saves": 178,
+      "shares": 70,
+      "profileVisits": 126,
+      "follows": 5
     },
     "ad": null
   },
@@ -745,15 +1096,42 @@
     "permalink": "https://www.instagram.com/p/Db5O_BhD37M/",
     "cover": "covers/18081657296689310.jpg",
     "organic": {
+      "views": 30415,
+      "likes": 58,
+      "comments": 1,
+      "saves": 282,
+      "shares": 100,
+      "profileVisits": 194,
+      "follows": 9
+    },
+    "ad": null
+  },
+  {
+    "id": "18110794912967496",
+    "date": "2026-08-11",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨]\n\nKT&G 신입 공채 떴다!\n문과 직무 채용 공고만 빠르게 모아 왔어요!\n\n👉신입(사무)\n- 경영기획\n- 해외사업\n- 브랜드 매니저\n- SCM\n\n👉신입(현장)\n- 영업직\n\n관심 있는 분들은 채용 홈페이지 공고에 첨부된\n직무소개서에서 상세한 직무 내용 꼭 확인하고 지원해 보세요!\n\n⏰ 신입(사무): ~ 9월 10일(목) 15:00\n⏰ 신입(현장): ~ 8월 26일(수) 15:00\n\n🔗자세한 공고 내용은 프로필 링크에서!\n�👇더 많은 취업·공고 컨텐츠는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/Db5AB9cjI68/",
+    "cover": "covers/18110794912967496.jpg",
+    "organic": {
       "views": null,
       "likes": null,
       "comments": null,
-      "saves": null,
+      "saves": 0,
       "shares": null,
       "profileVisits": null,
       "follows": null
     },
-    "ad": null
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "kt&g"
+      ],
+      "spend": 24928,
+      "impressions": 9553,
+      "profileVisits": 829,
+      "follows": null
+    }
   },
   {
     "id": "18057002516789234",
@@ -763,13 +1141,13 @@
     "permalink": "https://www.instagram.com/p/Db3KavajzdB/",
     "cover": "covers/18057002516789234.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 36748,
+      "likes": 45,
+      "comments": 0,
+      "saves": 271,
+      "shares": 177,
+      "profileVisits": 201,
+      "follows": 20
     },
     "ad": null
   },
@@ -781,13 +1159,13 @@
     "permalink": "https://www.instagram.com/p/Db3KU_Jj4ra/",
     "cover": "covers/17904870777303333.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 109709,
+      "likes": 238,
+      "comments": 1,
+      "saves": 1265,
+      "shares": 985,
+      "profileVisits": 1423,
+      "follows": 233
     },
     "ad": null
   },
@@ -799,13 +1177,13 @@
     "permalink": "https://www.instagram.com/p/Db0tDxsj5Oh/",
     "cover": "covers/17901384921545549.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 112511,
+      "likes": 488,
+      "comments": 12,
+      "saves": 731,
+      "shares": 1338,
+      "profileVisits": 966,
+      "follows": 148
     },
     "ad": null
   },
@@ -817,13 +1195,13 @@
     "permalink": "https://www.instagram.com/p/Db0pZT9jwG2/",
     "cover": "covers/18126309904787546.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 35215,
+      "likes": 46,
+      "comments": 0,
+      "saves": 208,
+      "shares": 110,
+      "profileVisits": 207,
+      "follows": 9
     },
     "ad": null
   },
@@ -835,13 +1213,13 @@
     "permalink": "https://www.instagram.com/p/DbzHp4iD5mz/",
     "cover": "covers/18112194799991705.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 24623,
+      "likes": 26,
+      "comments": 0,
+      "saves": 91,
+      "shares": 21,
+      "profileVisits": 93,
+      "follows": 3
     },
     "ad": null
   },
@@ -853,13 +1231,13 @@
     "permalink": "https://www.instagram.com/p/DbuhbIRD3Yy/",
     "cover": "covers/18416839678151741.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 25772,
+      "likes": 25,
+      "comments": 0,
+      "saves": 116,
+      "shares": 42,
+      "profileVisits": 77,
+      "follows": 4
     },
     "ad": null
   },
@@ -871,15 +1249,96 @@
     "permalink": "https://www.instagram.com/p/Dbs0VOBj-sJ/",
     "cover": "covers/18136139506717519.jpg",
     "organic": {
+      "views": 36220,
+      "likes": 59,
+      "comments": 0,
+      "saves": 318,
+      "shares": 132,
+      "profileVisits": 202,
+      "follows": 28
+    },
+    "ad": null
+  },
+  {
+    "id": "18306569947303307",
+    "date": "2026-08-06",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨]\n\n네이버 클라우드에서\nB2B·브랜드 마케팅 인턴 채용 중이에요!\n\n브랜드 캠페인, 세미나 전시회 등 다양한 B2B 마케팅 프로젝트를\n기획부터 실행, 운영, 성과 분석까지 직접 경험해 볼 수 있어요!\n\n콘텐츠 제작과 브랜딩 등 다양한 마케팅 실무 경험을 쌓고 싶다면\n이번 공고 놓치지 말고 꼭 지원해 보세요!\n\n⏰ ~ 8월 12일(수) 18:00\n\n🔗자세한 공고 내용은 프로필 링크에서!\n�👇더 많은 취업·공고 컨텐츠는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/DbsuFhMDEU6/",
+    "cover": "covers/18306569947303307.jpg",
+    "organic": {
       "views": null,
       "likes": null,
       "comments": null,
-      "saves": null,
+      "saves": 0,
       "shares": null,
       "profileVisits": null,
       "follows": null
     },
-    "ad": null
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "0806 네클 마케팅"
+      ],
+      "spend": 24915,
+      "impressions": 6655,
+      "profileVisits": 377,
+      "follows": null
+    }
+  },
+  {
+    "id": "18072029915399557",
+    "date": "2026-08-06",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨]\n\n인턴 월급이 월 334만 원?!💸\n챌린저스 전환형 인턴 채용 중!\n\n3개월 전환형 인턴으로\n인플루언서 마케팅과 사업개발 직무를 모집하고 있어요.✨\n\n높은 인턴 급여는 물론,\n정규직 전환 기회까지!\n\n마케팅·사업개발 커리어를 시작하고 싶은 분이라면\n이번 공고를 꼭 확인해보세요.🙌\n\n💼 채용 직무\n* 인플루언서 마케팅\n* 사업개발\n\n⏰ 지원 마감\n채용 시 마감\n\n🔗 자세한 공고는 프로필 링크에서 확인!\n\n👇 더 많은 문과 채용공고는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/Dbst7MOjOEi/",
+    "cover": "covers/18072029915399557.jpg",
+    "organic": {
+      "views": null,
+      "likes": null,
+      "comments": null,
+      "saves": 0,
+      "shares": null,
+      "profileVisits": null,
+      "follows": null
+    },
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "0806 챌린저스"
+      ],
+      "spend": 24883,
+      "impressions": 5994,
+      "profileVisits": 394,
+      "follows": null
+    }
+  },
+  {
+    "id": "17874419592549082",
+    "date": "2026-08-06",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨]\n\n글로벌 최대 컨설팅 기업,\nEY한영 Talent 채용팀 인턴 채용 중!✨\n\n채용 프로세스 운영부터\n인터뷰 일정 조율, 신규 입사자 서류 관리까지\nHR 실무를 직접 경험할 수 있는 기회입니다.🙌\n\n특히 채용(HR)에 관심 있는 분이라면\n이번 공고를 꼭 확인해보세요!\n\n⏰ 지원 마감\n8월 9일(일) 23:59\n\n🔗 자세한 공고는 프로필 링크에서 확인!\n\n👇 더 많은 문과 채용공고는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/Dbstg8GDLYj/",
+    "cover": "covers/17874419592549082.jpg",
+    "organic": {
+      "views": null,
+      "likes": null,
+      "comments": null,
+      "saves": 0,
+      "shares": null,
+      "profileVisits": null,
+      "follows": null
+    },
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "0806 한영"
+      ],
+      "spend": 24921,
+      "impressions": 7333,
+      "profileVisits": 423,
+      "follows": null
+    }
   },
   {
     "id": "17911195458441668",
@@ -889,13 +1348,13 @@
     "permalink": "https://www.instagram.com/p/Dbp8wRzD3ZI/",
     "cover": "covers/17911195458441668.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 29186,
+      "likes": 38,
+      "comments": 0,
+      "saves": 155,
+      "shares": 81,
+      "profileVisits": 166,
+      "follows": 14
     },
     "ad": null
   },
@@ -907,13 +1366,13 @@
     "permalink": "https://www.instagram.com/p/Dbp8BgTj7zR/",
     "cover": "covers/18331404070276875.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 32913,
+      "likes": 55,
+      "comments": 0,
+      "saves": 192,
+      "shares": 88,
+      "profileVisits": 199,
+      "follows": 15
     },
     "ad": null
   },
@@ -925,13 +1384,13 @@
     "permalink": "https://www.instagram.com/p/Dbp1ORWj_oz/",
     "cover": "covers/17952807783218488.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 26030,
+      "likes": 30,
+      "comments": 0,
+      "saves": 81,
+      "shares": 25,
+      "profileVisits": 87,
+      "follows": 0
     },
     "ad": null
   },
@@ -943,13 +1402,13 @@
     "permalink": "https://www.instagram.com/p/Dbk-wd4j1fQ/",
     "cover": "covers/17862543519659444.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 21224,
+      "likes": 18,
+      "comments": 0,
+      "saves": 59,
+      "shares": 12,
+      "profileVisits": 76,
+      "follows": 0
     },
     "ad": null
   },
@@ -961,13 +1420,13 @@
     "permalink": "https://www.instagram.com/p/Dbk-pJYD8mI/",
     "cover": "covers/17891055465657449.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 38585,
+      "likes": 76,
+      "comments": 0,
+      "saves": 382,
+      "shares": 230,
+      "profileVisits": 285,
+      "follows": 24
     },
     "ad": null
   },
@@ -979,13 +1438,13 @@
     "permalink": "https://www.instagram.com/p/DbitHc6D79P/",
     "cover": "covers/18146045230534180.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 44893,
+      "likes": 68,
+      "comments": 0,
+      "saves": 430,
+      "shares": 150,
+      "profileVisits": 314,
+      "follows": 23
     },
     "ad": null
   },
@@ -997,13 +1456,13 @@
     "permalink": "https://www.instagram.com/p/DbiWy2DD9CC/",
     "cover": "covers/17898829890349542.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 30276,
+      "likes": 39,
+      "comments": 0,
+      "saves": 133,
+      "shares": 50,
+      "profileVisits": 159,
+      "follows": 4
     },
     "ad": null
   },
@@ -1015,13 +1474,13 @@
     "permalink": "https://www.instagram.com/p/DbgH3_djydl/",
     "cover": "covers/18203193973365590.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 22390,
+      "likes": 23,
+      "comments": 0,
+      "saves": 69,
+      "shares": 14,
+      "profileVisits": 89,
+      "follows": 4
     },
     "ad": null
   },
@@ -1033,13 +1492,13 @@
     "permalink": "https://www.instagram.com/p/DbdcIhKD9Ev/",
     "cover": "covers/18348603466174478.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 17523,
+      "likes": 7,
+      "comments": 0,
+      "saves": 10,
+      "shares": 7,
+      "profileVisits": 30,
+      "follows": 0
     },
     "ad": null
   },
@@ -1051,13 +1510,13 @@
     "permalink": "https://www.instagram.com/p/DbdcEGVj-cz/",
     "cover": "covers/18024556889893652.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 31362,
+      "likes": 46,
+      "comments": 1,
+      "saves": 127,
+      "shares": 62,
+      "profileVisits": 104,
+      "follows": 7
     },
     "ad": null
   },
@@ -1069,13 +1528,13 @@
     "permalink": "https://www.instagram.com/p/Dbaxe3YgZhh/",
     "cover": "covers/17939260380324010.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 26804,
+      "likes": 30,
+      "comments": 0,
+      "saves": 109,
+      "shares": 47,
+      "profileVisits": 145,
+      "follows": 4
     },
     "ad": null
   },
@@ -1087,13 +1546,13 @@
     "permalink": "https://www.instagram.com/p/DbYQedkD0Us/",
     "cover": "covers/18115185022896199.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 23535,
+      "likes": 43,
+      "comments": 0,
+      "saves": 144,
+      "shares": 97,
+      "profileVisits": 141,
+      "follows": 6
     },
     "ad": null
   },
@@ -1105,13 +1564,13 @@
     "permalink": "https://www.instagram.com/p/DbYQK0ADzGg/",
     "cover": "covers/17930514717362293.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 22830,
+      "likes": 29,
+      "comments": 0,
+      "saves": 109,
+      "shares": 27,
+      "profileVisits": 71,
+      "follows": 0
     },
     "ad": null
   },
@@ -1123,13 +1582,13 @@
     "permalink": "https://www.instagram.com/p/DbVqId-D8fs/",
     "cover": "covers/18139845085563936.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 31994,
+      "likes": 60,
+      "comments": 0,
+      "saves": 289,
+      "shares": 145,
+      "profileVisits": 197,
+      "follows": 15
     },
     "ad": null
   },
@@ -1141,13 +1600,13 @@
     "permalink": "https://www.instagram.com/p/DbShgZ6D8su/",
     "cover": "covers/18149026543518217.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 64363,
+      "likes": 135,
+      "comments": 0,
+      "saves": 586,
+      "shares": 581,
+      "profileVisits": 1045,
+      "follows": 135
     },
     "ad": null
   },
@@ -1159,13 +1618,13 @@
     "permalink": "https://www.instagram.com/p/DbSSLmLj66G/",
     "cover": "covers/18016770071880783.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 27344,
+      "likes": 47,
+      "comments": 0,
+      "saves": 146,
+      "shares": 61,
+      "profileVisits": 150,
+      "follows": 3
     },
     "ad": null
   },
@@ -1177,13 +1636,13 @@
     "permalink": "https://www.instagram.com/p/DbLWkkUD6jE/",
     "cover": "covers/18109611923054658.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 20464,
+      "likes": 17,
+      "comments": 0,
+      "saves": 33,
+      "shares": 3,
+      "profileVisits": 36,
+      "follows": 0
     },
     "ad": null
   },
@@ -1195,13 +1654,13 @@
     "permalink": "https://www.instagram.com/p/DbLRqhfD-kt/",
     "cover": "covers/17876139252524140.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 29985,
+      "likes": 46,
+      "comments": 0,
+      "saves": 156,
+      "shares": 93,
+      "profileVisits": 118,
+      "follows": 1
     },
     "ad": null
   },
@@ -1213,13 +1672,13 @@
     "permalink": "https://www.instagram.com/p/DbIrhMWD3Yp/",
     "cover": "covers/18167916187399489.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 79230,
+      "likes": 184,
+      "comments": 1,
+      "saves": 960,
+      "shares": 760,
+      "profileVisits": 1126,
+      "follows": 186
     },
     "ad": null
   },
@@ -1231,13 +1690,13 @@
     "permalink": "https://www.instagram.com/p/DbICGooD7Mz/",
     "cover": "covers/18006518894955117.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 30232,
+      "likes": 63,
+      "comments": 0,
+      "saves": 231,
+      "shares": 150,
+      "profileVisits": 167,
+      "follows": 10
     },
     "ad": null
   },
@@ -1249,13 +1708,13 @@
     "permalink": "https://www.instagram.com/p/DbFutVjj1QE/",
     "cover": "covers/18110059723974847.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 35195,
+      "likes": 88,
+      "comments": 0,
+      "saves": 403,
+      "shares": 208,
+      "profileVisits": 326,
+      "follows": 15
     },
     "ad": null
   },
@@ -1267,13 +1726,13 @@
     "permalink": "https://www.instagram.com/p/DbFrMIsDwsh/",
     "cover": "covers/18119332013510357.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 23717,
+      "likes": 25,
+      "comments": 0,
+      "saves": 65,
+      "shares": 10,
+      "profileVisits": 70,
+      "follows": 3
     },
     "ad": null
   },
@@ -1285,13 +1744,13 @@
     "permalink": "https://www.instagram.com/p/DbDDPGvD5Xs/",
     "cover": "covers/18001827782973136.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 35267,
+      "likes": 42,
+      "comments": 0,
+      "saves": 211,
+      "shares": 172,
+      "profileVisits": 284,
+      "follows": 29
     },
     "ad": null
   },
@@ -1303,13 +1762,13 @@
     "permalink": "https://www.instagram.com/p/DbAJZVYD7Wn/",
     "cover": "covers/18060165734589669.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 24012,
+      "likes": 26,
+      "comments": 0,
+      "saves": 53,
+      "shares": 23,
+      "profileVisits": 78,
+      "follows": 5
     },
     "ad": null
   },
@@ -1321,13 +1780,13 @@
     "permalink": "https://www.instagram.com/p/Da-qRyXj8j3/",
     "cover": "covers/18031821464825597.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 29429,
+      "likes": 44,
+      "comments": 0,
+      "saves": 192,
+      "shares": 57,
+      "profileVisits": 154,
+      "follows": 6
     },
     "ad": null
   },
@@ -1339,13 +1798,13 @@
     "permalink": "https://www.instagram.com/p/Da9zAJ4D8t_/",
     "cover": "covers/18020718089887642.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 25616,
+      "likes": 37,
+      "comments": 0,
+      "saves": 140,
+      "shares": 38,
+      "profileVisits": 103,
+      "follows": 1
     },
     "ad": null
   },
@@ -1357,13 +1816,13 @@
     "permalink": "https://www.instagram.com/p/Da5d5Kjj8C-/",
     "cover": "covers/17923304013163777.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 29914,
+      "likes": 43,
+      "comments": 0,
+      "saves": 157,
+      "shares": 90,
+      "profileVisits": 90,
+      "follows": 0
     },
     "ad": null
   },
@@ -1375,13 +1834,13 @@
     "permalink": "https://www.instagram.com/p/Da22mGADzLY/",
     "cover": "covers/18126111067594527.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 27955,
+      "likes": 34,
+      "comments": 0,
+      "saves": 177,
+      "shares": 47,
+      "profileVisits": 165,
+      "follows": 5
     },
     "ad": null
   },
@@ -1393,13 +1852,13 @@
     "permalink": "https://www.instagram.com/p/Da1-izzjxXM/",
     "cover": "covers/17933544375444319.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 23344,
+      "likes": 30,
+      "comments": 0,
+      "saves": 95,
+      "shares": 26,
+      "profileVisits": 36,
+      "follows": 1
     },
     "ad": null
   },
@@ -1411,13 +1870,13 @@
     "permalink": "https://www.instagram.com/p/DazGiZdD6c2/",
     "cover": "covers/18107186345085631.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 27442,
+      "likes": 48,
+      "comments": 0,
+      "saves": 148,
+      "shares": 55,
+      "profileVisits": 187,
+      "follows": 5
     },
     "ad": null
   },
@@ -1429,13 +1888,13 @@
     "permalink": "https://www.instagram.com/p/DaxiUFoD272/",
     "cover": "covers/17970656999917836.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 35720,
+      "likes": 71,
+      "comments": 0,
+      "saves": 278,
+      "shares": 131,
+      "profileVisits": 389,
+      "follows": 42
     },
     "ad": null
   },
@@ -1447,15 +1906,42 @@
     "permalink": "https://www.instagram.com/p/DaxSxthDxQQ/",
     "cover": "covers/18119082857504323.jpg",
     "organic": {
+      "views": 24608,
+      "likes": 42,
+      "comments": 0,
+      "saves": 101,
+      "shares": 51,
+      "profileVisits": 84,
+      "follows": 1
+    },
+    "ad": null
+  },
+  {
+    "id": "18126919045632026",
+    "date": "2026-07-14",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨]\n\n케라시스, 루나, AGE20’S 등\n다양한 브랜드를 보유한 애경산업에서\n인사(HRD), 경영기획, 해외영업 직무 채용을 진행하고 있습니다!\n\n📌 모집 직무\n• 인사(HRD)\n• 경영기획\n• 해외영업(러시아/CIS/몽골)\n• 해외영업(미주/유럽)\n\n이번 주 일요일 마감이니, 꼭 지원해보세요!🌟\n\n⏰ 지원 마감\n~ 7월 19일(일) 23:59\n\n🔗 자세한 공고는 프로필 링크에서 확인!\n\n👇 더 많은 문과 채용공고는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/DaxCRpajEIE/",
+    "cover": "covers/18126919045632026.jpg",
+    "organic": {
       "views": null,
       "likes": null,
       "comments": null,
-      "saves": null,
+      "saves": 0,
       "shares": null,
       "profileVisits": null,
       "follows": null
     },
-    "ad": null
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "애경산업"
+      ],
+      "spend": 24903,
+      "impressions": 7351,
+      "profileVisits": 421,
+      "follows": null
+    }
   },
   {
     "id": "18119558776833245",
@@ -1465,13 +1951,13 @@
     "permalink": "https://www.instagram.com/p/DawtzFGD5dp/",
     "cover": "covers/18119558776833245.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 30719,
+      "likes": 57,
+      "comments": 0,
+      "saves": 176,
+      "shares": 36,
+      "profileVisits": 134,
+      "follows": 1
     },
     "ad": null
   },
@@ -1483,13 +1969,13 @@
     "permalink": "https://www.instagram.com/p/DauyJHxD6wX/",
     "cover": "covers/18220427155330977.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 32103,
+      "likes": 51,
+      "comments": 1,
+      "saves": 183,
+      "shares": 71,
+      "profileVisits": 218,
+      "follows": 21
     },
     "ad": null
   },
@@ -1501,13 +1987,13 @@
     "permalink": "https://www.instagram.com/p/DasptYGD_0O/",
     "cover": "covers/18108024007958273.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 48234,
+      "likes": 81,
+      "comments": 0,
+      "saves": 356,
+      "shares": 227,
+      "profileVisits": 460,
+      "follows": 45
     },
     "ad": null
   },
@@ -1519,13 +2005,13 @@
     "permalink": "https://www.instagram.com/p/DaqGtuFD4a2/",
     "cover": "covers/18019835732902738.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 17556,
+      "likes": 8,
+      "comments": 0,
+      "saves": 53,
+      "shares": 12,
+      "profileVisits": 42,
+      "follows": 3
     },
     "ad": null
   },
@@ -1537,13 +2023,13 @@
     "permalink": "https://www.instagram.com/p/DanSv15j8ps/",
     "cover": "covers/18117064573852804.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 30395,
+      "likes": 61,
+      "comments": 0,
+      "saves": 216,
+      "shares": 122,
+      "profileVisits": 206,
+      "follows": 11
     },
     "ad": null
   },
@@ -1555,15 +2041,69 @@
     "permalink": "https://www.instagram.com/p/DafXR8aj4pD/",
     "cover": "covers/18142410268526546.jpg",
     "organic": {
+      "views": 33555,
+      "likes": 65,
+      "comments": 0,
+      "saves": 333,
+      "shares": 168,
+      "profileVisits": 269,
+      "follows": 19
+    },
+    "ad": null
+  },
+  {
+    "id": "17998815464963241",
+    "date": "2026-07-06",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨]\n\n일론 머스크와 함께 일할 기회?⚡\n\nTESLA Korea에서\nHR 인턴을 채용 중입니다!\n\n채용부터 온보딩, 인사 행정,\n교육과 사내 행사 지원까지\n인사 전반의 실무를 경험할 수 있는 포지션이에요.\n\n특히 이런 분들께 추천드립니다👇\n\n✅ HR 직무에 관심 있는 분\n✅ 외국계 기업에서 실무를 경험해보고 싶은 분\n✅ 글로벌 환경에서 커리어를 시작하고 싶은 분\n\n일론 머스크가 이끄는 글로벌 기업에서 \nHR 실무를 경험해볼 수 있는 기회!\n외국계 HR 커리어를 목표로 한다면 놓치지 마세요.✨\n\n⏰ 채용 시 마감\n\n🔗 자세한 공고는 프로필 링크에서 확인!\n\n👇 더 많은 문과 채용공고는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/Daal4qQjGhb/",
+    "cover": "covers/17998815464963241.jpg",
+    "organic": {
       "views": null,
       "likes": null,
       "comments": null,
-      "saves": null,
+      "saves": 0,
       "shares": null,
       "profileVisits": null,
       "follows": null
     },
-    "ad": null
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "트 0705 테슬라"
+      ],
+      "spend": 70472,
+      "impressions": 18832,
+      "profileVisits": 1564,
+      "follows": null
+    }
+  },
+  {
+    "id": "18079192001309689",
+    "date": "2026-07-06",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보📢]\n\nHYBE에서 CORTIS, 콘텐츠 만들어볼래?📷\n\nCORTIS의 콘텐츠를 기획하고,\n영상 촬영부터 편집, 데이터 관리까지\n콘텐츠 제작 전반을 경험할 수 있는 포지션이에요.✨\n\n콘텐츠를 좋아하고,\n엔터 업계에서 커리어를 시작하고 싶다면\n이번 기회를 놓치지 마세요!🙌\n\n⏰ 채용 시 마감\n\n🔗 자세한 공고는 프로필 링크에서 확인!\n\n👇 더 많은 문과 채용공고는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/Daalx4ijFPO/",
+    "cover": "covers/18079192001309689.jpg",
+    "organic": {
+      "views": null,
+      "likes": null,
+      "comments": null,
+      "saves": 0,
+      "shares": null,
+      "profileVisits": null,
+      "follows": null
+    },
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "0705 하이브"
+      ],
+      "spend": 70400,
+      "impressions": 18928,
+      "profileVisits": 1053,
+      "follows": null
+    }
   },
   {
     "id": "18014026343715503",
@@ -1573,13 +2113,13 @@
     "permalink": "https://www.instagram.com/p/DaZxlN1DwLE/",
     "cover": "covers/18014026343715503.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 23364,
+      "likes": 21,
+      "comments": 0,
+      "saves": 98,
+      "shares": 37,
+      "profileVisits": 97,
+      "follows": 2
     },
     "ad": null
   },
@@ -1591,13 +2131,13 @@
     "permalink": "https://www.instagram.com/p/DaZkMffD_iR/",
     "cover": "covers/17883471396601608.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 56400,
+      "likes": 278,
+      "comments": 6,
+      "saves": 332,
+      "shares": 985,
+      "profileVisits": 415,
+      "follows": 45
     },
     "ad": null
   },
@@ -1609,13 +2149,13 @@
     "permalink": "https://www.instagram.com/p/DaYAUnaD9rb/",
     "cover": "covers/18133969279542964.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 41187,
+      "likes": 78,
+      "comments": 0,
+      "saves": 272,
+      "shares": 244,
+      "profileVisits": 384,
+      "follows": 33
     },
     "ad": null
   },
@@ -1627,13 +2167,13 @@
     "permalink": "https://www.instagram.com/p/DaX1gskDwuo/",
     "cover": "covers/18072345932693584.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 17374,
+      "likes": 17,
+      "comments": 0,
+      "saves": 30,
+      "shares": 6,
+      "profileVisits": 27,
+      "follows": 1
     },
     "ad": null
   },
@@ -1645,15 +2185,42 @@
     "permalink": "https://www.instagram.com/p/DaUN6o0D9IM/",
     "cover": "covers/18184951240400208.jpg",
     "organic": {
+      "views": 31497,
+      "likes": 45,
+      "comments": 0,
+      "saves": 310,
+      "shares": 108,
+      "profileVisits": 202,
+      "follows": 6
+    },
+    "ad": null
+  },
+  {
+    "id": "18192956278329340",
+    "date": "2026-07-03",
+    "type": "캐러셀",
+    "caption": "🔔띵동- 7월이 도착했습니다!\n\n이제는 정말 미루면 안 되는 시기가 다가왔어요.\n\n지금부터 하반기 공채 대비하실 수 있도록\n오공고에서 CJ계열사 2026 상반기 자소서 문항을 모아왔습니다✨\n\n더 늦기 전에 미리 자소서 작성해보시고,\n혼자 준비하기에는 부족함이 느껴진다면?\n\n챌린지 1개 가격에 자소서·인적성·면접·스터디까지\n모두 무료로 수강할 수 있는 [3개월 올인원 패스] 신청해 보세요!\n\n🔗자세한 커리큘럼은 프로필 링크에서!\n�👇더 많은 취업·공고 컨텐츠는",
+    "permalink": "https://www.instagram.com/p/DaUMJbCjMJ6/",
+    "cover": "covers/18192956278329340.jpg",
+    "organic": {
       "views": null,
       "likes": null,
       "comments": null,
-      "saves": null,
+      "saves": 0,
       "shares": null,
       "profileVisits": null,
       "follows": null
     },
-    "ad": null
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "CJ자소서문항모음"
+      ],
+      "spend": 24916,
+      "impressions": 6075,
+      "profileVisits": 227,
+      "follows": null
+    }
   },
   {
     "id": "18096263579611913",
@@ -1663,13 +2230,13 @@
     "permalink": "https://www.instagram.com/p/DaS1LdrD6S6/",
     "cover": "covers/18096263579611913.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 27865,
+      "likes": 48,
+      "comments": 0,
+      "saves": 144,
+      "shares": 61,
+      "profileVisits": 144,
+      "follows": 3
     },
     "ad": null
   },
@@ -1681,13 +2248,13 @@
     "permalink": "https://www.instagram.com/p/DaR475vj_S8/",
     "cover": "covers/17997209366993069.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 53099,
+      "likes": 172,
+      "comments": 0,
+      "saves": 1179,
+      "shares": 491,
+      "profileVisits": 504,
+      "follows": 75
     },
     "ad": null
   },
@@ -1699,13 +2266,13 @@
     "permalink": "https://www.instagram.com/p/DaP9fHdj-3K/",
     "cover": "covers/18207732229347178.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 32423,
+      "likes": 47,
+      "comments": 0,
+      "saves": 190,
+      "shares": 140,
+      "profileVisits": 187,
+      "follows": 11
     },
     "ad": null
   },
@@ -1717,13 +2284,13 @@
     "permalink": "https://www.instagram.com/p/DaP1daMj43L/",
     "cover": "covers/18128113516630399.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 17935,
+      "likes": 12,
+      "comments": 0,
+      "saves": 46,
+      "shares": 14,
+      "profileVisits": 33,
+      "follows": 0
     },
     "ad": null
   },
@@ -1735,13 +2302,13 @@
     "permalink": "https://www.instagram.com/p/DaPoxi1Dx7F/",
     "cover": "covers/17933327250318715.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 43812,
+      "likes": 219,
+      "comments": 0,
+      "saves": 434,
+      "shares": 336,
+      "profileVisits": 468,
+      "follows": 56
     },
     "ad": null
   },
@@ -1753,15 +2320,42 @@
     "permalink": "https://www.instagram.com/p/DaNptVQj9uu/",
     "cover": "covers/18379903660163237.jpg",
     "organic": {
+      "views": 29465,
+      "likes": 34,
+      "comments": 0,
+      "saves": 198,
+      "shares": 83,
+      "profileVisits": 141,
+      "follows": 2
+    },
+    "ad": null
+  },
+  {
+    "id": "18173845108417770",
+    "date": "2026-06-30",
+    "type": "캐러셀",
+    "caption": "[이번주 공고 속보🚨]\n\n카카오페이 어시스턴트 채용 공고💬\n마케팅 직무만 쏙쏙 골라왔어요!\n\n그로스/브랜드/서비스/해외결제 마케팅\n총 4개 직무의 마케팅 어시스턴트를 채용 중이에요.\n\n대기업 금융서비스에서 마케팅 역량 쌓고 싶은 분들은\n놓치지 말고 꼭 지원해 보세요!\n\n⏰ ~ 채용 시 마감 (ASAP으로 지원하시기를 추천드려요)\n\n🔗자세한 공고 내용은 프로필 링크에서!\n�👇더 많은 취업·공고 컨텐츠는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/DaM9zKuDA04/",
+    "cover": "covers/18173845108417770.jpg",
+    "organic": {
       "views": null,
       "likes": null,
       "comments": null,
-      "saves": null,
+      "saves": 0,
       "shares": null,
       "profileVisits": null,
       "follows": null
     },
-    "ad": null
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "카카오페이"
+      ],
+      "spend": 24894,
+      "impressions": 6315,
+      "profileVisits": 517,
+      "follows": null
+    }
   },
   {
     "id": "17887966524602669",
@@ -1771,13 +2365,13 @@
     "permalink": "https://www.instagram.com/p/DaLHqaTj0Ea/",
     "cover": "covers/17887966524602669.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 15041,
+      "likes": 12,
+      "comments": 0,
+      "saves": 22,
+      "shares": 8,
+      "profileVisits": 34,
+      "follows": 0
     },
     "ad": null
   },
@@ -1789,13 +2383,13 @@
     "permalink": "https://www.instagram.com/p/DaLG2jCD53x/",
     "cover": "covers/17887503765588925.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 26361,
+      "likes": 42,
+      "comments": 0,
+      "saves": 154,
+      "shares": 80,
+      "profileVisits": 129,
+      "follows": 5
     },
     "ad": null
   },
@@ -1807,13 +2401,13 @@
     "permalink": "https://www.instagram.com/p/DaIPnRfD2gw/",
     "cover": "covers/17895824862350526.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 45059,
+      "likes": 98,
+      "comments": 0,
+      "saves": 563,
+      "shares": 289,
+      "profileVisits": 436,
+      "follows": 50
     },
     "ad": null
   },
@@ -1825,13 +2419,13 @@
     "permalink": "https://www.instagram.com/p/DaH64dZj2Nx/",
     "cover": "covers/18107684177480337.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 21735,
+      "likes": 31,
+      "comments": 0,
+      "saves": 103,
+      "shares": 32,
+      "profileVisits": 94,
+      "follows": 5
     },
     "ad": null
   },
@@ -1843,13 +2437,13 @@
     "permalink": "https://www.instagram.com/p/DaA2EmcD73z/",
     "cover": "covers/18101429192330698.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 20913,
+      "likes": 17,
+      "comments": 0,
+      "saves": 73,
+      "shares": 17,
+      "profileVisits": 65,
+      "follows": 0
     },
     "ad": null
   },
@@ -1861,15 +2455,69 @@
     "permalink": "https://www.instagram.com/p/DZ_y9jsD0Ju/",
     "cover": "covers/17943736692249092.jpg",
     "organic": {
+      "views": 37981,
+      "likes": 84,
+      "comments": 0,
+      "saves": 405,
+      "shares": 253,
+      "profileVisits": 518,
+      "follows": 73
+    },
+    "ad": null
+  },
+  {
+    "id": "18134236414599511",
+    "date": "2026-06-24",
+    "type": "이미지",
+    "caption": "",
+    "permalink": "https://www.instagram.com/p/DZ-BF7BsBe2/",
+    "cover": "covers/18134236414599511.jpg",
+    "organic": {
       "views": null,
       "likes": null,
       "comments": null,
-      "saves": null,
+      "saves": 6,
       "shares": null,
       "profileVisits": null,
       "follows": null
     },
-    "ad": null
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "CJ프레시웨이"
+      ],
+      "spend": 24878,
+      "impressions": 3661,
+      "profileVisits": 171,
+      "follows": null
+    }
+  },
+  {
+    "id": "18128356933618690",
+    "date": "2026-06-24",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨]\n\n샘표식품에서 \n홍보/콘텐츠 기획 신입을 채용 중입니다! 🍽️✨\n\n기업 홍보부터 SNS 콘텐츠 운영,\n캠페인 기획, 온·오프라인 이벤트 운영까지\n다양한 콘텐츠를 직접 기획하고 운영할 수 있는 포지션이에요👀\n\n특히 브랜드의 메시지를 콘텐츠로 전달하고,\n요리 문화를 알리는 다양한 프로젝트를 \n경험할 수 있다는 점이 특징!\n\n✔️콘텐츠 마케팅에 관심 있는 사람📱\n✔️기업 홍보와 브랜딩에 관심 있는 사람✨\n\n이번 공고 추천드려요⭐\n\n⏰ 지원 마감\n7월 5일(일) 오후 11:59\n\n🔗 자세한 공고 내용은 프로필 링크에서 확인!\n\n👇 더 많은 취업·공고 콘텐츠는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/DZ-A3TzDGJJ/",
+    "cover": "covers/18128356933618690.jpg",
+    "organic": {
+      "views": null,
+      "likes": null,
+      "comments": null,
+      "saves": 0,
+      "shares": null,
+      "profileVisits": null,
+      "follows": null
+    },
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "샘표식품"
+      ],
+      "spend": 24941,
+      "impressions": 6823,
+      "profileVisits": 629,
+      "follows": null
+    }
   },
   {
     "id": "18114049492904938",
@@ -1879,13 +2527,13 @@
     "permalink": "https://www.instagram.com/p/DZ9_-rmD6U4/",
     "cover": "covers/18114049492904938.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 42250,
+      "likes": 69,
+      "comments": 0,
+      "saves": 296,
+      "shares": 233,
+      "profileVisits": 473,
+      "follows": 54
     },
     "ad": null
   },
@@ -1897,13 +2545,13 @@
     "permalink": "https://www.instagram.com/p/DZ7o1qij_Wz/",
     "cover": "covers/18105732377004079.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 71728,
+      "likes": 162,
+      "comments": 0,
+      "saves": 738,
+      "shares": 524,
+      "profileVisits": 1120,
+      "follows": 135
     },
     "ad": null
   },
@@ -1915,15 +2563,42 @@
     "permalink": "https://www.instagram.com/p/DZ7B2q1j9lL/",
     "cover": "covers/18109333891753334.jpg",
     "organic": {
+      "views": 44417,
+      "likes": 130,
+      "comments": 0,
+      "saves": 708,
+      "shares": 342,
+      "profileVisits": 681,
+      "follows": 97
+    },
+    "ad": null
+  },
+  {
+    "id": "18107023582990533",
+    "date": "2026-06-22",
+    "type": "캐러셀",
+    "caption": "[이번주 공고 속보🚨]\n\n이번주 주목해야 할\n뷰티 브랜드 채용 공고만 모아왔어요⭐️\n\n뷰티 기업은 특히 빠르게 움직이는 산업이기 때문에\n트렌드를 파악하고 있는 것이 정말 중요해요!\n\n[뷰티 트렌드 스터디 가이드북]도 무료로 배포하고 있으니\n지금부터 인사이트 정리하고 관심 있는 공고에 지원해 보세요!\n\n🔗공고링크와 가이드북 신청은 프로필 링크에서!\n�👇더 많은 취업·공고 컨텐츠는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/DZ4HbKZDH00/",
+    "cover": "covers/18107023582990533.jpg",
+    "organic": {
       "views": null,
       "likes": null,
       "comments": null,
-      "saves": null,
+      "saves": 0,
       "shares": null,
       "profileVisits": null,
       "follows": null
     },
-    "ad": null
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "뷰티 브랜드 모음"
+      ],
+      "spend": 24879,
+      "impressions": 5405,
+      "profileVisits": 407,
+      "follows": null
+    }
   },
   {
     "id": "18084419654144590",
@@ -1933,13 +2608,13 @@
     "permalink": "https://www.instagram.com/p/DZ2MtR-j9T2/",
     "cover": "covers/18084419654144590.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 24395,
+      "likes": 30,
+      "comments": 0,
+      "saves": 112,
+      "shares": 27,
+      "profileVisits": 110,
+      "follows": 2
     },
     "ad": null
   },
@@ -1951,13 +2626,13 @@
     "permalink": "https://www.instagram.com/p/DZz9lFdj-tu/",
     "cover": "covers/18081006272670951.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 37838,
+      "likes": 67,
+      "comments": 0,
+      "saves": 419,
+      "shares": 203,
+      "profileVisits": 284,
+      "follows": 34
     },
     "ad": null
   },
@@ -1969,13 +2644,13 @@
     "permalink": "https://www.instagram.com/p/DZxekyijzg2/",
     "cover": "covers/18318445384272350.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 17507,
+      "likes": 20,
+      "comments": 0,
+      "saves": 49,
+      "shares": 9,
+      "profileVisits": 31,
+      "follows": 1
     },
     "ad": null
   },
@@ -1987,15 +2662,42 @@
     "permalink": "https://www.instagram.com/p/DZxV8V4D_w9/",
     "cover": "covers/18118130632697605.jpg",
     "organic": {
+      "views": 21038,
+      "likes": 24,
+      "comments": 0,
+      "saves": 100,
+      "shares": 14,
+      "profileVisits": 78,
+      "follows": 2
+    },
+    "ad": null
+  },
+  {
+    "id": "17867692686562361",
+    "date": "2026-06-18",
+    "type": "캐러셀",
+    "caption": "네이버 하계 인턴십 떴다‼️\n\n네이버에서 비즈니스와 프로덕트에 관련된 주제로\n6주간 인턴십을 진행해요!\n\n실제 네이버에서 사용되는 사내 AI 툴을 체험해 볼 수 있는 기회⭐️\n\n실습비 500만원, 인턴 동료들과 함께하는 데이터센터 견학,\n현업의 멘토, 동료들과 AI를 활동한 현장의 문제를 해결하는\n값진 경험을 쌓을 수 있어요.\n\n관심 있는 분들은 공고 자세히 확인하고\n지금 바로 지원해 보세요!\n\n⏰ ~ 6월 22일(월) 10:00\n\n🔗자세한 공고 내용은 프로필 링크에서!\n�👇더 많은 취업·공고 컨텐츠는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/DZtA7NyDA5k/",
+    "cover": "covers/17867692686562361.jpg",
+    "organic": {
       "views": null,
       "likes": null,
       "comments": null,
-      "saves": null,
+      "saves": 0,
       "shares": null,
       "profileVisits": null,
       "follows": null
     },
-    "ad": null
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "네이버 인턴십"
+      ],
+      "spend": 19964,
+      "impressions": 5540,
+      "profileVisits": 406,
+      "follows": null
+    }
   },
   {
     "id": "18137514571489374",
@@ -2005,13 +2707,13 @@
     "permalink": "https://www.instagram.com/p/DZraRufjy36/",
     "cover": "covers/18137514571489374.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 25001,
+      "likes": 43,
+      "comments": 0,
+      "saves": 145,
+      "shares": 75,
+      "profileVisits": 202,
+      "follows": 3
     },
     "ad": null
   },
@@ -2023,13 +2725,13 @@
     "permalink": "https://www.instagram.com/p/DZpwAJSE7cr/",
     "cover": "covers/18084469820428141.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 35168,
+      "likes": 85,
+      "comments": 0,
+      "saves": 508,
+      "shares": 250,
+      "profileVisits": 485,
+      "follows": 40
     },
     "ad": null
   },
@@ -2041,15 +2743,42 @@
     "permalink": "https://www.instagram.com/p/DZpP8fkD-sr/",
     "cover": "covers/18016907576702266.jpg",
     "organic": {
+      "views": 35695,
+      "likes": 56,
+      "comments": 1,
+      "saves": 207,
+      "shares": 133,
+      "profileVisits": 334,
+      "follows": 17
+    },
+    "ad": null
+  },
+  {
+    "id": "18091394702048353",
+    "date": "2026-06-15",
+    "type": "캐러셀",
+    "caption": "🖼️ 미술관에서 연애 콘텐츠 기획해볼 수 있다고? 👀\n\n그라운드시소는\n요시고 사진전, 우연히 웨스 앤더슨 등\n국내외 다양한 문화예술 IP로 전시를 제작·운영하는 \n전시 플랫폼이에요!\n\n특히 이번 Seesaw After 콘텐츠 기획 인턴은\n전시회 배경으로 연애·취향 커뮤니티 프로그램을 \n직접 기획하고 운영할 수 있다는 점이 특징✨\n\n💘 환승연애, 나는 SOLO 같은\n연애 프로그램을 즐겨 보는 사람!\n\n⭐️ 오프라인 마케팅, 공간 기획, \n콘텐츠 기획에 관심 있는 사람!\n\n이번 공고 추천드려요🙌\n\n⏰ 채용 시 마감\n\n🔗 자세한 공고 내용은 프로필 링크에서!\n\n👇 더 많은 취업·공고 콘텐츠는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/DZnFDQ1jD-o/",
+    "cover": "covers/18091394702048353.jpg",
+    "organic": {
       "views": null,
       "likes": null,
       "comments": null,
-      "saves": null,
+      "saves": 0,
       "shares": null,
       "profileVisits": null,
       "follows": null
     },
-    "ad": null
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "그라운드시소"
+      ],
+      "spend": 24993,
+      "impressions": 5754,
+      "profileVisits": 362,
+      "follows": null
+    }
   },
   {
     "id": "18153335611486535",
@@ -2059,13 +2788,13 @@
     "permalink": "https://www.instagram.com/p/DZnEU77D41J/",
     "cover": "covers/18153335611486535.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 47474,
+      "likes": 130,
+      "comments": 0,
+      "saves": 627,
+      "shares": 355,
+      "profileVisits": 551,
+      "follows": 59
     },
     "ad": null
   },
@@ -2077,13 +2806,13 @@
     "permalink": "https://www.instagram.com/p/DZjacF2D1FH/",
     "cover": "covers/17954513130175454.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 25237,
+      "likes": 39,
+      "comments": 0,
+      "saves": 146,
+      "shares": 55,
+      "profileVisits": 63,
+      "follows": 3
     },
     "ad": null
   },
@@ -2095,13 +2824,13 @@
     "permalink": "https://www.instagram.com/p/DZhuVIKjyZh/",
     "cover": "covers/18077119694647848.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 23766,
+      "likes": 29,
+      "comments": 0,
+      "saves": 102,
+      "shares": 47,
+      "profileVisits": 82,
+      "follows": 0
     },
     "ad": null
   },
@@ -2113,13 +2842,13 @@
     "permalink": "https://www.instagram.com/p/DZg1DmEj__x/",
     "cover": "covers/18054878153772499.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 45810,
+      "likes": 176,
+      "comments": 0,
+      "saves": 656,
+      "shares": 405,
+      "profileVisits": 872,
+      "follows": 96
     },
     "ad": null
   },
@@ -2131,13 +2860,13 @@
     "permalink": "https://www.instagram.com/p/DZecipjj53y/",
     "cover": "covers/18015135548895689.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 15913,
+      "likes": 13,
+      "comments": 0,
+      "saves": 15,
+      "shares": 4,
+      "profileVisits": 25,
+      "follows": 0
     },
     "ad": null
   },
@@ -2149,13 +2878,13 @@
     "permalink": "https://www.instagram.com/p/DZcv9HuD50N/",
     "cover": "covers/18097148488910945.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 29775,
+      "likes": 46,
+      "comments": 0,
+      "saves": 253,
+      "shares": 112,
+      "profileVisits": 156,
+      "follows": 4
     },
     "ad": null
   },
@@ -2167,13 +2896,13 @@
     "permalink": "https://www.instagram.com/p/DZZwnGXD3VP/",
     "cover": "covers/18100558016161266.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 38057,
+      "likes": 105,
+      "comments": 0,
+      "saves": 362,
+      "shares": 206,
+      "profileVisits": 357,
+      "follows": 32
     },
     "ad": null
   },
@@ -2185,13 +2914,13 @@
     "permalink": "https://www.instagram.com/p/DZZOfrbDyLY/",
     "cover": "covers/17973974298048509.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 57843,
+      "likes": 175,
+      "comments": 0,
+      "saves": 585,
+      "shares": 551,
+      "profileVisits": 916,
+      "follows": 113
     },
     "ad": null
   },
@@ -2203,13 +2932,13 @@
     "permalink": "https://www.instagram.com/p/DZXRlNmD3Nm/",
     "cover": "covers/17956902630137007.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 27522,
+      "likes": 53,
+      "comments": 0,
+      "saves": 171,
+      "shares": 98,
+      "profileVisits": 143,
+      "follows": 8
     },
     "ad": null
   },
@@ -2221,15 +2950,69 @@
     "permalink": "https://www.instagram.com/p/DZXFe6AD6Za/",
     "cover": "covers/18054896459740578.jpg",
     "organic": {
+      "views": 41105,
+      "likes": 45,
+      "comments": 0,
+      "saves": 245,
+      "shares": 116,
+      "profileVisits": 245,
+      "follows": 13
+    },
+    "ad": null
+  },
+  {
+    "id": "17944526646214879",
+    "date": "2026-06-09",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨]\n\n롯데 계열사 광고 회사,\n대홍기획에서 채용연계형 인턴 신입을 채용 중이에요!\n\n롯데와 함께 비전을 공유할 수 있는 유능한 인재를 모십니다!\n\n공고에 직무별 수행업무/직무역량/직무기술이 자세하게 나와 있으니,\n광고 회사에서 실무 경험을 쌓고 싶은 분들은 꼭 확인해 보세요!\n\n⏰ ~ 6월 15일(월) 23:00\n\n🔗자세한 공고 내용은 프로필 링크에서!\n�👇더 많은 취업·공고 컨텐츠는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/DZVRKSxDEcy/",
+    "cover": "covers/17944526646214879.jpg",
+    "organic": {
       "views": null,
       "likes": null,
       "comments": null,
-      "saves": null,
+      "saves": 0,
       "shares": null,
       "profileVisits": null,
       "follows": null
     },
-    "ad": null
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "대홍기획"
+      ],
+      "spend": 19434,
+      "impressions": 5897,
+      "profileVisits": 319,
+      "follows": null
+    }
+  },
+  {
+    "id": "17877290118608258",
+    "date": "2026-06-09",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨]\n\n취준생 선호도 1위 대행사,\n대학내일에서 인턴 채용 중이에요!\n\n특히 대학내일은 채용 공고를 꼼꼼히 보시면 좋아요!\n팀 소개부터 담당 업무, 리더의 한 마디, 동료의 한 마디, 하루 일과 등\n일반적인 채용 공고에서는 잘 보이지 않는 자세한 내용들이 적혀 있어요👀\n\nMZ세대 마케팅 에이전시에서 트렌디한 감각과 실무 경험을 쌓고 싶다면\n놓치지 말고 꼭 지원해 보세요!\n\n⏰ ~ 6월 15일(월) 15:00\n\n🔗자세한 공고 내용은 프로필 링크에서!\n�👇더 많은 취업·공고 컨텐츠는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/DZVQysPDJLr/",
+    "cover": "covers/17877290118608258.jpg",
+    "organic": {
+      "views": null,
+      "likes": null,
+      "comments": null,
+      "saves": 0,
+      "shares": null,
+      "profileVisits": null,
+      "follows": null
+    },
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "대학내일"
+      ],
+      "spend": 19512,
+      "impressions": 5174,
+      "profileVisits": 250,
+      "follows": null
+    }
   },
   {
     "id": "18080631755647375",
@@ -2239,13 +3022,13 @@
     "permalink": "https://www.instagram.com/p/DZU_wvGj_M4/",
     "cover": "covers/18080631755647375.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 31766,
+      "likes": 46,
+      "comments": 0,
+      "saves": 173,
+      "shares": 163,
+      "profileVisits": 196,
+      "follows": 14
     },
     "ad": null
   },
@@ -2257,13 +3040,13 @@
     "permalink": "https://www.instagram.com/p/DZUuZujjx55/",
     "cover": "covers/18081733739541722.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 52777,
+      "likes": 114,
+      "comments": 0,
+      "saves": 583,
+      "shares": 411,
+      "profileVisits": 869,
+      "follows": 136
     },
     "ad": null
   },
@@ -2275,13 +3058,13 @@
     "permalink": "https://www.instagram.com/p/DZSRIlZDxMR/",
     "cover": "covers/18086643755269205.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 18168,
+      "likes": 20,
+      "comments": 0,
+      "saves": 35,
+      "shares": 11,
+      "profileVisits": 90,
+      "follows": 3
     },
     "ad": null
   },
@@ -2293,13 +3076,13 @@
     "permalink": "https://www.instagram.com/p/DZPbgElD3jV/",
     "cover": "covers/17938553778252663.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 29483,
+      "likes": 69,
+      "comments": 0,
+      "saves": 344,
+      "shares": 152,
+      "profileVisits": 194,
+      "follows": 12
     },
     "ad": null
   },
@@ -2311,13 +3094,13 @@
     "permalink": "https://www.instagram.com/p/DZNY3ZYDwIg/",
     "cover": "covers/18019670291681196.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 36714,
+      "likes": 76,
+      "comments": 0,
+      "saves": 296,
+      "shares": 136,
+      "profileVisits": 192,
+      "follows": 9
     },
     "ad": null
   },
@@ -2329,13 +3112,13 @@
     "permalink": "https://www.instagram.com/p/DZKzRyTD-I2/",
     "cover": "covers/18103945130000664.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 34974,
+      "likes": 68,
+      "comments": 0,
+      "saves": 265,
+      "shares": 166,
+      "profileVisits": 264,
+      "follows": 21
     },
     "ad": null
   },
@@ -2347,13 +3130,13 @@
     "permalink": "https://www.instagram.com/p/DZIHIy3jwQw/",
     "cover": "covers/17965364319118705.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 35194,
+      "likes": 73,
+      "comments": 0,
+      "saves": 232,
+      "shares": 131,
+      "profileVisits": 186,
+      "follows": 4
     },
     "ad": null
   },
@@ -2365,13 +3148,13 @@
     "permalink": "https://www.instagram.com/p/DZC76MGj9Xx/",
     "cover": "covers/18076700996281009.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 20243,
+      "likes": 25,
+      "comments": 0,
+      "saves": 72,
+      "shares": 27,
+      "profileVisits": 66,
+      "follows": 0
     },
     "ad": null
   },
@@ -2383,13 +3166,13 @@
     "permalink": "https://www.instagram.com/p/DZCrk-7jz1x/",
     "cover": "covers/18182798143381076.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 34052,
+      "likes": 51,
+      "comments": 0,
+      "saves": 330,
+      "shares": 181,
+      "profileVisits": 203,
+      "follows": 12
     },
     "ad": null
   },
@@ -2401,13 +3184,13 @@
     "permalink": "https://www.instagram.com/p/DZAO2mKAa9X/",
     "cover": "covers/17981359185002231.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 24468,
+      "likes": 33,
+      "comments": 0,
+      "saves": 106,
+      "shares": 38,
+      "profileVisits": 108,
+      "follows": 1
     },
     "ad": null
   },
@@ -2419,13 +3202,13 @@
     "permalink": "https://www.instagram.com/p/DY9uWLrjznk/",
     "cover": "covers/18078508526220633.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 22569,
+      "likes": 19,
+      "comments": 0,
+      "saves": 99,
+      "shares": 21,
+      "profileVisits": 90,
+      "follows": 3
     },
     "ad": null
   },
@@ -2437,13 +3220,13 @@
     "permalink": "https://www.instagram.com/p/DY7DP6lDxTg/",
     "cover": "covers/17953616907155105.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 27220,
+      "likes": 33,
+      "comments": 0,
+      "saves": 168,
+      "shares": 106,
+      "profileVisits": 130,
+      "follows": 3
     },
     "ad": null
   },
@@ -2455,13 +3238,13 @@
     "permalink": "https://www.instagram.com/p/DY6ZniOj1td/",
     "cover": "covers/18098968817117202.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 42712,
+      "likes": 65,
+      "comments": 0,
+      "saves": 398,
+      "shares": 191,
+      "profileVisits": 340,
+      "follows": 28
     },
     "ad": null
   },
@@ -2473,15 +3256,42 @@
     "permalink": "https://www.instagram.com/p/DY6MDHAjxg2/",
     "cover": "covers/17944695606079697.jpg",
     "organic": {
+      "views": 42668,
+      "likes": 116,
+      "comments": 1,
+      "saves": 454,
+      "shares": 273,
+      "profileVisits": 683,
+      "follows": 81
+    },
+    "ad": null
+  },
+  {
+    "id": "17858168286640605",
+    "date": "2026-05-28",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨]\n\n토스 자회사에서\n콘텐츠 마케팅 인턴 떴다!\n\n오랜만에 나온 \n아이샵케어 콘텐츠 마케팅 공고!👀\n\n콘텐츠 마케팅 경험 쌓고 싶은 분들이라면 \n이번 공고 놓치지 말고 얼른 지원 고고🙌\n\n⏰ 채용 시 마감 (ASAP 지원 추천)\n\n🔗 자세한 공고 내용은 프로필 링크에서!\n\n👇 더 많은 취업·공고 콘텐츠는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/DY4lnRvDOeE/",
+    "cover": "covers/17858168286640605.jpg",
+    "organic": {
       "views": null,
       "likes": null,
       "comments": null,
-      "saves": null,
+      "saves": 0,
       "shares": null,
       "profileVisits": null,
       "follows": null
     },
-    "ad": null
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "아이샵케어콘마"
+      ],
+      "spend": 24904,
+      "impressions": 5975,
+      "profileVisits": 362,
+      "follows": null
+    }
   },
   {
     "id": "18100346173972512",
@@ -2491,13 +3301,13 @@
     "permalink": "https://www.instagram.com/p/DY4W1EyDwY-/",
     "cover": "covers/18100346173972512.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 27297,
+      "likes": 56,
+      "comments": 0,
+      "saves": 195,
+      "shares": 124,
+      "profileVisits": 178,
+      "follows": 14
     },
     "ad": null
   },
@@ -2509,15 +3319,42 @@
     "permalink": "https://www.instagram.com/p/DY2LZ1qD8he/",
     "cover": "covers/18118673932773560.jpg",
     "organic": {
+      "views": 24661,
+      "likes": 34,
+      "comments": 0,
+      "saves": 130,
+      "shares": 57,
+      "profileVisits": 107,
+      "follows": 4
+    },
+    "ad": null
+  },
+  {
+    "id": "18221620609318474",
+    "date": "2026-05-27",
+    "type": "캐러셀",
+    "caption": "모두닥에서 채용 운영/기획 인턴을 채용 중이에요!\n\n채용전환형 인턴 포지션에 월급 400만원?!🫢\n\n채용 운영을 넘어서\n전략 설계부터 실행까지 주도해볼 수 있는 기회이니\n전반적인 채용 운영과 기획 업무를 경험해보고 싶은 분들이라면\n자세한 공고 확인해 보세요!\n\n⏰ ~ 6월 30일(화) 23:59\n\n🔗자세한 공고 내용은 프로필 링크에서!\n�👇더 많은 취업·공고 컨텐츠는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/DY160CqjDzp/",
+    "cover": "covers/18221620609318474.jpg",
+    "organic": {
       "views": null,
       "likes": null,
       "comments": null,
-      "saves": null,
+      "saves": 0,
       "shares": null,
       "profileVisits": null,
       "follows": null
     },
-    "ad": null
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "모두닥 채용 운영/기획 인턴"
+      ],
+      "spend": 24954,
+      "impressions": 6378,
+      "profileVisits": 553,
+      "follows": null
+    }
   },
   {
     "id": "18094484201216493",
@@ -2527,13 +3364,13 @@
     "permalink": "https://www.instagram.com/p/DY1zuOqD5oB/",
     "cover": "covers/18094484201216493.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 28524,
+      "likes": 61,
+      "comments": 0,
+      "saves": 234,
+      "shares": 115,
+      "profileVisits": 144,
+      "follows": 9
     },
     "ad": null
   },
@@ -2545,13 +3382,13 @@
     "permalink": "https://www.instagram.com/p/DYzg-dZj5MV/",
     "cover": "covers/18050869601752075.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 57748,
+      "likes": 161,
+      "comments": 0,
+      "saves": 1066,
+      "shares": 620,
+      "profileVisits": 766,
+      "follows": 101
     },
     "ad": null
   },
@@ -2563,13 +3400,13 @@
     "permalink": "https://www.instagram.com/p/DYy8HOID_pR/",
     "cover": "covers/17885178270405731.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 35800,
+      "likes": 73,
+      "comments": 0,
+      "saves": 277,
+      "shares": 177,
+      "profileVisits": 242,
+      "follows": 15
     },
     "ad": null
   },
@@ -2581,13 +3418,13 @@
     "permalink": "https://www.instagram.com/p/DYxAucVj6qk/",
     "cover": "covers/17991621623966342.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 49687,
+      "likes": 103,
+      "comments": 1,
+      "saves": 514,
+      "shares": 279,
+      "profileVisits": 589,
+      "follows": 49
     },
     "ad": null
   },
@@ -2599,13 +3436,13 @@
     "permalink": "https://www.instagram.com/p/DYuWmdKj1PN/",
     "cover": "covers/17893440477469340.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 21963,
+      "likes": 15,
+      "comments": 0,
+      "saves": 68,
+      "shares": 16,
+      "profileVisits": 65,
+      "follows": 0
     },
     "ad": null
   },
@@ -2617,13 +3454,13 @@
     "permalink": "https://www.instagram.com/p/DYtNZy4D0Jz/",
     "cover": "covers/17932204119086219.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 74565,
+      "likes": 301,
+      "comments": 0,
+      "saves": 1130,
+      "shares": 702,
+      "profileVisits": 1634,
+      "follows": 280
     },
     "ad": null
   },
@@ -2635,13 +3472,13 @@
     "permalink": "https://www.instagram.com/p/DYrvK8CD4T5/",
     "cover": "covers/18136926064535239.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 28052,
+      "likes": 44,
+      "comments": 0,
+      "saves": 174,
+      "shares": 43,
+      "profileVisits": 108,
+      "follows": 3
     },
     "ad": null
   },
@@ -2653,13 +3490,13 @@
     "permalink": "https://www.instagram.com/p/DYpTGI_DwZQ/",
     "cover": "covers/17928823551298828.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 55732,
+      "likes": 133,
+      "comments": 0,
+      "saves": 579,
+      "shares": 354,
+      "profileVisits": 469,
+      "follows": 60
     },
     "ad": null
   },
@@ -2671,15 +3508,69 @@
     "permalink": "https://www.instagram.com/p/DYoeiQTj6D8/",
     "cover": "covers/18339533743173690.jpg",
     "organic": {
+      "views": 50609,
+      "likes": 60,
+      "comments": 0,
+      "saves": 270,
+      "shares": 288,
+      "profileVisits": 642,
+      "follows": 77
+    },
+    "ad": null
+  },
+  {
+    "id": "17961776805065216",
+    "date": "2026-05-21",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨]\n\n오뚜기 신입 공채 떴다!\n문과 채용 공고만 모았어요🙌\n\n오뚜기에서\n무려 총 12개 문과 직무 채용 중 입니다!🫢\n\n이렇게 다양한 직무가 한 번에 열릴 때가 흔치 않으니\n관심 있는 분들은 꼭 지원해보세요!\n\n⏰ ~ 5월 26일(화) 22:00\n\n🔗 자세한 공고 내용은 프로필 링크에서!\n\n👇 더 많은 취업·공고 콘텐츠는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/DYldlmEDGPH/",
+    "cover": "covers/17961776805065216.jpg",
+    "organic": {
       "views": null,
       "likes": null,
       "comments": null,
-      "saves": null,
+      "saves": 0,
       "shares": null,
       "profileVisits": null,
       "follows": null
     },
-    "ad": null
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "오뚜기"
+      ],
+      "spend": 39075,
+      "impressions": 15298,
+      "profileVisits": 1613,
+      "follows": null
+    }
+  },
+  {
+    "id": "18090138431525204",
+    "date": "2026-05-21",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨]\n\n글로벌 뷰티 시장 점유율 5위!\n외국계 뷰티 대기업 시세이도 코리아에서 인턴 채용 중이에요!\n\n마케팅부터 HR, HRD, 법무 분야까지 떴으니\n뷰티 기업 혹은 외국계 기업에서 경험 쌓고 싶은 분들이라면\n놓치지 말고 꼭 지원하세요!\n\n⏰ ~ 5월 27일(수) 23:59\n\n🔗자세한 공고 내용은 프로필 링크에서!\n�👇더 많은 취업·공고 컨텐츠는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/DYldlgyDHtl/",
+    "cover": "covers/18090138431525204.jpg",
+    "organic": {
+      "views": null,
+      "likes": null,
+      "comments": null,
+      "saves": 0,
+      "shares": null,
+      "profileVisits": null,
+      "follows": null
+    },
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "시세이도"
+      ],
+      "spend": 402,
+      "impressions": 153,
+      "profileVisits": 8,
+      "follows": null
+    }
   },
   {
     "id": "17888990781509871",
@@ -2689,13 +3580,13 @@
     "permalink": "https://www.instagram.com/p/DYlbd3Nj4fq/",
     "cover": "covers/17888990781509871.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 20217,
+      "likes": 20,
+      "comments": 0,
+      "saves": 49,
+      "shares": 24,
+      "profileVisits": 70,
+      "follows": 1
     },
     "ad": null
   },
@@ -2707,13 +3598,13 @@
     "permalink": "https://www.instagram.com/p/DYjepQ0j7fI/",
     "cover": "covers/17855555511662124.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 112877,
+      "likes": 299,
+      "comments": 0,
+      "saves": 990,
+      "shares": 1237,
+      "profileVisits": 1586,
+      "follows": 268
     },
     "ad": null
   },
@@ -2725,13 +3616,13 @@
     "permalink": "https://www.instagram.com/p/DYheHQ9j7mH/",
     "cover": "covers/18103397494799530.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 66696,
+      "likes": 176,
+      "comments": 0,
+      "saves": 836,
+      "shares": 536,
+      "profileVisits": 1129,
+      "follows": 192
     },
     "ad": null
   },
@@ -2743,13 +3634,13 @@
     "permalink": "https://www.instagram.com/p/DYelDBAj-Bn/",
     "cover": "covers/18113680381833365.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 24089,
+      "likes": 37,
+      "comments": 0,
+      "saves": 117,
+      "shares": 55,
+      "profileVisits": 141,
+      "follows": 7
     },
     "ad": null
   },
@@ -2761,15 +3652,42 @@
     "permalink": "https://www.instagram.com/p/DYdQxZYkwVZ/",
     "cover": "covers/17960144820120493.jpg",
     "organic": {
+      "views": 19954,
+      "likes": 18,
+      "comments": 0,
+      "saves": 55,
+      "shares": 16,
+      "profileVisits": 53,
+      "follows": 0
+    },
+    "ad": null
+  },
+  {
+    "id": "17969471012900786",
+    "date": "2026-05-17",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨]\n\n꿈이 이루어지는 곳, 월트디즈니코리아에서\n마케팅 인턴을 채용 중이에요!\n\n디즈니 마케팅팀에서\n디즈니+ 한국 콘텐츠의 크리에이티브 전략 수립과 실행을 지원하고\n핵심 마케팅 소재 제작 등 다양한 창의 업무를 담당해요.\n\n영어 활용 능력에 자신 있다면 꼭 지원해 보세요!\n\n⏰ ~ 5월 19일(화) 오후 12시\n마감까지 얼마 남지 않았으니 ASAP 지원하세요!\n\n🔗자세한 공고 내용은 프로필 링크에서!\n�👇더 많은 취업·공고 컨텐츠는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/DYb9EtIjJ96/",
+    "cover": "covers/17969471012900786.jpg",
+    "organic": {
       "views": null,
       "likes": null,
       "comments": null,
-      "saves": null,
+      "saves": 0,
       "shares": null,
       "profileVisits": null,
       "follows": null
     },
-    "ad": null
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "디즈니"
+      ],
+      "spend": 13427,
+      "impressions": 3830,
+      "profileVisits": 0,
+      "follows": null
+    }
   },
   {
     "id": "18136830430553790",
@@ -2779,13 +3697,13 @@
     "permalink": "https://www.instagram.com/p/DYZvSFhjyfA/",
     "cover": "covers/18136830430553790.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 25764,
+      "likes": 42,
+      "comments": 0,
+      "saves": 228,
+      "shares": 107,
+      "profileVisits": 231,
+      "follows": 21
     },
     "ad": null
   },
@@ -2797,15 +3715,69 @@
     "permalink": "https://www.instagram.com/p/DYZOpk2DyX0/",
     "cover": "covers/18045075992560751.jpg",
     "organic": {
+      "views": 24745,
+      "likes": 52,
+      "comments": 0,
+      "saves": 187,
+      "shares": 50,
+      "profileVisits": 131,
+      "follows": 1
+    },
+    "ad": null
+  },
+  {
+    "id": "18193845694366682",
+    "date": "2026-05-16",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨]\n\n대한항공 전환형 인턴 떴어요!✈️\n문과 직무 대규모 채용 중\n\n이번 인턴십은\n일경험 사업과 연계된 프로그램이에요!\n\n그만큼 지원 방식이 조금 다르기 때문에\n자격 요건이랑 지원 방법까지\n꼭 확인하고 지원해보세요 🙌\n\n⏰ ~5월 26일(화) 오후 11:59\n\n🔗 자세한 공고 내용은 프로필 링크에서!\n\n👇 더 많은 취업·공고 콘텐츠는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/DYXbC1oDHDK/",
+    "cover": "covers/18193845694366682.jpg",
+    "organic": {
       "views": null,
       "likes": null,
       "comments": null,
-      "saves": null,
+      "saves": 0,
       "shares": null,
       "profileVisits": null,
       "follows": null
     },
-    "ad": null
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "대한항공"
+      ],
+      "spend": 22705,
+      "impressions": 8071,
+      "profileVisits": 683,
+      "follows": null
+    }
+  },
+  {
+    "id": "18056377994539564",
+    "date": "2026-05-16",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨]\n\nSM 엔터테인먼트에서\n마케팅 인턴/신입 채용 중이에요!\n\n인턴/신입/경력 모두 채용 중이니\n엔터 산업이나 팬 문화에 관심 있는 분들은\n놓치지 말고 꼭 지원해 보세요!\n\n⏰ ~ 5월 26일(화) 23:59\n\n🔗자세한 공고 내용은 프로필 링크에서!\n�👇더 많은 취업·공고 컨텐츠는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/DYXbCsSDAij/",
+    "cover": "covers/18056377994539564.jpg",
+    "organic": {
+      "views": null,
+      "likes": null,
+      "comments": null,
+      "saves": 0,
+      "shares": null,
+      "profileVisits": null,
+      "follows": null
+    },
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "sm엔터"
+      ],
+      "spend": 1804,
+      "impressions": 513,
+      "profileVisits": 56,
+      "follows": null
+    }
   },
   {
     "id": "17955010661964067",
@@ -2815,13 +3787,13 @@
     "permalink": "https://www.instagram.com/p/DYXN9LRDze3/",
     "cover": "covers/17955010661964067.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 141845,
+      "likes": 992,
+      "comments": 4,
+      "saves": 2361,
+      "shares": 2253,
+      "profileVisits": 5093,
+      "follows": 959
     },
     "ad": null
   },
@@ -2833,15 +3805,69 @@
     "permalink": "https://www.instagram.com/p/DYWFChFDwXd/",
     "cover": "covers/17914111602385492.jpg",
     "organic": {
+      "views": 187859,
+      "likes": 477,
+      "comments": 0,
+      "saves": 1888,
+      "shares": 8230,
+      "profileVisits": 3278,
+      "follows": 614
+    },
+    "ad": null
+  },
+  {
+    "id": "18000979928924031",
+    "date": "2026-05-15",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨] \n\n당근마켓에서🥕 \n홍보팀 인턴 채용 중이에요!\n\n이번 채용은 \n직무도 2가지 분야로 나뉘어 모집 중인데요👀\n\n1️⃣ 언론·콘텐츠 중심의 커뮤니케이션팀 \n2️⃣ 정책·이슈 대응 중심의 대외협력팀\n\nPR/홍보/정책 관련된 직무에 관심 있었던 분들이라면 \n직접 경험해볼 수 있는 좋은 기회예요!\n\n특히 인턴으로 자주 열리지 않는 직무인 만큼, \n관련 경험 쌓고 싶은 취준생분들은 지금 바로 지원 고고🔥\n\n⏰ ~ 5/24(일) 23:59 \n(채용 시 마감)\n\n🔗 자세한 공고 내용은 프로필 링크에서!\n\n👇 더 많은 취업·공고 콘텐츠는 \n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/DYUxqUjDIs7/",
+    "cover": "covers/18000979928924031.jpg",
+    "organic": {
       "views": null,
       "likes": null,
       "comments": null,
-      "saves": null,
+      "saves": 0,
       "shares": null,
       "profileVisits": null,
       "follows": null
     },
-    "ad": null
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "당근"
+      ],
+      "spend": 21876,
+      "impressions": 6590,
+      "profileVisits": 490,
+      "follows": null
+    }
+  },
+  {
+    "id": "18049665251751075",
+    "date": "2026-05-15",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨]\n\n카카오뱅크에서 콘텐츠 제작 어시스턴트 채용 중이에요!\n\n글쓰기를 좋아하거나 자신 있는 분들이라면\n놓치지 말아야 할 기회예요!\n\n콘텐츠 에디터, 기자단, 학보사 등 관련 경험이 있는 분을 우대하고 있으니\n해당되는 분들은 꼭 지원해 보세요!\n\n⏰ ~ 5월 22일(금) 23:59\n\n🔗자세한 공고 내용은 프로필 링크에서!\n�👇더 많은 취업·공고 컨텐츠는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/DYUxqO8DM75/",
+    "cover": "covers/18049665251751075.jpg",
+    "organic": {
+      "views": null,
+      "likes": null,
+      "comments": null,
+      "saves": 0,
+      "shares": null,
+      "profileVisits": null,
+      "follows": null
+    },
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "카카오뱅크"
+      ],
+      "spend": 2786,
+      "impressions": 767,
+      "profileVisits": 65,
+      "follows": null
+    }
   },
   {
     "id": "18295475395303306",
@@ -2851,13 +3877,13 @@
     "permalink": "https://www.instagram.com/p/DYUrvmPD_11/",
     "cover": "covers/18295475395303306.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 66252,
+      "likes": 326,
+      "comments": 0,
+      "saves": 829,
+      "shares": 1043,
+      "profileVisits": 1278,
+      "follows": 196
     },
     "ad": null
   },
@@ -2869,13 +3895,13 @@
     "permalink": "https://www.instagram.com/p/DYRtE-4jyg3/",
     "cover": "covers/18375200602202827.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 25348,
+      "likes": 31,
+      "comments": 0,
+      "saves": 120,
+      "shares": 79,
+      "profileVisits": 98,
+      "follows": 6
     },
     "ad": null
   },
@@ -2887,13 +3913,13 @@
     "permalink": "https://www.instagram.com/p/DYRUDX8jzQF/",
     "cover": "covers/18095178952935927.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 37828,
+      "likes": 128,
+      "comments": 0,
+      "saves": 476,
+      "shares": 247,
+      "profileVisits": 460,
+      "follows": 67
     },
     "ad": null
   },
@@ -2905,13 +3931,13 @@
     "permalink": "https://www.instagram.com/p/DYPYKqrDw7G/",
     "cover": "covers/18091827499986934.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 40231,
+      "likes": 169,
+      "comments": 0,
+      "saves": 517,
+      "shares": 314,
+      "profileVisits": 542,
+      "follows": 78
     },
     "ad": null
   },
@@ -2923,13 +3949,13 @@
     "permalink": "https://www.instagram.com/p/DYOsi7LD1tF/",
     "cover": "covers/18013210739696330.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 22445,
+      "likes": 29,
+      "comments": 0,
+      "saves": 125,
+      "shares": 44,
+      "profileVisits": 110,
+      "follows": 2
     },
     "ad": null
   },
@@ -2941,13 +3967,13 @@
     "permalink": "https://www.instagram.com/p/DYMT3czj7yn/",
     "cover": "covers/18109486597706454.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 25970,
+      "likes": 49,
+      "comments": 0,
+      "saves": 180,
+      "shares": 125,
+      "profileVisits": 171,
+      "follows": 17
     },
     "ad": null
   },
@@ -2959,13 +3985,13 @@
     "permalink": "https://www.instagram.com/p/DYHg9FRj5gh/",
     "cover": "covers/17994680372959540.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 39134,
+      "likes": 57,
+      "comments": 0,
+      "saves": 287,
+      "shares": 90,
+      "profileVisits": 166,
+      "follows": 15
     },
     "ad": null
   },
@@ -2977,13 +4003,13 @@
     "permalink": "https://www.instagram.com/p/DYCAi6Tjwf6/",
     "cover": "covers/18100336451001402.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 31002,
+      "likes": 40,
+      "comments": 0,
+      "saves": 130,
+      "shares": 75,
+      "profileVisits": 77,
+      "follows": 22
     },
     "ad": null
   },
@@ -2995,15 +4021,42 @@
     "permalink": "https://www.instagram.com/p/DX_-P2MD2sW/",
     "cover": "covers/18004243313873581.jpg",
     "organic": {
+      "views": 36170,
+      "likes": 88,
+      "comments": 0,
+      "saves": 318,
+      "shares": 269,
+      "profileVisits": 375,
+      "follows": 58
+    },
+    "ad": null
+  },
+  {
+    "id": "18103939723764968",
+    "date": "2026-05-05",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨]\n\n뷰티기업 가고 싶은 취준생들 주목‼️\n\n마스크팩 하나로 폭풍 성장한 바이오던스를 만든 기업,\n뷰티셀렉션에서 썸머 대규모 인턴을 채용 중이에요!\n\n고공성장 중인 K뷰티 기업에서\n실무를 경험해보고 싶은 분들이라면\n놓치지 말고 꼭 지원해 보세요!\n\n⏰ ~ 5월 17일(일) 23:59\n\n🔗자세한 공고 내용은 프로필 링크에서!\n�👇더 많은 취업·공고 컨텐츠는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/DX9MLinjNfF/",
+    "cover": "covers/18103939723764968.jpg",
+    "organic": {
       "views": null,
       "likes": null,
       "comments": null,
-      "saves": null,
+      "saves": 0,
       "shares": null,
       "profileVisits": null,
       "follows": null
     },
-    "ad": null
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "바이오던스 인턴"
+      ],
+      "spend": 20159,
+      "impressions": 5231,
+      "profileVisits": 316,
+      "follows": null
+    }
   },
   {
     "id": "17930122050261951",
@@ -3013,13 +4066,13 @@
     "permalink": "https://www.instagram.com/p/DX8ve-1D1ij/",
     "cover": "covers/17930122050261951.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 19381,
+      "likes": 49,
+      "comments": 0,
+      "saves": 147,
+      "shares": 79,
+      "profileVisits": 102,
+      "follows": 7
     },
     "ad": null
   },
@@ -3031,13 +4084,13 @@
     "permalink": "https://www.instagram.com/p/DX63ZGWD2IC/",
     "cover": "covers/18062347076700081.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 39833,
+      "likes": 90,
+      "comments": 0,
+      "saves": 462,
+      "shares": 298,
+      "profileVisits": 354,
+      "follows": 47
     },
     "ad": null
   },
@@ -3049,13 +4102,13 @@
     "permalink": "https://www.instagram.com/p/DX5QDm9EzWH/",
     "cover": "covers/18088559336342190.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 14177,
+      "likes": 14,
+      "comments": 0,
+      "saves": 45,
+      "shares": 6,
+      "profileVisits": 17,
+      "follows": 0
     },
     "ad": null
   },
@@ -3067,13 +4120,13 @@
     "permalink": "https://www.instagram.com/p/DXzK2dBD6Wk/",
     "cover": "covers/18097466879266368.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 21228,
+      "likes": 51,
+      "comments": 0,
+      "saves": 167,
+      "shares": 92,
+      "profileVisits": 115,
+      "follows": 11
     },
     "ad": null
   },
@@ -3085,15 +4138,69 @@
     "permalink": "https://www.instagram.com/p/DXwW-DyD8v_/",
     "cover": "covers/18089010896196683.jpg",
     "organic": {
+      "views": 33829,
+      "likes": 56,
+      "comments": 0,
+      "saves": 194,
+      "shares": 57,
+      "profileVisits": 93,
+      "follows": 10
+    },
+    "ad": null
+  },
+  {
+    "id": "18077467859190486",
+    "date": "2026-04-30",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨]\n\n카카오에서 어시스턴트 채용 중이에요!\n\n마케팅부터 운영지원, 서비스 등\n문과 직무 공고 모아왔어요!\n\n해당 직무 준비 중인 분들이라면\n카카오에서 경험 쌓을 수 있는 기회이니\n놓치지 말고 ASAP 지원해 보세요!\n\n⏰ 채용 시 마감\n\n🔗자세한 공고 내용은 프로필 링크에서!\n�👇더 많은 취업·공고 컨텐츠는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/DXwL5vCjAMR/",
+    "cover": "covers/18077467859190486.jpg",
+    "organic": {
       "views": null,
       "likes": null,
       "comments": null,
-      "saves": null,
+      "saves": 0,
       "shares": null,
       "profileVisits": null,
       "follows": null
     },
-    "ad": null
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "카카오 어시스턴트"
+      ],
+      "spend": 1156,
+      "impressions": 327,
+      "profileVisits": 23,
+      "follows": null
+    }
+  },
+  {
+    "id": "18184400773338519",
+    "date": "2026-04-30",
+    "type": "캐러셀",
+    "caption": "[오늘의 공고 속보🚨]\n\nSK 계열사에서 HRD/조직문화 인턴 채용 중이에요!\n\n대기업 계열사에서 HR 경험을 쌓을 수 있을 뿐만 아니라,\n채용연계형 포지션으로 열렸어요!\n\n교육/조직문화/커뮤니케이션 관련 프로젝트 경험을 우대하고 있으니\nHR 직무 준비 중이라면 꼭 지원해 보시기를 추천드려요!\n\n⏰ ~ 5월 10일(일) 23:59\n\n🔗자세한 공고 내용은 프로필 링크에서!\n�👇더 많은 취업·공고 컨텐츠는\n@letscareer.job",
+    "permalink": "https://www.instagram.com/p/DXwLvm2DDM5/",
+    "cover": "covers/18184400773338519.jpg",
+    "organic": {
+      "views": null,
+      "likes": null,
+      "comments": null,
+      "saves": 0,
+      "shares": null,
+      "profileVisits": null,
+      "follows": null
+    },
+    "ad": {
+      "adCount": 1,
+      "adNames": [
+        "SK 계열사 공고"
+      ],
+      "spend": 43358,
+      "impressions": 13156,
+      "profileVisits": 902,
+      "follows": null
+    }
   },
   {
     "id": "18139956715519198",
@@ -3103,13 +4210,13 @@
     "permalink": "https://www.instagram.com/p/DXtLYTkjwUk/",
     "cover": "covers/18139956715519198.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 19009,
+      "likes": 29,
+      "comments": 0,
+      "saves": 153,
+      "shares": 63,
+      "profileVisits": 113,
+      "follows": 6
     },
     "ad": null
   },
@@ -3121,13 +4228,13 @@
     "permalink": "https://www.instagram.com/p/DXrPuFjjwbM/",
     "cover": "covers/17882751234405416.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 31748,
+      "likes": 53,
+      "comments": 0,
+      "saves": 264,
+      "shares": 208,
+      "profileVisits": 434,
+      "follows": 49
     },
     "ad": null
   },
@@ -3139,13 +4246,13 @@
     "permalink": "https://www.instagram.com/p/DXo2UNND7Rj/",
     "cover": "covers/17996734406943586.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 46961,
+      "likes": 165,
+      "comments": 0,
+      "saves": 691,
+      "shares": 452,
+      "profileVisits": 671,
+      "follows": 113
     },
     "ad": null
   },
@@ -3157,13 +4264,13 @@
     "permalink": "https://www.instagram.com/p/DXnv5mEDyNz/",
     "cover": "covers/18361436974224926.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 16784,
+      "likes": 30,
+      "comments": 0,
+      "saves": 106,
+      "shares": 21,
+      "profileVisits": 38,
+      "follows": 1
     },
     "ad": null
   },
@@ -3175,13 +4282,13 @@
     "permalink": "https://www.instagram.com/p/DXlemTGD_uv/",
     "cover": "covers/17946014636998973.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 12227,
+      "likes": 20,
+      "comments": 0,
+      "saves": 53,
+      "shares": 11,
+      "profileVisits": 37,
+      "follows": 0
     },
     "ad": null
   },
@@ -3193,13 +4300,13 @@
     "permalink": "https://www.instagram.com/p/DXjhd2FD_co/",
     "cover": "covers/18423269917122060.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 23545,
+      "likes": 19,
+      "comments": 0,
+      "saves": 64,
+      "shares": 21,
+      "profileVisits": 41,
+      "follows": 4
     },
     "ad": null
   },
@@ -3211,13 +4318,13 @@
     "permalink": "https://www.instagram.com/p/DXg2bjOD8yB/",
     "cover": "covers/18019108082664914.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 17499,
+      "likes": 26,
+      "comments": 0,
+      "saves": 99,
+      "shares": 34,
+      "profileVisits": 105,
+      "follows": 4
     },
     "ad": null
   },
@@ -3229,13 +4336,13 @@
     "permalink": "https://www.instagram.com/p/DXefC4fD-4U/",
     "cover": "covers/18197938273359289.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 40845,
+      "likes": 170,
+      "comments": 0,
+      "saves": 839,
+      "shares": 464,
+      "profileVisits": 1004,
+      "follows": 197
     },
     "ad": null
   },
@@ -3247,13 +4354,13 @@
     "permalink": "https://www.instagram.com/p/DXb9VwcD67i/",
     "cover": "covers/18114216229683794.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 11046,
+      "likes": 7,
+      "comments": 0,
+      "saves": 21,
+      "shares": 8,
+      "profileVisits": 35,
+      "follows": 0
     },
     "ad": null
   },
@@ -3265,13 +4372,13 @@
     "permalink": "https://www.instagram.com/p/DXZVwLOD4le/",
     "cover": "covers/18046271225736576.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 16227,
+      "likes": 29,
+      "comments": 0,
+      "saves": 125,
+      "shares": 59,
+      "profileVisits": 115,
+      "follows": 4
     },
     "ad": null
   },
@@ -3283,13 +4390,13 @@
     "permalink": "https://www.instagram.com/p/DXYT7bMjxrL/",
     "cover": "covers/18166146823424188.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 17157,
+      "likes": 56,
+      "comments": 0,
+      "saves": 155,
+      "shares": 38,
+      "profileVisits": 168,
+      "follows": 12
     },
     "ad": null
   },
@@ -3301,13 +4408,13 @@
     "permalink": "https://www.instagram.com/p/DXRi57aD7l2/",
     "cover": "covers/17852581386662876.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 30667,
+      "likes": 38,
+      "comments": 0,
+      "saves": 208,
+      "shares": 50,
+      "profileVisits": 96,
+      "follows": 17
     },
     "ad": null
   },
@@ -3319,13 +4426,13 @@
     "permalink": "https://www.instagram.com/p/DXO4r7ejwV4/",
     "cover": "covers/18159635350441547.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 22825,
+      "likes": 31,
+      "comments": 0,
+      "saves": 87,
+      "shares": 28,
+      "profileVisits": 53,
+      "follows": 3
     },
     "ad": null
   },
@@ -3337,13 +4444,13 @@
     "permalink": "https://www.instagram.com/p/DXOCsyPj1Yl/",
     "cover": "covers/18092922622935926.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 19061,
+      "likes": 44,
+      "comments": 0,
+      "saves": 109,
+      "shares": 40,
+      "profileVisits": 100,
+      "follows": 0
     },
     "ad": null
   },
@@ -3355,13 +4462,13 @@
     "permalink": "https://www.instagram.com/p/DXLUa-Qj6D9/",
     "cover": "covers/18107643934862133.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 81732,
+      "likes": 439,
+      "comments": 0,
+      "saves": 590,
+      "shares": 1061,
+      "profileVisits": 585,
+      "follows": 106
     },
     "ad": null
   },
@@ -3373,13 +4480,13 @@
     "permalink": "https://www.instagram.com/p/DXJoyP8j_iG/",
     "cover": "covers/17917492851143737.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 21592,
+      "likes": 27,
+      "comments": 0,
+      "saves": 173,
+      "shares": 79,
+      "profileVisits": 184,
+      "follows": 11
     },
     "ad": null
   },
@@ -3391,13 +4498,13 @@
     "permalink": "https://www.instagram.com/p/DXG_eAUj4kf/",
     "cover": "covers/18129056095571670.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 13860,
+      "likes": 7,
+      "comments": 0,
+      "saves": 44,
+      "shares": 19,
+      "profileVisits": 52,
+      "follows": 2
     },
     "ad": null
   },
@@ -3409,13 +4516,13 @@
     "permalink": "https://www.instagram.com/p/DXEx3J7jxk3/",
     "cover": "covers/17993161943940371.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 19510,
+      "likes": 32,
+      "comments": 0,
+      "saves": 142,
+      "shares": 47,
+      "profileVisits": 114,
+      "follows": 4
     },
     "ad": null
   },
@@ -3427,13 +4534,13 @@
     "permalink": "https://www.instagram.com/p/DXB_TrJD5TB/",
     "cover": "covers/18099878155812169.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 14875,
+      "likes": 14,
+      "comments": 0,
+      "saves": 42,
+      "shares": 11,
+      "profileVisits": 37,
+      "follows": 1
     },
     "ad": null
   },
@@ -3445,13 +4552,13 @@
     "permalink": "https://www.instagram.com/p/DXBSsQ9j7ha/",
     "cover": "covers/17875085559578647.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 21864,
+      "likes": 60,
+      "comments": 2,
+      "saves": 112,
+      "shares": 18,
+      "profileVisits": 65,
+      "follows": 5
     },
     "ad": null
   },
@@ -3463,13 +4570,13 @@
     "permalink": "https://www.instagram.com/p/DW-k0xbj4Nf/",
     "cover": "covers/18262922980288158.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 20532,
+      "likes": 59,
+      "comments": 0,
+      "saves": 208,
+      "shares": 79,
+      "profileVisits": 229,
+      "follows": 14
     },
     "ad": null
   },
@@ -3481,13 +4588,13 @@
     "permalink": "https://www.instagram.com/p/DW8_AjHDyRl/",
     "cover": "covers/18386949049080046.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 20638,
+      "likes": 50,
+      "comments": 0,
+      "saves": 194,
+      "shares": 66,
+      "profileVisits": 236,
+      "follows": 20
     },
     "ad": null
   },
@@ -3499,13 +4606,13 @@
     "permalink": "https://www.instagram.com/p/DW6J6JzD2zr/",
     "cover": "covers/18369858565160427.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 16518,
+      "likes": 34,
+      "comments": 0,
+      "saves": 79,
+      "shares": 12,
+      "profileVisits": 28,
+      "follows": 0
     },
     "ad": null
   },
@@ -3517,13 +4624,13 @@
     "permalink": "https://www.instagram.com/p/DW37m0ejxF0/",
     "cover": "covers/18079237922114200.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 19043,
+      "likes": 77,
+      "comments": 0,
+      "saves": 344,
+      "shares": 83,
+      "profileVisits": 79,
+      "follows": 6
     },
     "ad": null
   },
@@ -3535,13 +4642,13 @@
     "permalink": "https://www.instagram.com/p/DWyc07wj5Cz/",
     "cover": "covers/17911031154364995.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 24986,
+      "likes": 78,
+      "comments": 0,
+      "saves": 208,
+      "shares": 96,
+      "profileVisits": 138,
+      "follows": 5
     },
     "ad": null
   },
@@ -3553,13 +4660,13 @@
     "permalink": "https://www.instagram.com/p/DWuxvz_D68Z/",
     "cover": "covers/17976042047848702.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 21450,
+      "likes": 42,
+      "comments": 0,
+      "saves": 165,
+      "shares": 70,
+      "profileVisits": 130,
+      "follows": 10
     },
     "ad": null
   },
@@ -3571,13 +4678,13 @@
     "permalink": "https://www.instagram.com/p/DWojyKfD0Fz/",
     "cover": "covers/18002844818730352.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 124574,
+      "likes": 450,
+      "comments": 1,
+      "saves": 1913,
+      "shares": 1808,
+      "profileVisits": 3873,
+      "follows": 850
     },
     "ad": null
   },
@@ -3589,13 +4696,13 @@
     "permalink": "https://www.instagram.com/p/DWlla8uD5B-/",
     "cover": "covers/17927282052253008.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 18747,
+      "likes": 19,
+      "comments": 0,
+      "saves": 54,
+      "shares": 12,
+      "profileVisits": 50,
+      "follows": 1
     },
     "ad": null
   },
@@ -3607,13 +4714,13 @@
     "permalink": "https://www.instagram.com/p/DWi6GOLj4EN/",
     "cover": "covers/18462800554096124.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 78892,
+      "likes": 324,
+      "comments": 1,
+      "saves": 757,
+      "shares": 1533,
+      "profileVisits": 2483,
+      "follows": 520
     },
     "ad": null
   },
@@ -3625,13 +4732,13 @@
     "permalink": "https://www.instagram.com/p/DWgxqt_j3Vo/",
     "cover": "covers/18080059058436205.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 34453,
+      "likes": 46,
+      "comments": 0,
+      "saves": 247,
+      "shares": 80,
+      "profileVisits": 260,
+      "follows": 18
     },
     "ad": null
   },
@@ -3643,13 +4750,13 @@
     "permalink": "https://www.instagram.com/p/DWeVQwUj6Iy/",
     "cover": "covers/17985777761970573.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 16504,
+      "likes": 30,
+      "comments": 0,
+      "saves": 66,
+      "shares": 8,
+      "profileVisits": 47,
+      "follows": 2
     },
     "ad": null
   },
@@ -3661,13 +4768,13 @@
     "permalink": "https://www.instagram.com/p/DWbgldXj45r/",
     "cover": "covers/18524224621072534.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 19210,
+      "likes": 27,
+      "comments": 0,
+      "saves": 105,
+      "shares": 18,
+      "profileVisits": 76,
+      "follows": 2
     },
     "ad": null
   },
@@ -3679,13 +4786,13 @@
     "permalink": "https://www.instagram.com/p/DWY2WhAjzGs/",
     "cover": "covers/18102927367925179.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 28304,
+      "likes": 75,
+      "comments": 0,
+      "saves": 272,
+      "shares": 174,
+      "profileVisits": 216,
+      "follows": 18
     },
     "ad": null
   },
@@ -3697,13 +4804,13 @@
     "permalink": "https://www.instagram.com/p/DWWQHwXj6wJ/",
     "cover": "covers/17875625619434674.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 15419,
+      "likes": 17,
+      "comments": 0,
+      "saves": 51,
+      "shares": 17,
+      "profileVisits": 84,
+      "follows": 1
     },
     "ad": null
   },
@@ -3715,13 +4822,13 @@
     "permalink": "https://www.instagram.com/p/DWVeWVEj3ja/",
     "cover": "covers/17898494928265212.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 12515,
+      "likes": 21,
+      "comments": 0,
+      "saves": 28,
+      "shares": 12,
+      "profileVisits": 142,
+      "follows": 3
     },
     "ad": null
   },
@@ -3733,13 +4840,13 @@
     "permalink": "https://www.instagram.com/p/DWUyIOKk8NH/",
     "cover": "covers/18083876363036542.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 10365,
+      "likes": 16,
+      "comments": 0,
+      "saves": 37,
+      "shares": 7,
+      "profileVisits": 32,
+      "follows": 2
     },
     "ad": null
   },
@@ -3751,13 +4858,13 @@
     "permalink": "https://www.instagram.com/p/DWSs6XnD4ku/",
     "cover": "covers/18161034880424153.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 22940,
+      "likes": 46,
+      "comments": 0,
+      "saves": 195,
+      "shares": 135,
+      "profileVisits": 227,
+      "follows": 25
     },
     "ad": null
   },
@@ -3769,13 +4876,13 @@
     "permalink": "https://www.instagram.com/p/DWRVY2Pjw1I/",
     "cover": "covers/18110401192756136.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 28872,
+      "likes": 93,
+      "comments": 0,
+      "saves": 365,
+      "shares": 181,
+      "profileVisits": 440,
+      "follows": 62
     },
     "ad": null
   },
@@ -3787,13 +4894,13 @@
     "permalink": "https://www.instagram.com/p/DWOycqGjxaO/",
     "cover": "covers/18075387242395205.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 18391,
+      "likes": 30,
+      "comments": 0,
+      "saves": 111,
+      "shares": 55,
+      "profileVisits": 182,
+      "follows": 7
     },
     "ad": null
   },
@@ -3805,13 +4912,13 @@
     "permalink": "https://www.instagram.com/p/DWL2h1dj1ZC/",
     "cover": "covers/18084225170360744.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 28803,
+      "likes": 104,
+      "comments": 0,
+      "saves": 973,
+      "shares": 344,
+      "profileVisits": 397,
+      "follows": 48
     },
     "ad": null
   },
@@ -3823,13 +4930,13 @@
     "permalink": "https://www.instagram.com/p/DWLduyyj6Vz/",
     "cover": "covers/18161381053427029.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 16384,
+      "likes": 35,
+      "comments": 0,
+      "saves": 79,
+      "shares": 37,
+      "profileVisits": 84,
+      "follows": 3
     },
     "ad": null
   },
@@ -3841,13 +4948,13 @@
     "permalink": "https://www.instagram.com/p/DWK3eFmj5Um/",
     "cover": "covers/17932426647206740.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 17407,
+      "likes": 29,
+      "comments": 0,
+      "saves": 94,
+      "shares": 32,
+      "profileVisits": 91,
+      "follows": 3
     },
     "ad": null
   },
@@ -3859,13 +4966,13 @@
     "permalink": "https://www.instagram.com/p/DWJac7wD1Yg/",
     "cover": "covers/18083178731357451.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 24097,
+      "likes": 62,
+      "comments": 0,
+      "saves": 244,
+      "shares": 89,
+      "profileVisits": 163,
+      "follows": 15
     },
     "ad": null
   },
@@ -3877,13 +4984,13 @@
     "permalink": "https://www.instagram.com/p/DWGzkj-j5zn/",
     "cover": "covers/18575612110048373.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 19234,
+      "likes": 51,
+      "comments": 0,
+      "saves": 132,
+      "shares": 60,
+      "profileVisits": 120,
+      "follows": 3
     },
     "ad": null
   },
@@ -3895,13 +5002,13 @@
     "permalink": "https://www.instagram.com/p/DWGfWnxD0sU/",
     "cover": "covers/17986470053964189.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 24956,
+      "likes": 102,
+      "comments": 0,
+      "saves": 786,
+      "shares": 310,
+      "profileVisits": 336,
+      "follows": 46
     },
     "ad": null
   },
@@ -3913,13 +5020,13 @@
     "permalink": "https://www.instagram.com/p/DWDztrOD0nV/",
     "cover": "covers/17870361144577302.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 24005,
+      "likes": 65,
+      "comments": 0,
+      "saves": 217,
+      "shares": 134,
+      "profileVisits": 304,
+      "follows": 14
     },
     "ad": null
   },
@@ -3931,13 +5038,13 @@
     "permalink": "https://www.instagram.com/p/DWBEjCyj8Za/",
     "cover": "covers/18082880777340125.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 202911,
+      "likes": 980,
+      "comments": 2,
+      "saves": 4046,
+      "shares": 3472,
+      "profileVisits": 1759,
+      "follows": 585
     },
     "ad": null
   },
@@ -3949,13 +5056,13 @@
     "permalink": "https://www.instagram.com/p/DV_A_MzD7P-/",
     "cover": "covers/18074458247395764.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 46326,
+      "likes": 133,
+      "comments": 2,
+      "saves": 538,
+      "shares": 462,
+      "profileVisits": 355,
+      "follows": 45
     },
     "ad": null
   },
@@ -3967,13 +5074,13 @@
     "permalink": "https://www.instagram.com/p/DV8u859j1XB/",
     "cover": "covers/18114725929653201.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 23610,
+      "likes": 65,
+      "comments": 0,
+      "saves": 200,
+      "shares": 198,
+      "profileVisits": 201,
+      "follows": 19
     },
     "ad": null
   },
@@ -3985,13 +5092,13 @@
     "permalink": "https://www.instagram.com/p/DV8ueAjDwNH/",
     "cover": "covers/18571424869017017.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 42381,
+      "likes": 103,
+      "comments": 0,
+      "saves": 474,
+      "shares": 348,
+      "profileVisits": 401,
+      "follows": 85
     },
     "ad": null
   },
@@ -4003,13 +5110,13 @@
     "permalink": "https://www.instagram.com/p/DV6R6CKD4vU/",
     "cover": "covers/18156635626440111.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 17563,
+      "likes": 26,
+      "comments": 0,
+      "saves": 141,
+      "shares": 46,
+      "profileVisits": 103,
+      "follows": 3
     },
     "ad": null
   },
@@ -4021,13 +5128,13 @@
     "permalink": "https://www.instagram.com/p/DV5rCfJj3du/",
     "cover": "covers/18203432248327894.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 17022,
+      "likes": 31,
+      "comments": 0,
+      "saves": 80,
+      "shares": 41,
+      "profileVisits": 54,
+      "follows": 0
     },
     "ad": null
   },
@@ -4039,13 +5146,13 @@
     "permalink": "https://www.instagram.com/p/DV3iOcRjxNb/",
     "cover": "covers/18117208786619978.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 37297,
+      "likes": 123,
+      "comments": 0,
+      "saves": 439,
+      "shares": 226,
+      "profileVisits": 609,
+      "follows": 97
     },
     "ad": null
   },
@@ -4057,13 +5164,13 @@
     "permalink": "https://www.instagram.com/p/DV0nnGwj8LJ/",
     "cover": "covers/18022688975806086.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 12801,
+      "likes": 13,
+      "comments": 0,
+      "saves": 27,
+      "shares": 4,
+      "profileVisits": 33,
+      "follows": 0
     },
     "ad": null
   },
@@ -4075,13 +5182,13 @@
     "permalink": "https://www.instagram.com/p/DVz-y2GD-td/",
     "cover": "covers/18087932003225264.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 25423,
+      "likes": 75,
+      "comments": 0,
+      "saves": 257,
+      "shares": 105,
+      "profileVisits": 223,
+      "follows": 22
     },
     "ad": null
   },
@@ -4093,13 +5200,13 @@
     "permalink": "https://www.instagram.com/p/DVvrI6-j02w/",
     "cover": "covers/18021757748809444.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 20321,
+      "likes": 45,
+      "comments": 0,
+      "saves": 371,
+      "shares": 114,
+      "profileVisits": 126,
+      "follows": 9
     },
     "ad": null
   },
@@ -4111,13 +5218,13 @@
     "permalink": "https://www.instagram.com/p/DVtJ932j-M7/",
     "cover": "covers/18157986265425191.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 27210,
+      "likes": 107,
+      "comments": 0,
+      "saves": 188,
+      "shares": 290,
+      "profileVisits": 136,
+      "follows": 28
     },
     "ad": null
   },
@@ -4129,13 +5236,13 @@
     "permalink": "https://www.instagram.com/p/DVs8LG9j1it/",
     "cover": "covers/18100779565914852.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 26033,
+      "likes": 107,
+      "comments": 0,
+      "saves": 495,
+      "shares": 343,
+      "profileVisits": 1002,
+      "follows": 138
     },
     "ad": null
   },
@@ -4147,13 +5254,13 @@
     "permalink": "https://www.instagram.com/p/DVs6u_lj-Fz/",
     "cover": "covers/18092059955119311.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 49090,
+      "likes": 146,
+      "comments": 2,
+      "saves": 335,
+      "shares": 260,
+      "profileVisits": 135,
+      "follows": 32
     },
     "ad": null
   },
@@ -4165,13 +5272,13 @@
     "permalink": "https://www.instagram.com/p/DVq2xiWDxLL/",
     "cover": "covers/18067767194277480.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 15656,
+      "likes": 37,
+      "comments": 0,
+      "saves": 113,
+      "shares": 23,
+      "profileVisits": 69,
+      "follows": 0
     },
     "ad": null
   },
@@ -4183,13 +5290,13 @@
     "permalink": "https://www.instagram.com/p/DVoA3smDxuT/",
     "cover": "covers/18089721434173009.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 21194,
+      "likes": 68,
+      "comments": 0,
+      "saves": 136,
+      "shares": 45,
+      "profileVisits": 118,
+      "follows": 0
     },
     "ad": null
   },
@@ -4201,13 +5308,13 @@
     "permalink": "https://www.instagram.com/p/DVlG8kGj8sW/",
     "cover": "covers/18088808225272187.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 23450,
+      "likes": 87,
+      "comments": 0,
+      "saves": 223,
+      "shares": 82,
+      "profileVisits": 230,
+      "follows": 9
     },
     "ad": null
   },
@@ -4219,13 +5326,13 @@
     "permalink": "https://www.instagram.com/p/DVi9CczD8KZ/",
     "cover": "covers/18154551154432155.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 18976,
+      "likes": 38,
+      "comments": 0,
+      "saves": 206,
+      "shares": 52,
+      "profileVisits": 64,
+      "follows": 1
     },
     "ad": null
   },
@@ -4237,13 +5344,13 @@
     "permalink": "https://www.instagram.com/p/DViwjp5Dz4S/",
     "cover": "covers/18095784968476116.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 30054,
+      "likes": 91,
+      "comments": 0,
+      "saves": 413,
+      "shares": 187,
+      "profileVisits": 155,
+      "follows": 14
     },
     "ad": null
   },
@@ -4255,13 +5362,13 @@
     "permalink": "https://www.instagram.com/p/DVgTIxtDz58/",
     "cover": "covers/17843897226693577.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 51671,
+      "likes": 353,
+      "comments": 1,
+      "saves": 598,
+      "shares": 809,
+      "profileVisits": 2506,
+      "follows": 391
     },
     "ad": null
   },
@@ -4273,13 +5380,13 @@
     "permalink": "https://www.instagram.com/p/DVfKM--j3lU/",
     "cover": "covers/17966979932882399.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 14167,
+      "likes": 18,
+      "comments": 0,
+      "saves": 35,
+      "shares": 9,
+      "profileVisits": 43,
+      "follows": 0
     },
     "ad": null
   },
@@ -4291,13 +5398,13 @@
     "permalink": "https://www.instagram.com/p/DVcx8IfjzTh/",
     "cover": "covers/18097640824757120.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 55264,
+      "likes": 142,
+      "comments": 0,
+      "saves": 689,
+      "shares": 402,
+      "profileVisits": 303,
+      "follows": 91
     },
     "ad": null
   },
@@ -4309,13 +5416,13 @@
     "permalink": "https://www.instagram.com/p/DVYGBLAjzNv/",
     "cover": "covers/18366079891163112.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 19169,
+      "likes": 68,
+      "comments": 0,
+      "saves": 86,
+      "shares": 117,
+      "profileVisits": 242,
+      "follows": 9
     },
     "ad": null
   },
@@ -4327,13 +5434,13 @@
     "permalink": "https://www.instagram.com/p/DVV2PR2j5xL/",
     "cover": "covers/18069545420234521.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 22844,
+      "likes": 78,
+      "comments": 0,
+      "saves": 253,
+      "shares": 129,
+      "profileVisits": 437,
+      "follows": 33
     },
     "ad": null
   },
@@ -4345,13 +5452,13 @@
     "permalink": "https://www.instagram.com/p/DVTov2mj2y4/",
     "cover": "covers/17876295645529872.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 19816,
+      "likes": 41,
+      "comments": 0,
+      "saves": 107,
+      "shares": 29,
+      "profileVisits": 100,
+      "follows": 1
     },
     "ad": null
   },
@@ -4363,13 +5470,13 @@
     "permalink": "https://www.instagram.com/p/DVSEkAWj6FH/",
     "cover": "covers/17916636162126189.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 17735,
+      "likes": 54,
+      "comments": 0,
+      "saves": 122,
+      "shares": 61,
+      "profileVisits": 181,
+      "follows": 20
     },
     "ad": null
   },
@@ -4381,13 +5488,13 @@
     "permalink": "https://www.instagram.com/p/DVQzTlOj_BS/",
     "cover": "covers/18134800432508453.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 32376,
+      "likes": 113,
+      "comments": 1,
+      "saves": 481,
+      "shares": 259,
+      "profileVisits": 332,
+      "follows": 41
     },
     "ad": null
   },
@@ -4399,13 +5506,13 @@
     "permalink": "https://www.instagram.com/p/DVL1bRzDxmg/",
     "cover": "covers/18110703328735373.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 14818,
+      "likes": 29,
+      "comments": 0,
+      "saves": 54,
+      "shares": 27,
+      "profileVisits": 80,
+      "follows": 1
     },
     "ad": null
   },
@@ -4417,13 +5524,13 @@
     "permalink": "https://www.instagram.com/p/DVLlVp6Dysp/",
     "cover": "covers/18033269789787304.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 22463,
+      "likes": 59,
+      "comments": 0,
+      "saves": 269,
+      "shares": 122,
+      "profileVisits": 285,
+      "follows": 24
     },
     "ad": null
   },
@@ -4435,13 +5542,13 @@
     "permalink": "https://www.instagram.com/p/DVJKbFDj7Dj/",
     "cover": "covers/17986583795785915.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 10822,
+      "likes": 12,
+      "comments": 0,
+      "saves": 12,
+      "shares": 10,
+      "profileVisits": 49,
+      "follows": 0
     },
     "ad": null
   },
@@ -4453,13 +5560,13 @@
     "permalink": "https://www.instagram.com/p/DVGRkgfjrIt/",
     "cover": "covers/17845358949680526.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 15150,
+      "likes": 48,
+      "comments": 0,
+      "saves": 119,
+      "shares": 44,
+      "profileVisits": 110,
+      "follows": 9
     },
     "ad": null
   },
@@ -4471,13 +5578,13 @@
     "permalink": "https://www.instagram.com/p/DVFPDuiEsjL/",
     "cover": "covers/18060461849670260.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 13635,
+      "likes": 25,
+      "comments": 0,
+      "saves": 57,
+      "shares": 21,
+      "profileVisits": 46,
+      "follows": 0
     },
     "ad": null
   },
@@ -4489,13 +5596,13 @@
     "permalink": "https://www.instagram.com/p/DVD1bZUj3-z/",
     "cover": "covers/17889282390430600.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 12381,
+      "likes": 37,
+      "comments": 0,
+      "saves": 93,
+      "shares": 38,
+      "profileVisits": 69,
+      "follows": 1
     },
     "ad": null
   },
@@ -4507,13 +5614,13 @@
     "permalink": "https://www.instagram.com/p/DVBjVRQj2SQ/",
     "cover": "covers/18093972173088483.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 29773,
+      "likes": 96,
+      "comments": 0,
+      "saves": 410,
+      "shares": 197,
+      "profileVisits": 553,
+      "follows": 79
     },
     "ad": null
   },
@@ -4525,13 +5632,13 @@
     "permalink": "https://www.instagram.com/p/DU8AvNYj_Sp/",
     "cover": "covers/17936034444172554.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 31483,
+      "likes": 104,
+      "comments": 0,
+      "saves": 421,
+      "shares": 173,
+      "profileVisits": 453,
+      "follows": 81
     },
     "ad": null
   },
@@ -4543,13 +5650,13 @@
     "permalink": "https://www.instagram.com/p/DU57dTYD4VD/",
     "cover": "covers/18006495794846448.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 21715,
+      "likes": 62,
+      "comments": 0,
+      "saves": 174,
+      "shares": 87,
+      "profileVisits": 314,
+      "follows": 24
     },
     "ad": null
   },
@@ -4561,13 +5668,13 @@
     "permalink": "https://www.instagram.com/p/DU4-EFjj82I/",
     "cover": "covers/18091134079847056.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 15605,
+      "likes": 19,
+      "comments": 0,
+      "saves": 68,
+      "shares": 25,
+      "profileVisits": 35,
+      "follows": 1
     },
     "ad": null
   },
@@ -4579,13 +5686,13 @@
     "permalink": "https://www.instagram.com/p/DU2uBUJj8qw/",
     "cover": "covers/17903181033363308.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 10550,
+      "likes": 10,
+      "comments": 0,
+      "saves": 14,
+      "shares": 14,
+      "profileVisits": 37,
+      "follows": 1
     },
     "ad": null
   },
@@ -4597,13 +5704,13 @@
     "permalink": "https://www.instagram.com/p/DU0wqioj-L_/",
     "cover": "covers/17847554463659325.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 21091,
+      "likes": 81,
+      "comments": 0,
+      "saves": 166,
+      "shares": 78,
+      "profileVisits": 202,
+      "follows": 11
     },
     "ad": null
   },
@@ -4615,13 +5722,13 @@
     "permalink": "https://www.instagram.com/p/DUvfOvRj97d/",
     "cover": "covers/18093051971002202.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 45198,
+      "likes": 278,
+      "comments": 0,
+      "saves": 210,
+      "shares": 507,
+      "profileVisits": 812,
+      "follows": 93
     },
     "ad": null
   },
@@ -4633,13 +5740,13 @@
     "permalink": "https://www.instagram.com/p/DUtBxi2Dw8y/",
     "cover": "covers/18345261568230198.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 11930,
+      "likes": 20,
+      "comments": 0,
+      "saves": 26,
+      "shares": 10,
+      "profileVisits": 44,
+      "follows": 2
     },
     "ad": null
   },
@@ -4651,13 +5758,13 @@
     "permalink": "https://www.instagram.com/p/DUqHLcCjxWu/",
     "cover": "covers/17993170685751256.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 17251,
+      "likes": 55,
+      "comments": 0,
+      "saves": 142,
+      "shares": 48,
+      "profileVisits": 142,
+      "follows": 9
     },
     "ad": null
   },
@@ -4669,13 +5776,13 @@
     "permalink": "https://www.instagram.com/p/DUno9ZBD9Qs/",
     "cover": "covers/17894690706263136.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 22981,
+      "likes": 89,
+      "comments": 0,
+      "saves": 283,
+      "shares": 139,
+      "profileVisits": 194,
+      "follows": 15
     },
     "ad": null
   },
@@ -4687,13 +5794,13 @@
     "permalink": "https://www.instagram.com/p/DUlL6fYD01j/",
     "cover": "covers/18124693348564375.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 14707,
+      "likes": 26,
+      "comments": 0,
+      "saves": 80,
+      "shares": 23,
+      "profileVisits": 81,
+      "follows": 3
     },
     "ad": null
   },
@@ -4705,13 +5812,13 @@
     "permalink": "https://www.instagram.com/p/DUixPAgjzDC/",
     "cover": "covers/18010275395827193.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 35057,
+      "likes": 111,
+      "comments": 1,
+      "saves": 568,
+      "shares": 339,
+      "profileVisits": 676,
+      "follows": 85
     },
     "ad": null
   },
@@ -4723,13 +5830,13 @@
     "permalink": "https://www.instagram.com/p/DUdbdmcDzmM/",
     "cover": "covers/18088183019328306.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 14372,
+      "likes": 31,
+      "comments": 1,
+      "saves": 87,
+      "shares": 37,
+      "profileVisits": 102,
+      "follows": 3
     },
     "ad": null
   },
@@ -4741,13 +5848,13 @@
     "permalink": "https://www.instagram.com/p/DUcxS-ODxYn/",
     "cover": "covers/18095059132944714.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 11815,
+      "likes": 28,
+      "comments": 0,
+      "saves": 62,
+      "shares": 21,
+      "profileVisits": 49,
+      "follows": 4
     },
     "ad": null
   },
@@ -4759,13 +5866,13 @@
     "permalink": "https://www.instagram.com/p/DUYSdpnj9Ad/",
     "cover": "covers/17971480784975502.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 15713,
+      "likes": 31,
+      "comments": 0,
+      "saves": 104,
+      "shares": 29,
+      "profileVisits": 95,
+      "follows": 2
     },
     "ad": null
   },
@@ -4777,13 +5884,13 @@
     "permalink": "https://www.instagram.com/p/DUVqIH1D_K5/",
     "cover": "covers/17918562666257184.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 25718,
+      "likes": 131,
+      "comments": 0,
+      "saves": 427,
+      "shares": 131,
+      "profileVisits": 242,
+      "follows": 35
     },
     "ad": null
   },
@@ -4795,13 +5902,13 @@
     "permalink": "https://www.instagram.com/p/DUTF__sD2BL/",
     "cover": "covers/17940090339135443.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 15688,
+      "likes": 22,
+      "comments": 0,
+      "saves": 62,
+      "shares": 23,
+      "profileVisits": 115,
+      "follows": 5
     },
     "ad": null
   },
@@ -4813,13 +5920,13 @@
     "permalink": "https://www.instagram.com/p/DUQJx6BD6HP/",
     "cover": "covers/18036044297547461.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 248136,
+      "likes": 1748,
+      "comments": 52,
+      "saves": 545,
+      "shares": 6848,
+      "profileVisits": 2735,
+      "follows": 265
     },
     "ad": null
   },
@@ -4831,13 +5938,13 @@
     "permalink": "https://www.instagram.com/p/DUN9nlKD8LF/",
     "cover": "covers/18064209818296148.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 16108,
+      "likes": 30,
+      "comments": 0,
+      "saves": 93,
+      "shares": 40,
+      "profileVisits": 150,
+      "follows": 4
     },
     "ad": null
   },
@@ -4849,13 +5956,13 @@
     "permalink": "https://www.instagram.com/p/DULIVFVjw5Q/",
     "cover": "covers/18109514632726093.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 35511,
+      "likes": 131,
+      "comments": 0,
+      "saves": 507,
+      "shares": 284,
+      "profileVisits": 1003,
+      "follows": 192
     },
     "ad": null
   },
@@ -4867,13 +5974,13 @@
     "permalink": "https://www.instagram.com/p/DUF0YfEj86M/",
     "cover": "covers/18091633940477630.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 22584,
+      "likes": 61,
+      "comments": 0,
+      "saves": 227,
+      "shares": 123,
+      "profileVisits": 326,
+      "follows": 26
     },
     "ad": null
   },
@@ -4885,13 +5992,13 @@
     "permalink": "https://www.instagram.com/p/DUDq5WDjw1q/",
     "cover": "covers/18081585311216954.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 22261,
+      "likes": 51,
+      "comments": 1,
+      "saves": 193,
+      "shares": 71,
+      "profileVisits": 253,
+      "follows": 11
     },
     "ad": null
   },
@@ -4903,13 +6010,13 @@
     "permalink": "https://www.instagram.com/p/DUC_kpHj1_i/",
     "cover": "covers/17978527418806434.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 13732,
+      "likes": 26,
+      "comments": 0,
+      "saves": 72,
+      "shares": 33,
+      "profileVisits": 90,
+      "follows": 3
     },
     "ad": null
   },
@@ -4921,13 +6028,13 @@
     "permalink": "https://www.instagram.com/p/DUBA8K5D5ZF/",
     "cover": "covers/17960803077030688.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 19809,
+      "likes": 106,
+      "comments": 0,
+      "saves": 214,
+      "shares": 69,
+      "profileVisits": 218,
+      "follows": 14
     },
     "ad": null
   },
@@ -4939,13 +6046,13 @@
     "permalink": "https://www.instagram.com/p/DT_4qphDyCk/",
     "cover": "covers/17969073846006487.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 23354,
+      "likes": 53,
+      "comments": 0,
+      "saves": 191,
+      "shares": 99,
+      "profileVisits": 334,
+      "follows": 31
     },
     "ad": null
   },
@@ -4957,13 +6064,13 @@
     "permalink": "https://www.instagram.com/p/DT-m4dXj9SK/",
     "cover": "covers/18170800993385321.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 299772,
+      "likes": 3442,
+      "comments": 150,
+      "saves": 1205,
+      "shares": 14092,
+      "profileVisits": 3802,
+      "follows": 368
     },
     "ad": null
   },
@@ -4975,13 +6082,13 @@
     "permalink": "https://www.instagram.com/p/DT7ftLmjyxG/",
     "cover": "covers/18068137490445299.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 20016,
+      "likes": 34,
+      "comments": 0,
+      "saves": 112,
+      "shares": 27,
+      "profileVisits": 121,
+      "follows": 9
     },
     "ad": null
   },
@@ -4993,13 +6100,13 @@
     "permalink": "https://www.instagram.com/p/DT48KfwD2YS/",
     "cover": "covers/18035202761549402.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 253580,
+      "likes": 1579,
+      "comments": 24,
+      "saves": 1022,
+      "shares": 10945,
+      "profileVisits": 4793,
+      "follows": 431
     },
     "ad": null
   },
@@ -5011,13 +6118,13 @@
     "permalink": "https://www.instagram.com/p/DT22D9rj-KN/",
     "cover": "covers/18049747844481864.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 20779,
+      "likes": 48,
+      "comments": 0,
+      "saves": 160,
+      "shares": 70,
+      "profileVisits": 261,
+      "follows": 12
     },
     "ad": null
   },
@@ -5029,13 +6136,13 @@
     "permalink": "https://www.instagram.com/p/DTxmkjND6pZ/",
     "cover": "covers/18073682141090184.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 15558,
+      "likes": 18,
+      "comments": 0,
+      "saves": 84,
+      "shares": 16,
+      "profileVisits": 109,
+      "follows": 3
     },
     "ad": null
   },
@@ -5047,13 +6154,13 @@
     "permalink": "https://www.instagram.com/p/DTwaMPdD2aI/",
     "cover": "covers/18038068727727187.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 12488,
+      "likes": 25,
+      "comments": 0,
+      "saves": 37,
+      "shares": 13,
+      "profileVisits": 57,
+      "follows": 2
     },
     "ad": null
   },
@@ -5065,13 +6172,13 @@
     "permalink": "https://www.instagram.com/p/DTuEO6mjw1P/",
     "cover": "covers/17970051161845509.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 19731,
+      "likes": 115,
+      "comments": 0,
+      "saves": 501,
+      "shares": 117,
+      "profileVisits": 228,
+      "follows": 45
     },
     "ad": null
   },
@@ -5083,13 +6190,13 @@
     "permalink": "https://www.instagram.com/p/DTqEAV3D-sM/",
     "cover": "covers/18549215632060280.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 18477,
+      "likes": 20,
+      "comments": 0,
+      "saves": 70,
+      "shares": 37,
+      "profileVisits": 105,
+      "follows": 8
     },
     "ad": null
   },
@@ -5101,13 +6208,13 @@
     "permalink": "https://www.instagram.com/p/DTnXRKsjwz-/",
     "cover": "covers/18109080151648237.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 58995,
+      "likes": 353,
+      "comments": 0,
+      "saves": 367,
+      "shares": 1347,
+      "profileVisits": 719,
+      "follows": 64
     },
     "ad": null
   },
@@ -5119,13 +6226,13 @@
     "permalink": "https://www.instagram.com/p/DTmtANiDyOb/",
     "cover": "covers/18081447869265897.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 13240,
+      "likes": 26,
+      "comments": 0,
+      "saves": 29,
+      "shares": 3,
+      "profileVisits": 59,
+      "follows": 2
     },
     "ad": null
   },
@@ -5137,13 +6244,13 @@
     "permalink": "https://www.instagram.com/p/DTfY7kxD6Oz/",
     "cover": "covers/18070975118130571.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 15778,
+      "likes": 38,
+      "comments": 0,
+      "saves": 168,
+      "shares": 56,
+      "profileVisits": 214,
+      "follows": 19
     },
     "ad": null
   },
@@ -5155,13 +6262,13 @@
     "permalink": "https://www.instagram.com/p/DTb4Dw6D5px/",
     "cover": "covers/18378126103157951.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 13898,
+      "likes": 62,
+      "comments": 0,
+      "saves": 173,
+      "shares": 51,
+      "profileVisits": 122,
+      "follows": 13
     },
     "ad": null
   },
@@ -5173,13 +6280,13 @@
     "permalink": "https://www.instagram.com/p/DTX5u96D5NL/",
     "cover": "covers/17907004596319446.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 13191,
+      "likes": 18,
+      "comments": 0,
+      "saves": 77,
+      "shares": 41,
+      "profileVisits": 113,
+      "follows": 8
     },
     "ad": null
   },
@@ -5191,13 +6298,13 @@
     "permalink": "https://www.instagram.com/p/DTVU_Xajy_N/",
     "cover": "covers/17969728514844064.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 24409,
+      "likes": 75,
+      "comments": 0,
+      "saves": 302,
+      "shares": 131,
+      "profileVisits": 514,
+      "follows": 70
     },
     "ad": null
   },
@@ -5209,13 +6316,13 @@
     "permalink": "https://www.instagram.com/p/DTSstekD2sL/",
     "cover": "covers/18003352586692111.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 33437,
+      "likes": 121,
+      "comments": 0,
+      "saves": 436,
+      "shares": 221,
+      "profileVisits": 471,
+      "follows": 78
     },
     "ad": null
   },
@@ -5227,13 +6334,13 @@
     "permalink": "https://www.instagram.com/p/DTQBRhDj2xT/",
     "cover": "covers/18549985723007296.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 33748,
+      "likes": 92,
+      "comments": 1,
+      "saves": 525,
+      "shares": 192,
+      "profileVisits": 883,
+      "follows": 150
     },
     "ad": null
   },
@@ -5245,13 +6352,13 @@
     "permalink": "https://www.instagram.com/p/DTOpIzrkqpk/",
     "cover": "covers/17892144039393463.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 35133,
+      "likes": 89,
+      "comments": 0,
+      "saves": 388,
+      "shares": 224,
+      "profileVisits": 597,
+      "follows": 116
     },
     "ad": null
   },
@@ -5263,13 +6370,13 @@
     "permalink": "https://www.instagram.com/p/DTNF9AOj3kr/",
     "cover": "covers/17890383249404222.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 22174,
+      "likes": 127,
+      "comments": 0,
+      "saves": 404,
+      "shares": 62,
+      "profileVisits": 151,
+      "follows": 12
     },
     "ad": null
   },
@@ -5281,13 +6388,13 @@
     "permalink": "https://www.instagram.com/p/DTMZi78j4vW/",
     "cover": "covers/18070488563435953.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 34587,
+      "likes": 66,
+      "comments": 0,
+      "saves": 298,
+      "shares": 222,
+      "profileVisits": 1016,
+      "follows": 132
     },
     "ad": null
   },
@@ -5299,13 +6406,13 @@
     "permalink": "https://www.instagram.com/p/DTK8z_7D4gD/",
     "cover": "covers/17978425772956550.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 17574,
+      "likes": 33,
+      "comments": 0,
+      "saves": 159,
+      "shares": 29,
+      "profileVisits": 76,
+      "follows": 0
     },
     "ad": null
   },
@@ -5317,13 +6424,13 @@
     "permalink": "https://www.instagram.com/p/DTErVKqjzmD/",
     "cover": "covers/17933934528140583.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 51211,
+      "likes": 105,
+      "comments": 0,
+      "saves": 526,
+      "shares": 330,
+      "profileVisits": 999,
+      "follows": 171
     },
     "ad": null
   },
@@ -5335,13 +6442,13 @@
     "permalink": "https://www.instagram.com/p/DTC556xjyiT/",
     "cover": "covers/18083043752171170.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 40363,
+      "likes": 144,
+      "comments": 0,
+      "saves": 395,
+      "shares": 398,
+      "profileVisits": 868,
+      "follows": 66
     },
     "ad": null
   },
@@ -5353,13 +6460,13 @@
     "permalink": "https://www.instagram.com/p/DTAQ8Xtj1xX/",
     "cover": "covers/18055112834347850.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 30560,
+      "likes": 53,
+      "comments": 0,
+      "saves": 238,
+      "shares": 135,
+      "profileVisits": 448,
+      "follows": 57
     },
     "ad": null
   },
@@ -5371,13 +6478,13 @@
     "permalink": "https://www.instagram.com/p/DS7rP9vj2uj/",
     "cover": "covers/18184591453360598.jpg",
     "organic": {
-      "views": null,
-      "likes": null,
-      "comments": null,
-      "saves": null,
-      "shares": null,
-      "profileVisits": null,
-      "follows": null
+      "views": 32087,
+      "likes": 75,
+      "comments": 0,
+      "saves": 389,
+      "shares": 166,
+      "profileVisits": 469,
+      "follows": 68
     },
     "ad": null
   }
