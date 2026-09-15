@@ -183,59 +183,100 @@ function typeLabel(m) {
 // ── 2. 광고 ('오공고' 캠페인만, 시작일부터 오늘까지 누적) ──
 const sumActions = (actions, types) =>
   (actions ?? []).filter((a) => types.includes(a.action_type)).reduce((s, a) => s + Number(a.value), 0);
+const sumResults = (results, types) =>
+  (results ?? []).filter((r) => types.includes(r.indicator)).reduce((s, r) => s + Number(r.values?.[0]?.value ?? 0), 0);
+// https://www.instagram.com/p/ABC123/ → ABC123
+const shortcode = (url) => String(url ?? "").match(/instagram\.com\/(?:[^/]+\/)?(?:p|reel|reels|tv)\/([^/?#]+)/)?.[1] ?? null;
 
-async function fetchAds(mediaIds) {
-  const rows = (
-    await graphAll(`${cfg.adAccount}/insights`, {
-      level: "ad",
-      fields: "ad_id,ad_name,campaign_name,spend,impressions,actions",
-      time_range: JSON.stringify({ since: cfg.startDate, until: kstToday() }),
-      filtering: JSON.stringify([{ field: "campaign.name", operator: "CONTAIN", value: cfg.keyword }]),
-      limit: "500",
-    })
-  ).filter((r) => String(r.campaign_name ?? "").includes(cfg.keyword));
+const CREATIVE_FIELDS = "creative{effective_instagram_media_id,instagram_permalink_url}";
+const campaignFilter = () => JSON.stringify([{ field: "campaign.name", operator: "CONTAIN", value: cfg.keyword }]);
+
+async function fetchAdInsights() {
+  const base = "ad_id,ad_name,campaign_name,spend,impressions,actions";
+  const params = {
+    level: "ad",
+    time_range: JSON.stringify({ since: cfg.startDate, until: kstToday() }),
+    filtering: campaignFilter(),
+    limit: "500",
+  };
+  try {
+    return await graphAll(`${cfg.adAccount}/insights`, { ...params, fields: `${base},objective,optimization_goal,results` });
+  } catch (e) {
+    if (!(e instanceof GraphError) || e.detail.code !== 100) throw e;
+    return await graphAll(`${cfg.adAccount}/insights`, { ...params, fields: base }); // results 필드 미지원 시
+  }
+}
+
+async function fetchAds(media) {
+  const rows = (await fetchAdInsights()).filter((r) => String(r.campaign_name ?? "").includes(cfg.keyword));
 
   const actionTypes = new Set();
-  rows.forEach((r) => (r.actions ?? []).forEach((a) => actionTypes.add(a.action_type)));
-
-  // 광고 소재에 연결된 인스타그램 게시물 ID ('오공고' 캠페인 광고 목록에서 한 번에 조회)
-  const mediaOf = new Map();
-  const adList = await graphAll(`${cfg.adAccount}/ads`, {
-    fields: "id,creative{effective_instagram_media_id}",
-    filtering: JSON.stringify([{ field: "campaign.name", operator: "CONTAIN", value: cfg.keyword }]),
-    limit: "200",
-  });
-  for (const ad of adList) mediaOf.set(ad.id, ad.creative?.effective_instagram_media_id ?? null);
-
-  // 목록에서 빠진 광고(보관·삭제 등)는 하나씩 조회
+  const resultIndicators = new Set();
+  const objectives = new Set();
   for (const r of rows) {
-    if (mediaOf.has(r.ad_id)) continue;
+    (r.actions ?? []).forEach((a) => actionTypes.add(a.action_type));
+    (r.results ?? []).forEach((x) => resultIndicators.add(x.indicator));
+    if (r.objective) objectives.add(`${r.objective} / ${r.optimization_goal ?? "-"}`);
+  }
+
+  // 광고 소재에 연결된 게시물 (게시물 ID와 게시물 링크 둘 다 받아둠)
+  const linkOf = new Map();
+  const toLink = (ad) => ({
+    mediaId: ad.creative?.effective_instagram_media_id ?? null,
+    permalink: ad.creative?.instagram_permalink_url ?? null,
+  });
+  const adList = await graphAll(`${cfg.adAccount}/ads`, { fields: `id,${CREATIVE_FIELDS}`, filtering: campaignFilter(), limit: "200" });
+  for (const ad of adList) linkOf.set(ad.id, toLink(ad));
+  for (const r of rows) {
+    if (linkOf.has(r.ad_id)) continue; // 목록에서 빠진 광고(보관·삭제 등)는 하나씩 조회
     try {
-      const ad = await graph(r.ad_id, { fields: "creative{effective_instagram_media_id}" });
-      mediaOf.set(r.ad_id, ad.creative?.effective_instagram_media_id ?? null);
+      linkOf.set(r.ad_id, toLink(await graph(r.ad_id, { fields: CREATIVE_FIELDS })));
     } catch (e) {
       if (!(e instanceof GraphError) || RATE_LIMIT_CODES.includes(e.detail.code)) throw e;
-      mediaOf.set(r.ad_id, null);
+      linkOf.set(r.ad_id, { mediaId: null, permalink: null });
     }
   }
+
+  // letscareer.job 게시물과 매칭: 게시물 ID 우선, 안 맞으면 게시물 링크로
+  const ids = new Set(media.map((m) => m.id));
+  const byCode = new Map(media.map((m) => [shortcode(m.permalink), m.id]));
 
   const byMedia = new Map();
   let adsWithoutPost = 0;
   let adsOnOtherAccount = 0;
+  const unmatchedSample = [];
   for (const r of rows) {
-    const mediaId = mediaOf.get(r.ad_id);
-    if (!mediaId) { adsWithoutPost++; continue; }
-    if (!mediaIds.has(mediaId)) { adsOnOtherAccount++; continue; } // letscareer.job 게시물이 아닌 광고
-    const agg = byMedia.get(mediaId) ?? { adCount: 0, spend: 0, impressions: 0, profileVisits: 0, follows: 0 };
+    const link = linkOf.get(r.ad_id);
+    if (!link.mediaId && !link.permalink) { adsWithoutPost++; continue; }
+    const code = shortcode(link.permalink);
+    const target = ids.has(link.mediaId) ? link.mediaId : code && byCode.has(code) ? byCode.get(code) : null;
+    if (!target) {
+      adsOnOtherAccount++;
+      if (unmatchedSample.length < 5) {
+        unmatchedSample.push({ ad: r.ad_name, campaign: r.campaign_name, mediaId: link.mediaId, permalink: link.permalink });
+      }
+      continue;
+    }
+    const agg = byMedia.get(target) ?? { adCount: 0, spend: 0, impressions: 0, profileVisits: 0, follows: 0 };
     agg.adCount += 1;
     agg.spend += Number(r.spend ?? 0);
     agg.impressions += Number(r.impressions ?? 0);
-    agg.profileVisits += sumActions(r.actions, cfg.profileVisitTypes);
-    agg.follows += sumActions(r.actions, cfg.followTypes);
-    byMedia.set(mediaId, agg);
+    agg.profileVisits += sumActions(r.actions, cfg.profileVisitTypes) + sumResults(r.results, cfg.profileVisitTypes);
+    agg.follows += sumActions(r.actions, cfg.followTypes) + sumResults(r.results, cfg.followTypes);
+    byMedia.set(target, agg);
   }
 
-  return { byMedia, adCount: rows.length, adsWithoutPost, adsOnOtherAccount, actionTypes: [...actionTypes].sort() };
+  return {
+    byMedia,
+    adCount: rows.length,
+    adsMatched: rows.length - adsWithoutPost - adsOnOtherAccount,
+    adsWithoutPost,
+    adsOnOtherAccount,
+    unmatchedSample,
+    objectives: [...objectives].sort(),
+    resultIndicators: [...resultIndicators].sort(),
+    actionTypes: [...actionTypes].sort(),
+  };
 }
 
 // ── 실행 ─────────────────────────────────────────────────
@@ -254,7 +295,7 @@ async function main() {
     organic.set(m.id, await fetchInsights(m));
   });
 
-  const ads = await fetchAds(new Set(media.map((m) => m.id)));
+  const ads = await fetchAds(media);
 
   const posts = media.map((m) => {
     const o = organic.get(m.id) ?? {};
@@ -285,8 +326,12 @@ async function main() {
     startDate: cfg.startDate,
     mediaCount: media.length,
     adCount: ads.adCount,
+    adsMatched: ads.adsMatched,
     adsWithoutPost: ads.adsWithoutPost,
     adsOnOtherAccount: ads.adsOnOtherAccount,
+    unmatchedSample: ads.unmatchedSample,
+    objectives: ads.objectives,
+    resultIndicators: ads.resultIndicators,
     actionTypes: ads.actionTypes,
     unsupportedMetrics: Object.fromEntries([...unsupported].filter(([, v]) => v.size).map(([k, v]) => [k, [...v]])),
     insightErrors: [...insightErrors].sort((x, y) => y[1] - x[1]).slice(0, 20).map(([error, posts]) => ({ error, posts })),
