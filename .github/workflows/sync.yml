@@ -35,7 +35,7 @@ jobs:
           AD_PROFILE_VISIT_ACTION_TYPES: ig_profile_visit,profile_visit
           AD_FOLLOW_ACTION_TYPES: ig_follow,follow
 
-           - name: 변경된 데이터 커밋
+      - name: 변경된 데이터 커밋
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
