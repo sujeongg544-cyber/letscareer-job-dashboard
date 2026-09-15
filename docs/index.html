@@ -76,6 +76,7 @@
   .ad-grid .m span { color: #9AA3B5; }
   .ad-grid .m strong { color: var(--white); }
   .ad-grid .m.hl strong { color: var(--brand-on-dark); }
+  .ad-note { grid-column: 1 / -1; margin: 0; font-size: 11px; color: #9AA3B5; }
   .organic-note { margin: 0 16px 16px; padding: 8px 12px; border-radius: 8px; background: var(--surface); font-size: 12px; color: var(--sub); }
 
   .empty { background: var(--white); border: 1px solid var(--line); border-radius: 14px; text-align: center; padding: 64px 20px; margin-bottom: 40px; }
@@ -179,6 +180,7 @@ function card(p) {
          ${metric("프로필 방문당 비용", won(ratio(a.spend, a.profileVisits)), true)}
          ${metric("팔로우", num(a.follows))}
          ${metric("팔로우당 비용", won(ratio(a.spend, a.follows)), true)}
+         ${a.follows == null ? `<p class="ad-note">팔로우 수를 입력하면 팔로우당 비용이 계산됩니다</p>` : ""}
        </div></div></div>`
     : `<p class="organic-note">오가닉 게시물</p>`;
   return `<article class="card${open ? " open" : ""}" data-card="${p.id}">
@@ -193,13 +195,15 @@ function render() {
   const list = filtered();
   const ads = list.filter((p) => p.ad);
   const spend = ads.reduce((s, p) => s + p.ad.spend, 0);
-  const adFollows = ads.reduce((s, p) => s + p.ad.follows, 0);
+  const withFollows = ads.filter((p) => p.ad.follows > 0); // 팔로우 수를 입력한 게시물만
+  const followSpend = withFollows.reduce((s, p) => s + p.ad.spend, 0);
+  const adFollows = withFollows.reduce((s, p) => s + p.ad.follows, 0);
   const stats = [
     ["게시물", `${list.length}개`, `광고 집행 ${ads.length}개`],
     ["오가닉 조회수", compact(list.reduce((s, p) => s + (p.organic.views ?? 0), 0))],
     ["오가닉 팔로우", num(list.reduce((s, p) => s + (p.organic.follows ?? 0), 0))],
     ["광고 지출", won(spend)],
-    ["평균 팔로우당 비용", adFollows ? won(spend / adFollows) : "없음"],
+    ["평균 팔로우당 비용", adFollows ? won(followSpend / adFollows) : "입력 전", ads.length ? `팔로우 입력 ${withFollows.length}/${ads.length}개` : null],
   ];
   $("summary").innerHTML = stats.map(([l, v, n], i) =>
     `<div class="stat${i === 4 ? " key" : ""}"><span>${l}</span><strong>${v}</strong>${n ? `<small>${n}</small>` : ""}</div>`
