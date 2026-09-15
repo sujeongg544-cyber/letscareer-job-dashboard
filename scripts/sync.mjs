@@ -340,16 +340,29 @@ async function loadManualFollows() {
   return map;
 }
 
-// 광고 집행 게시물을 파일에 채워 넣음 (이미 입력한 팔로우 수는 유지)
-async function writeManualFollows(manual, posts) {
+// 팔로우 입력값 찾기: 카드 게시물 링크 우선, 없으면 합쳐진 광고 전용 게시물 링크로
+function findFollows(manual, code, aliases) {
+  for (const c of [code, ...(aliases.get(code) ?? [])]) {
+    const v = manual.get(c)?.follows;
+    if (v != null) return v;
+  }
+  return null;
+}
+
+// 광고 집행 게시물 목록으로 파일을 다시 씀 (입력한 팔로우 수는 유지)
+async function writeManualFollows(manual, posts, aliases) {
+  const rows = new Map();
   for (const p of posts) {
     if (!p.ad) continue;
     const code = shortcode(p.permalink);
-    const prev = manual.get(code);
-    manual.set(code, { date: p.date, ads: p.ad.adNames.join(" / "), link: p.permalink, follows: prev?.follows ?? null });
+    rows.set(code, { date: p.date, ads: p.ad.adNames.join(" / "), link: p.permalink, follows: p.ad.follows });
   }
-  const rows = [...manual.values()].sort((a, b) => String(b.date).localeCompare(String(a.date)));
-  const lines = ["게시일,광고명,게시물 링크,광고 팔로우", ...rows.map((r) => [r.date, r.ads, r.link, r.follows ?? ""].map(csvCell).join(","))];
+  const used = new Set([...rows.keys(), ...[...aliases.values()].flat()]);
+  for (const [code, r] of manual) {
+    if (!used.has(code) && r.follows != null) rows.set(code, r); // 현재 목록에 없어도 입력값이 있으면 보존
+  }
+  const sorted = [...rows.values()].sort((x, y) => String(y.date).localeCompare(String(x.date)));
+  const lines = ["게시일,광고명,게시물 링크,광고 팔로우", ...sorted.map((r) => [r.date, r.ads, r.link, r.follows ?? ""].map(csvCell).join(","))];
   await mkdir("manual", { recursive: true });
   await writeFile(MANUAL_FOLLOWS, lines.join("\n") + "\n");
 }
@@ -365,6 +378,37 @@ async function main() {
   console.log(`${cfg.igUsername} 게시물 목록 ${listed}개 확인`);
 
   const ads = await fetchAds(media); // 목록에 없던 광고 게시물이 media에 추가될 수 있음
+
+  // 광고 전용 게시물(AD)을 같은 캡션의 원본 게시물 카드에 합치기 (게시일 30일 이내, 가장 가까운 것)
+  const capKey = (m) => String(m.caption ?? "").replace(/\s+/g, "").slice(0, 60);
+  const time = (m) => new Date(normTs(m.timestamp)).getTime();
+  const listedByCap = new Map();
+  for (const m of media.filter((x) => !x.fromAd && capKey(x))) {
+    listedByCap.set(capKey(m), [...(listedByCap.get(capKey(m)) ?? []), m]);
+  }
+  const aliases = new Map(); // 원본 게시물 코드 → 합쳐진 광고 전용 게시물 코드들
+  const merged = [];
+  for (const adPost of media.filter((x) => x.fromAd)) {
+    const original = (listedByCap.get(capKey(adPost)) ?? [])
+      .filter((l) => Math.abs(time(l) - time(adPost)) <= 30 * 86400_000)
+      .sort((x, y) => Math.abs(time(x) - time(adPost)) - Math.abs(time(y) - time(adPost)))[0];
+    if (!original) continue;
+    const from = ads.byMedia.get(adPost.id);
+    const to = ads.byMedia.get(original.id);
+    if (from) {
+      ads.byMedia.set(original.id, to
+        ? { ...to, adCount: to.adCount + from.adCount, adNames: [...to.adNames, ...from.adNames],
+            spend: to.spend + from.spend, impressions: to.impressions + from.impressions,
+            profileVisits: to.profileVisits + from.profileVisits }
+        : from);
+      ads.byMedia.delete(adPost.id);
+    }
+    const code = shortcode(original.permalink);
+    aliases.set(code, [...(aliases.get(code) ?? []), shortcode(adPost.permalink)]);
+    merged.push({ adPost: adPost.permalink, mergedInto: original.permalink });
+    adPost.mergedAway = true;
+  }
+  for (let i = media.length - 1; i >= 0; i--) if (media[i].mergedAway) media.splice(i, 1);
   media.sort((a, b) => normTs(b.timestamp).localeCompare(normTs(a.timestamp)));
 
   const covers = new Map();
@@ -379,7 +423,7 @@ async function main() {
   const posts = media.map((m) => {
     const o = organic.get(m.id) ?? {};
     const ad = ads.byMedia.get(m.id) ?? null;
-    if (ad) ad.follows = manual.get(shortcode(m.permalink))?.follows ?? null;
+    if (ad) ad.follows = findFollows(manual, shortcode(m.permalink), aliases);
     return {
       id: m.id,
       date: toKstDate(m.timestamp),
@@ -400,14 +444,7 @@ async function main() {
     };
   });
 
-  await writeManualFollows(manual, posts);
-
-  // 광고로 추가한 게시물이 목록의 게시물과 겹치는지 확인 (같은 날짜 + 같은 캡션 앞부분)
-  const sig = (m) => `${toKstDate(m.timestamp)}|${String(m.caption ?? "").replace(/\s+/g, "").slice(0, 40)}`;
-  const listedSigs = new Map(media.filter((m) => !m.fromAd).map((m) => [sig(m), m.permalink]));
-  const possibleDuplicates = media
-    .filter((m) => m.fromAd && listedSigs.has(sig(m)))
-    .map((m) => ({ adPost: m.permalink, listedPost: listedSigs.get(sig(m)) }));
+  await writeManualFollows(manual, posts, aliases);
 
   const times = media.map((m) => toKstDate(m.timestamp)).sort();
   const sync = {
@@ -419,7 +456,8 @@ async function main() {
     mediaCount: media.length,
     mediaRange: { oldest: times[0] ?? null, newest: times.at(-1) ?? null },
     addedFromAds: ads.addedFromAds,
-    possibleDuplicates: { count: possibleDuplicates.length, sample: possibleDuplicates.slice(0, 5) },
+    mergedAdPosts: { count: merged.length, sample: merged.slice(0, 5) },
+    adOnlyPosts: media.filter((m) => m.fromAd).length,
     adCount: ads.adCount,
     adsMatched: ads.adsMatched,
     adsWithoutPost: ads.adsWithoutPost,
