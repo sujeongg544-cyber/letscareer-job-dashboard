@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="noindex, nofollow" />
+<title>letscareer.job 성과 대시보드</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+<style>
+  :root {
+    --brand: #005EFF;
+    --brand-on-dark: #7EAEFF;
+    --ink: #1C2130;
+    --sub: #6B7282;
+    --line: #E4E8F0;
+    --surface: #F3F6FB;
+    --white: #FFFFFF;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--surface); color: var(--ink);
+    font-family: Pretendard, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  button, select { font: inherit; color: inherit; }
+  :focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+  .wrap { max-width: 1152px; margin: 0 auto; padding: 0 20px; }
+
+  header { background: var(--white); border-bottom: 1px solid var(--line); }
+  .head { padding: 24px 0 20px; }
+  .title-row { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 8px; }
+  h1 { margin: 0; font-size: 24px; font-weight: 800; letter-spacing: -0.02em; }
+  .desc { margin: 4px 0 0; font-size: 13px; color: var(--sub); }
+  .synced { font-size: 12px; color: var(--sub); }
+
+  .summary { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; margin-top: 24px; }
+  .stat { display: flex; flex-direction: column; gap: 4px; padding-left: 12px; border-left: 3px solid var(--line); }
+  .stat.key { border-left-color: var(--brand); }
+  .stat span { font-size: 12px; color: var(--sub); }
+  .stat strong { font-size: 22px; font-weight: 800; font-variant-numeric: tabular-nums; }
+  .stat small { font-size: 11px; color: var(--sub); }
+
+  .toolbar { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 12px; margin: 24px 0; }
+  .field { display: flex; flex-direction: column; gap: 4px; }
+  .field span { font-size: 11px; color: var(--sub); }
+  select { padding: 8px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--white); font-size: 13px; }
+  .btn-all { margin-left: auto; padding: 8px 12px; border: 1px solid var(--ink); border-radius: 8px; background: var(--white); font-size: 13px; font-weight: 600; cursor: pointer; }
+  .btn-all[aria-pressed="true"] { background: var(--ink); color: var(--white); }
+  .btn-all:disabled { opacity: .4; cursor: default; }
+
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; align-items: start; padding-bottom: 40px; }
+  .card { background: var(--white); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; }
+  .cover { position: relative; display: block; aspect-ratio: 4 / 5; background: #E8F0FF; }
+  .cover img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .cover .noimg { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 13px; color: var(--sub); }
+  .badge { position: absolute; top: 12px; right: 12px; padding: 4px 8px; border-radius: 6px; background: var(--white); font-size: 11px; font-weight: 700; }
+  .meta { display: flex; justify-content: space-between; padding: 12px 16px 0; font-size: 12px; color: var(--sub); }
+
+  .organic { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px 8px; padding: 16px; }
+  .m { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+  .m span { font-size: 11px; color: var(--sub); }
+  .m strong { font-size: 15px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .m.hl strong { color: var(--brand); }
+
+  .toggle { margin: 0 16px 16px; padding: 8px 12px; display: flex; justify-content: space-between; align-items: center; border: 0; border-radius: 8px; background: var(--surface); font-size: 13px; font-weight: 600; cursor: pointer; }
+  .switch { position: relative; width: 34px; height: 20px; border-radius: 10px; background: #C9D0DC; transition: background .2s; }
+  .switch::after { content: ""; position: absolute; top: 2px; left: 2px; width: 16px; height: 16px; border-radius: 8px; background: var(--white); transition: left .2s; }
+  .card.open .toggle { background: var(--ink); color: var(--white); }
+  .card.open .switch { background: var(--brand); }
+  .card.open .switch::after { left: 16px; }
+
+  .ad-panel { display: grid; grid-template-rows: 0fr; transition: grid-template-rows .3s ease; }
+  .card.open .ad-panel { grid-template-rows: 1fr; }
+  .ad-panel > div { overflow: hidden; }
+  .ad-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px 8px; padding: 16px; background: var(--ink); }
+  .ad-grid .m span { color: #9AA3B5; }
+  .ad-grid .m strong { color: var(--white); }
+  .ad-grid .m.hl strong { color: var(--brand-on-dark); }
+  .organic-note { margin: 0 16px 16px; padding: 8px 12px; border-radius: 8px; background: var(--surface); font-size: 12px; color: var(--sub); }
+
+  .empty { background: var(--white); border: 1px solid var(--line); border-radius: 14px; text-align: center; padding: 64px 20px; margin-bottom: 40px; }
+  .empty p { margin: 0; font-weight: 600; }
+  .empty small { display: block; margin-top: 6px; font-size: 13px; color: var(--sub); }
+
+  @media (max-width: 960px) {
+    .grid { grid-template-columns: repeat(2, 1fr); }
+    .summary { grid-template-columns: repeat(3, 1fr); }
+  }
+  @media (max-width: 600px) {
+    .grid { grid-template-columns: 1fr; }
+    .summary { grid-template-columns: repeat(2, 1fr); }
+    .btn-all { margin-left: 0; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .ad-panel, .switch, .switch::after { transition: none; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap head">
+    <div class="title-row">
+      <div>
+        <h1>letscareer.job 성과</h1>
+        <p class="desc">2026년 1월 이후 게시물과 '오공고' 캠페인 광고, 매일 오전 8시 갱신</p>
+      </div>
+      <p class="synced" id="synced"></p>
+    </div>
+    <div class="summary" id="summary"></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="toolbar">
+    <label class="field"><span>기간</span><select id="f-month"><option value="all">전체</option></select></label>
+    <label class="field"><span>유형</span>
+      <select id="f-type">
+        <option value="all">전체</option><option>캐러셀</option><option>릴스</option><option>이미지</option><option>동영상</option>
+      </select>
+    </label>
+    <label class="field"><span>광고</span>
+      <select id="f-ad"><option value="all">전체</option><option value="ad">광고 집행</option><option value="organic">오가닉만</option></select>
+    </label>
+    <label class="field"><span>정렬</span>
+      <select id="f-sort">
+        <option value="date">최신순</option><option value="views">조회수순</option><option value="saves">저장순</option>
+        <option value="follows">팔로우순</option><option value="cpf">팔로우당 비용 낮은순</option>
+      </select>
+    </label>
+    <button class="btn-all" id="btn-all" aria-pressed="false">광고 성과 모두 펼치기</button>
+  </div>
+  <div id="list"></div>
+</main>
+
+<script>
+const state = { posts: [], month: "all", type: "all", ad: "all", sort: "date", open: new Set() };
+const $ = (id) => document.getElementById(id);
+
+const num = (v) => (v == null || !isFinite(v) ? "-" : Math.round(v).toLocaleString("ko-KR"));
+const won = (v) => (v == null || !isFinite(v) ? "-" : "₩" + num(v));
+const compact = (v) => (v >= 10000 ? (v / 10000).toFixed(1).replace(/\.0$/, "") + "만" : num(v));
+const ratio = (a, b) => (b > 0 ? a / b : null);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+const ORGANIC = [["views", "조회수"], ["likes", "좋아요"], ["comments", "댓글"], ["saves", "저장"], ["shares", "공유"], ["profileVisits", "프로필 방문"], ["follows", "팔로우"]];
+
+function filtered() {
+  const list = state.posts.filter((p) =>
+    (state.month === "all" || p.date.startsWith(state.month)) &&
+    (state.type === "all" || p.type === state.type) &&
+    (state.ad === "all" || (state.ad === "ad" ? p.ad : !p.ad))
+  );
+  const by = {
+    views: (p) => p.organic.views ?? -1,
+    saves: (p) => p.organic.saves ?? -1,
+    follows: (p) => p.organic.follows ?? -1,
+    cpf: (p) => { const c = p.ad && ratio(p.ad.spend, p.ad.follows); return c == null ? -Infinity : -c; },
+  }[state.sort];
+  return list.sort(by ? (a, b) => by(b) - by(a) : (a, b) => b.date.localeCompare(a.date));
+}
+
+const metric = (label, value, hl) => `<div class="m${hl ? " hl" : ""}"><span>${label}</span><strong>${value}</strong></div>`;
+
+function card(p) {
+  const a = p.ad;
+  const open = state.open.has(p.id);
+  const img = p.cover
+    ? `<img src="${esc(p.cover)}" alt="${esc(p.caption.slice(0, 60))}" loading="lazy" />`
+    : `<div class="noimg">이미지 없음</div>`;
+  const organic = ORGANIC.map(([k, l]) => metric(l, num(p.organic[k]), k === "saves" || k === "follows")).join("");
+  const adBlock = a
+    ? `<button class="toggle" data-id="${p.id}" aria-expanded="${open}">
+         <span class="toggle-label">광고 성과 ${open ? "접기" : "보기"}</span><span class="switch" aria-hidden="true"></span>
+       </button>
+       <div class="ad-panel"><div><div class="ad-grid">
+         ${metric("지출금액", won(a.spend))}
+         ${metric("노출", num(a.impressions))}
+         ${metric("프로필 방문", num(a.profileVisits))}
+         ${metric("프로필 방문당 비용", won(ratio(a.spend, a.profileVisits)), true)}
+         ${metric("팔로우", num(a.follows))}
+         ${metric("팔로우당 비용", won(ratio(a.spend, a.follows)), true)}
+       </div></div></div>`
+    : `<p class="organic-note">오가닉 게시물</p>`;
+  return `<article class="card${open ? " open" : ""}" data-card="${p.id}">
+    <a class="cover" href="${esc(p.permalink)}" target="_blank" rel="noopener">${img}${a ? `<span class="badge">광고 집행</span>` : ""}</a>
+    <div class="meta"><span>${p.date.replaceAll("-", ".")}</span><span>${p.type}</span></div>
+    <div class="organic">${organic}</div>
+    ${adBlock}
+  </article>`;
+}
+
+function render() {
+  const list = filtered();
+  const ads = list.filter((p) => p.ad);
+  const spend = ads.reduce((s, p) => s + p.ad.spend, 0);
+  const adFollows = ads.reduce((s, p) => s + p.ad.follows, 0);
+  const stats = [
+    ["게시물", `${list.length}개`, `광고 집행 ${ads.length}개`],
+    ["오가닉 조회수", compact(list.reduce((s, p) => s + (p.organic.views ?? 0), 0))],
+    ["오가닉 팔로우", num(list.reduce((s, p) => s + (p.organic.follows ?? 0), 0))],
+    ["광고 지출", won(spend)],
+    ["평균 팔로우당 비용", adFollows ? won(spend / adFollows) : "없음"],
+  ];
+  $("summary").innerHTML = stats.map(([l, v, n], i) =>
+    `<div class="stat${i === 4 ? " key" : ""}"><span>${l}</span><strong>${v}</strong>${n ? `<small>${n}</small>` : ""}</div>`
+  ).join("");
+
+  $("list").innerHTML = list.length
+    ? `<div class="grid">${list.map(card).join("")}</div>`
+    : `<div class="empty"><p>조건에 맞는 게시물이 없습니다</p><small>기간이나 유형 필터를 전체로 바꿔 보세요.</small></div>`;
+
+  const adIds = ads.map((p) => p.id);
+  const allOpen = adIds.length > 0 && adIds.every((id) => state.open.has(id));
+  const btn = $("btn-all");
+  btn.disabled = !adIds.length;
+  btn.setAttribute("aria-pressed", allOpen);
+  btn.textContent = `광고 성과 모두 ${allOpen ? "접기" : "펼치기"}`;
+  btn.onclick = () => { adIds.forEach((id) => (allOpen ? state.open.delete(id) : state.open.add(id))); render(); };
+}
+
+$("list").addEventListener("click", (e) => {
+  const btn = e.target.closest(".toggle");
+  if (!btn) return;
+  const id = btn.dataset.id;
+  const open = !state.open.has(id);
+  open ? state.open.add(id) : state.open.delete(id);
+  btn.closest(".card").classList.toggle("open", open);
+  btn.setAttribute("aria-expanded", open);
+  btn.querySelector(".toggle-label").textContent = `광고 성과 ${open ? "접기" : "보기"}`;
+});
+
+for (const [id, key] of [["f-month", "month"], ["f-type", "type"], ["f-ad", "ad"], ["f-sort", "sort"]]) {
+  $(id).addEventListener("change", (e) => { state[key] = e.target.value; render(); });
+}
+
+async function load() {
+  try {
+    const [posts, sync] = await Promise.all([
+      fetch("data/posts.json", { cache: "no-store" }).then((r) => { if (!r.ok) throw new Error(); return r.json(); }),
+      fetch("data/sync.json", { cache: "no-store" }).then((r) => (r.ok ? r.json() : null)).catch(() => null),
+    ]);
+    state.posts = posts;
+    const months = [...new Set(posts.map((p) => p.date.slice(0, 7)))].sort().reverse();
+    $("f-month").insertAdjacentHTML("beforeend",
+      months.map((m) => `<option value="${m}">${m.slice(0, 4)}년 ${Number(m.slice(5))}월</option>`).join(""));
+    if (sync) {
+      const d = new Date(sync.syncedAt).toLocaleString("ko-KR", { timeZone: "Asia/Seoul", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hour12: false });
+      $("synced").textContent = `마지막 갱신 ${d}`;
+    }
+    render();
+  } catch {
+    render();
+    $("list").innerHTML = `<div class="empty"><p>아직 수집된 데이터가 없습니다</p><small>GitHub 저장소의 Actions 탭에서 '메타 성과 수집'을 한 번 실행하세요.</small></div>`;
+  }
+}
+load();
+</script>
+</body>
+</html>
