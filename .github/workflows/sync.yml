@@ -1,0 +1,48 @@
+name: 메타 성과 수집
+
+on:
+  schedule:
+    - cron: "0 23 * * *" # UTC 23:00 = 한국시간 매일 오전 8시
+  workflow_dispatch: # Actions 탭에서 수동 실행
+
+permissions:
+  contents: write
+
+concurrency:
+  group: meta-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Meta API에서 성과 수집
+        run: node scripts/sync.mjs
+        env:
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+          META_AD_ACCOUNT_ID: act_356669339700370
+          IG_USERNAME: letscareer.job
+          CAMPAIGN_KEYWORD: 오공고
+          START_DATE: "2026-01-01"
+          GRAPH_VERSION: v23.0
+          AD_PROFILE_VISIT_ACTION_TYPES: ig_profile_visit,profile_visit
+          AD_FOLLOW_ACTION_TYPES: ig_follow,follow
+
+      - name: 변경된 데이터 커밋
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add docs/data docs/covers
+          if git diff --staged --quiet; then
+            echo "변경사항 없음"
+          else
+            git commit -m "data: $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M') 성과 갱신"
+            git push
+          fi
