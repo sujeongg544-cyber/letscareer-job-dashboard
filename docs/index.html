@@ -8,67 +8,76 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
 <style>
   :root {
-    --brand: #005EFF;
-    --brand-on-dark: #7EAEFF;
-    --ink: #1C2130;
-    --sub: #6B7282;
-    --line: #E4E8F0;
-    --surface: #F3F6FB;
-    --white: #FFFFFF;
+    --brand: #005EFF; --brand-on-dark: #7EAEFF; --brand-soft:#E8F0FF;
+    --ink: #1C2130; --sub: #6B7282; --line: #E4E8F0; --surface: #F3F6FB; --white: #FFFFFF;
+    --ok:#16A34A; --warn:#DC2626;
   }
   * { box-sizing: border-box; }
-  body {
-    margin: 0; background: var(--surface); color: var(--ink);
-    font-family: Pretendard, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
-    -webkit-font-smoothing: antialiased;
-  }
-  button, select { font: inherit; color: inherit; }
+  body { margin: 0; background: var(--surface); color: var(--ink);
+    font-family: Pretendard, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; -webkit-font-smoothing: antialiased; }
+  button, select, input, textarea { font: inherit; color: inherit; }
   :focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
-  .wrap { padding: 0 24px; }
+  .wrap { padding: 0 24px; max-width:1440px; margin:0 auto; }
 
   header { background: var(--white); border-bottom: 1px solid var(--line); }
-  .head { padding-top: 24px; padding-bottom: 20px; }
-  .title-row { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 8px; }
+  .head { padding-top: 20px; }
+  .title-row { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 12px; }
   h1 { margin: 0; font-size: 24px; font-weight: 800; letter-spacing: -0.02em; }
   .desc { margin: 4px 0 0; font-size: 13px; color: var(--sub); }
-  .synced { font-size: 12px; color: var(--sub); }
+  .synced { font-size: 12px; color: var(--sub); margin:0; }
 
-  .summary { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; margin-top: 24px; }
+  /* auth */
+  .auth { display:flex; align-items:center; gap:8px; flex-wrap:wrap; justify-content:flex-end; }
+  .auth input { padding:7px 10px; border:1px solid var(--line); border-radius:8px; font-size:12px; width:150px; }
+  .auth button { padding:7px 12px; border:1px solid var(--ink); border-radius:8px; background:var(--white); font-size:12px; font-weight:700; cursor:pointer; }
+  .auth button.primary { background:var(--ink); color:#fff; }
+  .auth .who { font-size:12px; color:var(--sub); }
+  .auth .dot { width:7px; height:7px; border-radius:50%; background:var(--ok); display:inline-block; margin-right:4px; }
+
+  .tabs { display:flex; gap:4px; margin-top:16px; }
+  .tab { padding:11px 18px; border:0; background:transparent; font-size:14px; font-weight:700; color:var(--sub); cursor:pointer; border-bottom:2px solid transparent; }
+  .tab[aria-selected="true"] { color:var(--brand); border-bottom-color:var(--brand); }
+
+  main { padding: 20px 0 60px; }
+  .panel[hidden]{ display:none; }
+
+  .summary { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; margin-bottom: 20px; }
   .stat { display: flex; flex-direction: column; gap: 4px; padding-left: 12px; border-left: 3px solid var(--line); }
   .stat.key { border-left-color: var(--brand); }
   .stat span { font-size: 12px; color: var(--sub); }
-  .stat strong { font-size: 22px; font-weight: 800; font-variant-numeric: tabular-nums; }
+  .stat strong { font-size: 21px; font-weight: 800; font-variant-numeric: tabular-nums; }
   .stat small { font-size: 11px; color: var(--sub); }
+  .stat small.warn { color:var(--warn); font-weight:700; }
 
-  .toolbar { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 12px; margin: 24px 0; }
+  .toolbar { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 12px; margin-bottom: 16px; }
   .field { display: flex; flex-direction: column; gap: 4px; }
   .field span { font-size: 11px; color: var(--sub); }
   select { padding: 8px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--white); font-size: 13px; }
   .btn-all { margin-left: auto; padding: 8px 12px; border: 1px solid var(--ink); border-radius: 8px; background: var(--white); font-size: 13px; font-weight: 600; cursor: pointer; }
   .btn-all[aria-pressed="true"] { background: var(--ink); color: var(--white); }
   .btn-all:disabled { opacity: .4; cursor: default; }
+  .chk { margin-left:auto; display:flex; align-items:center; gap:6px; font-size:13px; font-weight:600; padding:8px 12px; border:1px solid var(--line); border-radius:8px; background:var(--white); cursor:pointer; }
+  .chk input { accent-color:var(--brand); width:15px; height:15px; }
 
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 16px; align-items: start; padding-bottom: 40px; }
+  /* ── 갤러리 ── */
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 16px; align-items: start; }
   .card { background: var(--white); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; }
   .cover { position: relative; display: block; aspect-ratio: 4 / 5; background: #E8F0FF; }
   .cover img { width: 100%; height: 100%; object-fit: cover; display: block; }
   .cover .noimg { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 13px; color: var(--sub); }
   .badge { position: absolute; top: 12px; right: 12px; padding: 4px 8px; border-radius: 6px; background: var(--white); font-size: 11px; font-weight: 700; }
   .meta { display: flex; justify-content: space-between; padding: 10px 14px 0; font-size: 12px; color: var(--sub); }
-
   .organic { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px 6px; padding: 12px 14px 14px; }
   .m { display: flex; flex-direction: column; justify-content: space-between; gap: 3px; min-width: 0; }
   .m span { font-size: 11px; line-height: 1.3; color: var(--sub); word-break: keep-all; }
   .m strong { font-size: 14px; font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
   .m.hl strong { color: var(--brand); }
-
   .toggle { margin: 0 14px 14px; padding: 8px 12px; display: flex; justify-content: space-between; align-items: center; border: 0; border-radius: 8px; background: var(--surface); font-size: 13px; font-weight: 600; cursor: pointer; }
   .switch { position: relative; width: 34px; height: 20px; border-radius: 10px; background: #C9D0DC; transition: background .2s; }
   .switch::after { content: ""; position: absolute; top: 2px; left: 2px; width: 16px; height: 16px; border-radius: 8px; background: var(--white); transition: left .2s; }
   .card.open .toggle { background: var(--ink); color: var(--white); }
   .card.open .switch { background: var(--brand); }
   .card.open .switch::after { left: 16px; }
-
   .ad-panel { display: grid; grid-template-rows: 0fr; transition: grid-template-rows .3s ease; }
   .card.open .ad-panel { grid-template-rows: 1fr; }
   .ad-panel > div { overflow: hidden; }
@@ -79,21 +88,74 @@
   .ad-note { grid-column: 1 / -1; margin: 0; font-size: 11px; color: #9AA3B5; }
   .organic-note { margin: 0 14px 14px; padding: 8px 12px; border-radius: 8px; background: var(--surface); font-size: 12px; color: var(--sub); }
 
-  .empty { background: var(--white); border: 1px solid var(--line); border-radius: 14px; text-align: center; padding: 64px 20px; margin-bottom: 40px; }
+  /* ── 회고 표 ── */
+  .tablecard { background:var(--white); border:1px solid var(--line); border-radius:14px; overflow:hidden; }
+  .scroll { overflow-x:auto; }
+  table { width:100%; border-collapse:collapse; min-width:960px; }
+  th,td { padding:12px 14px; text-align:left; white-space:nowrap; border-bottom:1px solid var(--line); }
+  th { font-size:11px; font-weight:700; color:var(--sub); background:var(--surface); position:sticky; top:0; }
+  td { font-size:13px; font-variant-numeric:tabular-nums; }
+  tbody tr:last-child td { border-bottom:0; }
+  tbody tr:hover { background:#FAFBFE; }
+  td.name { font-weight:600; white-space:normal; min-width:220px; max-width:320px; }
+  .tag { display:inline-block; padding:3px 9px; border-radius:6px; background:var(--brand-soft); color:var(--brand); font-size:12px; font-weight:600; }
+  .tag.none { background:var(--surface); color:#AAB1BE; }
+  td.num { text-align:right; }
+  .muted { color:#AAB1BE; }
+  .kpt-done { color:var(--ok); font-weight:700; }
+  .kpt-none { color:var(--warn); font-weight:700; }
+  .openbtn { padding:6px 12px; border:1px solid var(--line); border-radius:7px; background:var(--white); font-size:12px; font-weight:700; cursor:pointer; }
+  .openbtn:hover { border-color:var(--brand); color:var(--brand); }
+  .fcell { display:inline-block; text-align:right; }
+  .fmain { display:inline-flex; align-items:center; gap:5px; cursor:pointer; border:0; background:transparent; font-variant-numeric:tabular-nums; font-size:13px; font-weight:600; }
+  .fmain .arw { transition:transform .15s; font-size:9px; color:var(--sub); }
+  .fcell.open .fmain .arw { transform:rotate(180deg); }
+  .fbreak { display:none; margin-top:6px; padding:8px 10px; border-radius:8px; background:var(--surface); font-size:11.5px; line-height:1.7; text-align:right; min-width:120px; }
+  .fcell.open .fbreak { display:block; }
+  .fbreak b { float:left; font-weight:600; }
+  .fbreak .sum { border-top:1px solid var(--line); margin-top:4px; padding-top:4px; font-weight:700; }
+
+  .empty { background: var(--white); border: 1px solid var(--line); border-radius: 14px; text-align: center; padding: 64px 20px; }
   .empty p { margin: 0; font-weight: 600; }
   .empty small { display: block; margin-top: 6px; font-size: 13px; color: var(--sub); }
+  .banner { border-radius:10px; padding:10px 14px; font-size:12.5px; margin-bottom:16px; }
+  .banner.err { background:#FEF2F2; border:1px solid #FECACA; color:#B91C1C; }
 
-  @media (max-width: 960px) {
-    .summary { grid-template-columns: repeat(3, 1fr); }
-  }
+  /* ── 상세 시트 ── */
+  .backdrop { position:fixed; inset:0; background:rgba(20,25,40,.45); display:none; z-index:40; }
+  .backdrop.show { display:block; }
+  .sheet { position:fixed; top:0; right:0; height:100%; width:440px; max-width:92vw; background:var(--white); z-index:50; transform:translateX(100%); transition:transform .25s ease; overflow-y:auto; }
+  .sheet.show { transform:translateX(0); }
+  .sheet-head { position:sticky; top:0; background:var(--white); border-bottom:1px solid var(--line); padding:16px 20px; display:flex; align-items:flex-start; gap:10px; }
+  .sheet-head h2 { margin:0; font-size:16px; font-weight:800; flex:1; line-height:1.4; }
+  .icon-btn { border:1px solid var(--line); border-radius:8px; background:var(--white); padding:6px 10px; font-size:12px; font-weight:700; cursor:pointer; white-space:nowrap; text-decoration:none; color:var(--ink); }
+  .sheet-body { padding:16px 20px 40px; }
+  .sec { margin-bottom:22px; }
+  .sec-t { font-size:11px; font-weight:800; color:var(--sub); letter-spacing:.04em; margin:0 0 10px; }
+  .row2 { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+  .fg { display:flex; flex-direction:column; gap:5px; margin-bottom:12px; }
+  .fg label { font-size:11px; color:var(--sub); font-weight:600; }
+  .fg select,.fg input,.fg textarea { padding:9px 11px; border:1px solid var(--line); border-radius:8px; background:var(--white); font-size:13px; width:100%; }
+  .fg textarea { resize:vertical; min-height:64px; line-height:1.5; }
+  .fg .ro { background:var(--surface); color:var(--ink); border-style:dashed; }
+  .fg :disabled { background:var(--surface); color:var(--sub); cursor:not-allowed; }
+  .perf { display:grid; grid-template-columns:repeat(2,1fr); gap:10px; }
+  .perf .p { display:flex; justify-content:space-between; padding:9px 12px; background:var(--surface); border-radius:8px; font-size:12px; }
+  .perf .p span { color:var(--sub); } .perf .p b { font-variant-numeric:tabular-nums; }
+  .perf .p.hl { background:var(--brand-soft); } .perf .p.hl b { color:var(--brand); }
+  .save { width:100%; margin-top:8px; padding:13px; border:0; border-radius:10px; background:var(--brand); color:#fff; font-size:14px; font-weight:800; cursor:pointer; }
+  .save:disabled { background:#C9D0DC; cursor:not-allowed; }
+  .lockmsg { text-align:center; font-size:12px; color:var(--sub); margin-top:10px; }
+  .toast { position:fixed; bottom:24px; left:50%; transform:translateX(-50%) translateY(20px); background:var(--ink); color:#fff; padding:12px 18px; border-radius:10px; font-size:13px; font-weight:600; opacity:0; transition:.25s; z-index:60; pointer-events:none; max-width:90vw; text-align:center; }
+  .toast.show { opacity:1; transform:translateX(-50%) translateY(0); }
+
+  @media (max-width: 960px) { .summary { grid-template-columns: repeat(3, 1fr); } }
   @media (max-width: 600px) {
     .wrap { padding: 0 16px; }
     .summary { grid-template-columns: repeat(2, 1fr); }
-    .btn-all { margin-left: 0; }
+    .btn-all, .chk { margin-left: 0; }
   }
-  @media (prefers-reduced-motion: reduce) {
-    .ad-panel, .switch, .switch::after { transition: none; }
-  }
+  @media (prefers-reduced-motion: reduce) { .ad-panel, .switch, .switch::after, .sheet { transition: none; } }
 </style>
 </head>
 <body>
@@ -103,158 +165,355 @@
       <div>
         <h1>letscareer.job 성과</h1>
         <p class="desc">2026년 1월 이후 게시물과 '오공고' 캠페인 광고, 매일 오전 8시 갱신</p>
+        <p class="synced" id="synced"></p>
       </div>
-      <p class="synced" id="synced"></p>
     </div>
-    <div class="summary" id="summary"></div>
+    <div class="tabs" role="tablist">
+      <button class="tab" role="tab" aria-selected="true" data-tab="gallery">갤러리</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="retro">회고</button>
+    </div>
   </div>
 </header>
 
 <main class="wrap">
-  <div class="toolbar">
-    <label class="field"><span>기간</span><select id="f-month"><option value="all">전체</option></select></label>
-    <label class="field"><span>유형</span>
-      <select id="f-type">
-        <option value="all">전체</option><option>캐러셀</option><option>릴스</option><option>이미지</option><option>동영상</option>
-      </select>
-    </label>
-    <label class="field"><span>광고</span>
-      <select id="f-ad"><option value="all">전체</option><option value="ad">광고 집행</option><option value="organic">오가닉만</option></select>
-    </label>
-    <label class="field"><span>정렬</span>
-      <select id="f-sort">
-        <option value="date">최신순</option><option value="views">조회수순</option><option value="saves">저장순</option>
-        <option value="follows">팔로우순</option><option value="cpf">팔로우당 비용 낮은순</option>
-      </select>
-    </label>
-    <button class="btn-all" id="btn-all" aria-pressed="false">광고 성과 모두 펼치기</button>
-  </div>
-  <div id="list"></div>
+  <!-- 갤러리 탭 -->
+  <section class="panel" id="p-gallery" role="tabpanel">
+    <div class="summary" id="g-summary"></div>
+    <div class="toolbar">
+      <label class="field"><span>기간</span><select id="f-month"><option value="all">전체</option></select></label>
+      <label class="field"><span>유형</span>
+        <select id="f-type"><option value="all">전체</option><option>캐러셀</option><option>릴스</option><option>이미지</option><option>동영상</option></select></label>
+      <label class="field"><span>광고</span>
+        <select id="f-ad"><option value="all">전체</option><option value="ad">광고 집행</option><option value="organic">오가닉만</option></select></label>
+      <label class="field"><span>정렬</span>
+        <select id="f-sort">
+          <option value="date">최신순</option><option value="views">조회수순</option><option value="saves">저장순</option>
+          <option value="follows">팔로우순</option><option value="cpf">팔로우당 비용 낮은순</option>
+        </select></label>
+      <button class="btn-all" id="btn-all" aria-pressed="false">광고 성과 모두 펼치기</button>
+    </div>
+    <div id="list"></div>
+  </section>
+
+  <!-- 회고 탭 -->
+  <section class="panel" id="p-retro" role="tabpanel" hidden>
+    <div id="r-banner"></div>
+    <div class="summary" id="r-summary"></div>
+    <div class="toolbar">
+      <label class="field"><span>소재분류</span><select id="r-cat"><option value="all">전체</option></select></label>
+      <label class="field"><span>사람</span><select id="r-person"><option value="all">전체</option></select></label>
+      <label class="field"><span>정렬</span>
+        <select id="r-sort">
+          <option value="date">최신순</option><option value="views">조회수순</option><option value="pv">PV순</option><option value="follows">팔로우순</option>
+        </select></label>
+      <label class="chk"><input type="checkbox" id="r-noretro" /> 회고 미작성만</label>
+    </div>
+    <div class="tablecard"><div class="scroll">
+      <table>
+        <thead><tr>
+          <th>이름</th><th>소재분류</th><th>사람</th><th>게시일</th><th>링크</th>
+          <th class="num">조회수</th><th class="num">PV</th><th class="num">FOLLOW</th>
+          <th class="num">좋아요</th><th class="num">저장</th><th class="num">공유</th>
+          <th class="num">조회수 대비 PV</th><th class="num">PV 대비 F</th><th>회고</th><th></th>
+        </tr></thead>
+        <tbody id="r-tbody"></tbody>
+      </table>
+    </div></div>
+  </section>
 </main>
 
-<script>
-const state = { posts: [], month: "all", type: "all", ad: "all", sort: "date", open: new Set() };
-const $ = (id) => document.getElementById(id);
+<!-- 상세 시트 -->
+<div class="backdrop" id="backdrop"></div>
+<aside class="sheet" id="sheet" aria-hidden="true">
+  <div class="sheet-head">
+    <h2 id="s-title"></h2>
+    <a class="icon-btn" id="s-link" target="_blank" rel="noopener">링크</a>
+    <button class="icon-btn" id="s-close">✕</button>
+  </div>
+  <div class="sheet-body">
+    <div class="sec">
+      <p class="sec-t">기본</p>
+      <div class="row2">
+        <div class="fg"><label>소재분류</label><select id="s-cat"></select></div>
+        <div class="fg"><label>사람</label><select id="s-person"></select></div>
+      </div>
+      <div class="row2">
+        <div class="fg"><label>포맷 (자동)</label><input class="ro" id="s-format" readonly /></div>
+        <div class="fg"><label>게시일 (자동)</label><input class="ro" id="s-date" readonly /></div>
+      </div>
+    </div>
+    <div class="sec">
+      <p class="sec-t">광고 팔로우 (수동 입력)</p>
+      <div class="fg"><label>이 게시물 광고로 유입된 누적 팔로우</label><input type="number" id="s-adf" placeholder="예: 42" min="0" /></div>
+    </div>
+    <div class="sec">
+      <p class="sec-t">회고 · KPT</p>
+      <div class="fg"><label>Keep — 잘된 것</label><textarea id="s-keep" placeholder="계속 가져갈 것"></textarea></div>
+      <div class="fg"><label>Problem — 아쉬운 것</label><textarea id="s-problem" placeholder="문제였던 지점"></textarea></div>
+      <div class="fg"><label>Try — 다음에 시도</label><textarea id="s-try" placeholder="다음에 바꿔볼 것"></textarea></div>
+    </div>
+    <div class="sec">
+      <p class="sec-t">성과 (자동)</p>
+      <div class="perf" id="s-perf"></div>
+    </div>
+    <button class="save" id="s-save">저장</button>
+  </div>
+</aside>
 
+<div class="toast" id="toast"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script>
+// ─────────── 설정 ───────────
+const SUPABASE_URL = "https://nfnhapavxiyobacvdrym.supabase.co";
+const SUPABASE_KEY = "sb_publishable_ccSDumhVOOgG5aGqrHrUGQ_zMB2cVja";
+const CATEGORIES = ["시의성","공고모음","공고분석","직무추천해","리소스 콘텐츠"];
+const PEOPLE = ["김수정","김현조","이예원","박재영","김민지"];
+
+const db = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+
+// ─────────── 공통 ───────────
+const $ = (id) => document.getElementById(id);
 const num = (v) => (v == null || !isFinite(v) ? "-" : Math.round(v).toLocaleString("ko-KR"));
 const won = (v) => (v == null || !isFinite(v) ? "-" : "₩" + num(v));
 const compact = (v) => (v >= 10000 ? (v / 10000).toFixed(1).replace(/\.0$/, "") + "만" : num(v));
 const ratio = (a, b) => (b > 0 ? a / b : null);
+const pct = (a, b) => (b > 0 ? (a / b * 100).toFixed(2) + "%" : "-");
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const shortcode = (url) => String(url ?? "").match(/instagram\.com\/(?:[^/]+\/)?(?:p|reel|reels|tv)\/([^/?#]+)/)?.[1] ?? null;
+const nameOf = (p) => (String(p.caption || "").split("\n")[0].trim().slice(0, 80) || "(제목 없음)");
+const hasRetro = (p) => !!(p.meta && (p.meta.kpt_keep || p.meta.kpt_problem || p.meta.kpt_try));
 
-const ORGANIC = [["views", "조회수"], ["likes", "좋아요"], ["comments", "댓글"], ["saves", "저장"], ["shares", "공유"], ["profileVisits", "프로필 방문"], ["follows", "팔로우"]];
+const state = { posts: [], open: new Set() };
+const gState = { month: "all", type: "all", ad: "all", sort: "date", open: new Set() };
+const rState = { cat: "all", person: "all", sort: "date", noretro: false, open: new Set() };
 
-function filtered() {
-  const list = state.posts.filter((p) =>
-    (state.month === "all" || p.date.startsWith(state.month)) &&
-    (state.type === "all" || p.type === state.type) &&
-    (state.ad === "all" || (state.ad === "ad" ? p.ad : !p.ad))
-  );
-  const by = {
-    views: (p) => p.organic.views ?? -1,
-    saves: (p) => p.organic.saves ?? -1,
-    follows: (p) => p.organic.follows ?? -1,
-    cpf: (p) => { const c = p.ad && ratio(p.ad.spend, p.ad.follows); return c == null ? -Infinity : -c; },
-  }[state.sort];
-  return list.sort(by ? (a, b) => by(b) - by(a) : (a, b) => b.date.localeCompare(a.date));
-}
+// 드롭다운 채우기
+for (const c of CATEGORIES) { $("r-cat").insertAdjacentHTML("beforeend", `<option>${c}</option>`); $("s-cat").insertAdjacentHTML("beforeend", `<option>${c}</option>`); }
+for (const p of PEOPLE) { $("r-person").insertAdjacentHTML("beforeend", `<option>${p}</option>`); $("s-person").insertAdjacentHTML("beforeend", `<option>${p}</option>`); }
+$("s-cat").insertAdjacentHTML("afterbegin", `<option value="">-</option>`);
+$("s-person").insertAdjacentHTML("afterbegin", `<option value="">-</option>`);
 
+function toast(msg) { const t = $("toast"); t.textContent = msg; t.classList.add("show"); setTimeout(() => t.classList.remove("show"), 2800); }
+
+// ─────────── 갤러리 탭 (기존) ───────────
+const ORGANIC = [["views","조회수"],["likes","좋아요"],["comments","댓글"],["saves","저장"],["shares","공유"],["profileVisits","프로필 방문"],["follows","팔로우"]];
 const metric = (label, value, hl) => `<div class="m${hl ? " hl" : ""}"><span>${label}</span><strong>${value}</strong></div>`;
 
+function gFiltered() {
+  const list = state.posts.filter((p) =>
+    (gState.month === "all" || p.date.startsWith(gState.month)) &&
+    (gState.type === "all" || p.type === gState.type) &&
+    (gState.ad === "all" || (gState.ad === "ad" ? p.ad : !p.ad)));
+  const by = {
+    views: (p) => p.organic.views ?? -1, saves: (p) => p.organic.saves ?? -1, follows: (p) => p.organic.follows ?? -1,
+    cpf: (p) => { const c = p.ad && ratio(p.ad.spend, p.ad.follows); return c == null ? -Infinity : -c; },
+  }[gState.sort];
+  return list.sort(by ? (a, b) => by(b) - by(a) : (a, b) => b.date.localeCompare(a.date));
+}
 function card(p) {
-  const a = p.ad;
-  const open = state.open.has(p.id);
-  const img = p.cover
-    ? `<img src="${esc(p.cover)}" alt="${esc(p.caption.slice(0, 60))}" loading="lazy" />`
-    : `<div class="noimg">이미지 없음</div>`;
+  const a = p.ad, open = gState.open.has(p.id);
+  const img = p.cover ? `<img src="${esc(p.cover)}" alt="" loading="lazy" />` : `<div class="noimg">이미지 없음</div>`;
   const organic = ORGANIC.map(([k, l]) => metric(l, num(p.organic[k]), k === "saves" || k === "follows")).join("");
   const adBlock = a
-    ? `<button class="toggle" data-id="${p.id}" aria-expanded="${open}">
-         <span class="toggle-label">광고 성과 ${open ? "접기" : "보기"}</span><span class="switch" aria-hidden="true"></span>
-       </button>
+    ? `<button class="toggle" data-id="${p.id}" aria-expanded="${open}"><span class="toggle-label">광고 성과 ${open ? "접기" : "보기"}</span><span class="switch" aria-hidden="true"></span></button>
        <div class="ad-panel"><div><div class="ad-grid">
-         ${metric("지출금액", won(a.spend))}
-         ${metric("노출", num(a.impressions))}
-         ${metric("프로필 방문", num(a.profileVisits))}
-         ${metric("프로필 방문당 비용", won(ratio(a.spend, a.profileVisits)), true)}
-         ${metric("팔로우", num(a.follows))}
-         ${metric("팔로우당 비용", won(ratio(a.spend, a.follows)), true)}
-         ${a.follows == null ? `<p class="ad-note">팔로우 수를 입력하면 팔로우당 비용이 계산됩니다</p>` : ""}
+         ${metric("지출금액", won(a.spend))}${metric("노출", num(a.impressions))}${metric("프로필 방문", num(a.profileVisits))}
+         ${metric("프로필 방문당 비용", won(ratio(a.spend, a.profileVisits)), true)}${metric("팔로우", num(a.follows))}${metric("팔로우당 비용", won(ratio(a.spend, a.follows)), true)}
+         ${a.follows == null ? `<p class="ad-note">회고 탭에서 팔로우 수를 입력하면 계산됩니다</p>` : ""}
        </div></div></div>`
     : `<p class="organic-note">오가닉 게시물</p>`;
   return `<article class="card${open ? " open" : ""}" data-card="${p.id}">
     <a class="cover" href="${esc(p.permalink)}" target="_blank" rel="noopener">${img}${a ? `<span class="badge">광고 집행</span>` : ""}</a>
     <div class="meta"><span>${p.date.replaceAll("-", ".")}</span><span>${p.type}</span></div>
-    <div class="organic">${organic}</div>
-    ${adBlock}
-  </article>`;
+    <div class="organic">${organic}</div>${adBlock}</article>`;
 }
-
-function render() {
-  const list = filtered();
+function renderGallery() {
+  const list = gFiltered();
   const ads = list.filter((p) => p.ad);
   const spend = ads.reduce((s, p) => s + p.ad.spend, 0);
-  const withFollows = ads.filter((p) => p.ad.follows > 0); // 팔로우 수를 입력한 게시물만
-  const followSpend = withFollows.reduce((s, p) => s + p.ad.spend, 0);
-  const adFollows = withFollows.reduce((s, p) => s + p.ad.follows, 0);
+  const withF = ads.filter((p) => p.ad.follows > 0);
+  const followSpend = withF.reduce((s, p) => s + p.ad.spend, 0);
+  const adFollows = withF.reduce((s, p) => s + p.ad.follows, 0);
   const stats = [
     ["게시물", `${list.length}개`, `광고 집행 ${ads.length}개`],
     ["오가닉 조회수", compact(list.reduce((s, p) => s + (p.organic.views ?? 0), 0))],
     ["오가닉 팔로우", num(list.reduce((s, p) => s + (p.organic.follows ?? 0), 0))],
     ["광고 지출", won(spend)],
-    ["평균 팔로우당 비용", adFollows ? won(followSpend / adFollows) : "입력 전", ads.length ? `팔로우 입력 ${withFollows.length}/${ads.length}개` : null],
+    ["평균 팔로우당 비용", adFollows ? won(followSpend / adFollows) : "입력 전", ads.length ? `팔로우 입력 ${withF.length}/${ads.length}개` : null],
   ];
-  $("summary").innerHTML = stats.map(([l, v, n], i) =>
-    `<div class="stat${i === 4 ? " key" : ""}"><span>${l}</span><strong>${v}</strong>${n ? `<small>${n}</small>` : ""}</div>`
-  ).join("");
-
+  $("g-summary").innerHTML = stats.map(([l, v, n], i) => `<div class="stat${i === 4 ? " key" : ""}"><span>${l}</span><strong>${v}</strong>${n ? `<small>${n}</small>` : ""}</div>`).join("");
   $("list").innerHTML = list.length
     ? `<div class="grid">${list.map(card).join("")}</div>`
-    : `<div class="empty"><p>조건에 맞는 게시물이 없습니다</p><small>기간이나 유형 필터를 전체로 바꿔 보세요.</small></div>`;
-
+    : `<div class="empty"><p>조건에 맞는 게시물이 없습니다</p><small>필터를 전체로 바꿔 보세요.</small></div>`;
   const adIds = ads.map((p) => p.id);
-  const allOpen = adIds.length > 0 && adIds.every((id) => state.open.has(id));
+  const allOpen = adIds.length > 0 && adIds.every((id) => gState.open.has(id));
   const btn = $("btn-all");
-  btn.disabled = !adIds.length;
-  btn.setAttribute("aria-pressed", allOpen);
+  btn.disabled = !adIds.length; btn.setAttribute("aria-pressed", allOpen);
   btn.textContent = `광고 성과 모두 ${allOpen ? "접기" : "펼치기"}`;
-  btn.onclick = () => { adIds.forEach((id) => (allOpen ? state.open.delete(id) : state.open.add(id))); render(); };
+  btn.onclick = () => { adIds.forEach((id) => (allOpen ? gState.open.delete(id) : gState.open.add(id))); renderGallery(); };
 }
-
 $("list").addEventListener("click", (e) => {
-  const btn = e.target.closest(".toggle");
-  if (!btn) return;
-  const id = btn.dataset.id;
-  const open = !state.open.has(id);
-  open ? state.open.add(id) : state.open.delete(id);
+  const btn = e.target.closest(".toggle"); if (!btn) return;
+  const id = btn.dataset.id, open = !gState.open.has(id);
+  open ? gState.open.add(id) : gState.open.delete(id);
   btn.closest(".card").classList.toggle("open", open);
   btn.setAttribute("aria-expanded", open);
   btn.querySelector(".toggle-label").textContent = `광고 성과 ${open ? "접기" : "보기"}`;
 });
+for (const [id, key] of [["f-month","month"],["f-type","type"],["f-ad","ad"],["f-sort","sort"]])
+  $(id).addEventListener("change", (e) => { gState[key] = e.target.value; renderGallery(); });
 
-for (const [id, key] of [["f-month", "month"], ["f-type", "type"], ["f-ad", "ad"], ["f-sort", "sort"]]) {
-  $(id).addEventListener("change", (e) => { state[key] = e.target.value; render(); });
+// ─────────── 회고 탭 ───────────
+function rFiltered() {
+  let list = state.posts.filter((p) =>
+    (rState.cat === "all" || (p.meta && p.meta.category === rState.cat)) &&
+    (rState.person === "all" || (p.meta && p.meta.person === rState.person)) &&
+    (!rState.noretro || !hasRetro(p)));
+  const by = { views: (p) => p.organic.views ?? -1, pv: (p) => p.organic.profileVisits ?? -1, follows: (p) => p.organic.follows ?? -1 }[rState.sort];
+  return list.sort(by ? (a, b) => by(b) - by(a) : (a, b) => b.date.localeCompare(a.date));
 }
+function adFollowOf(p) { return p.meta && p.meta.ad_follows != null ? p.meta.ad_follows : (p.ad ? p.ad.follows : null); }
+function followCell(p) {
+  const code = shortcode(p.permalink), open = rState.open.has(code);
+  const of = p.organic.follows, adf = adFollowOf(p);
+  const total = (of || 0) + (adf || 0);
+  return `<td class="num"><div class="fcell${open ? " open" : ""}" data-code="${esc(code)}">
+    <button class="fmain">${num(of)}<span class="arw">▼</span></button>
+    <div class="fbreak"><b>오가닉</b> ${num(of)}<br><b>광고</b> ${adf == null ? '<span class="muted">미입력</span>' : num(adf)}
+      <div class="sum"><b>합계</b> ${num(total)}</div></div></div></td>`;
+}
+function renderRetro() {
+  const list = rFiltered();
+  const v = list.reduce((s, p) => s + (p.organic.views ?? 0), 0);
+  const pv = list.reduce((s, p) => s + (p.organic.profileVisits ?? 0), 0);
+  const of = list.reduce((s, p) => s + (p.organic.follows ?? 0), 0);
+  const none = list.filter((p) => !hasRetro(p)).length;
+  const stats = [
+    ["게시물", `${list.length}건`, null],
+    ["총 조회수", compact(v), null],
+    ["총 프로필 방문", num(pv), `조회수 대비 ${pct(pv, v)}`],
+    ["총 오가닉 팔로우", num(of), `PV 대비 ${pct(of, pv)}`],
+    ["회고 미작성", `${none}건`, none ? "작성 필요" : "완료"],
+  ];
+  $("r-summary").innerHTML = stats.map(([l, val, n], i) => `<div class="stat${i === 4 ? " key" : ""}"><span>${l}</span><strong>${val}</strong>${n ? `<small class="${i === 4 && none ? "warn" : ""}">${n}</small>` : ""}</div>`).join("");
+  $("r-tbody").innerHTML = list.length ? list.map((p) => {
+    const code = shortcode(p.permalink), o = p.organic;
+    const cat = p.meta && p.meta.category;
+    return `<tr>
+      <td class="name">${esc(nameOf(p))}</td>
+      <td>${cat ? `<span class="tag">${esc(cat)}</span>` : `<span class="tag none">미분류</span>`}</td>
+      <td>${p.meta && p.meta.person ? esc(p.meta.person) : `<span class="muted">-</span>`}</td>
+      <td>${p.date.replaceAll("-", ".")}</td>
+      <td><a href="${esc(p.permalink)}" target="_blank" rel="noopener" class="muted">보기</a></td>
+      <td class="num">${num(o.views)}</td><td class="num">${num(o.profileVisits)}</td>
+      ${followCell(p)}
+      <td class="num">${num(o.likes)}</td><td class="num">${num(o.saves)}</td><td class="num">${num(o.shares)}</td>
+      <td class="num">${pct(o.profileVisits, o.views)}</td><td class="num">${pct(o.follows, o.profileVisits)}</td>
+      <td class="${hasRetro(p) ? "kpt-done" : "kpt-none"}">${hasRetro(p) ? "KPT ✓" : "미작성"}</td>
+      <td><button class="openbtn" data-open="${esc(code)}">회고 열기</button></td>
+    </tr>`;
+  }).join("") : `<tr><td colspan="15"><div class="empty" style="border:0"><p>표시할 게시물이 없습니다</p></div></td></tr>`;
+}
+$("r-tbody").addEventListener("click", (e) => {
+  const ob = e.target.closest("[data-open]"); if (ob) { openSheet(ob.dataset.open); return; }
+  const fc = e.target.closest(".fcell"); if (fc) { const c = fc.dataset.code; rState.open.has(c) ? rState.open.delete(c) : rState.open.add(c); renderRetro(); }
+});
+for (const [id, key] of [["r-cat","cat"],["r-person","person"],["r-sort","sort"]])
+  $(id).addEventListener("change", (e) => { rState[key] = e.target.value; renderRetro(); });
+$("r-noretro").addEventListener("change", (e) => { rState.noretro = e.target.checked; renderRetro(); });
 
-async function load() {
+// ─────────── 상세 시트 ───────────
+let current = null;
+function openSheet(code) {
+  const p = state.posts.find((x) => shortcode(x.permalink) === code); if (!p) return;
+  current = p;
+  const o = p.organic, meta = p.meta || {}, adf = adFollowOf(p), total = (o.follows || 0) + (adf || 0);
+  $("s-title").textContent = nameOf(p);
+  $("s-link").href = p.permalink || "#";
+  $("s-cat").value = meta.category || ""; $("s-person").value = meta.person || "";
+  $("s-format").value = p.type || "-"; $("s-date").value = (p.date || "").replaceAll("-", ".");
+  $("s-adf").value = meta.ad_follows != null ? meta.ad_follows : (p.ad && p.ad.follows != null ? p.ad.follows : "");
+  $("s-keep").value = meta.kpt_keep || ""; $("s-problem").value = meta.kpt_problem || ""; $("s-try").value = meta.kpt_try || "";
+  $("s-perf").innerHTML =
+    [["조회수", num(o.views)],["프로필 방문(PV)", num(o.profileVisits)],["오가닉 팔로우", num(o.follows)],["광고 팔로우", adf == null ? "미입력" : num(adf)],
+     ["좋아요", num(o.likes)],["저장", num(o.saves)],["공유", num(o.shares)],["댓글", num(o.comments)]].map(([l, val]) => `<div class="p"><span>${l}</span><b>${val}</b></div>`).join("")
+    + [["조회수 대비 PV", pct(o.profileVisits, o.views)],["PV 대비 F(오가닉)", pct(o.follows, o.profileVisits)],["저장률", pct(o.saves, o.views)],["팔로우 합계", num(total)]].map(([l, val]) => `<div class="p hl"><span>${l}</span><b>${val}</b></div>`).join("");
+  $("backdrop").classList.add("show"); $("sheet").classList.add("show"); $("sheet").setAttribute("aria-hidden", "false");
+}
+function closeSheet() { $("backdrop").classList.remove("show"); $("sheet").classList.remove("show"); $("sheet").setAttribute("aria-hidden", "true"); }
+$("s-close").onclick = closeSheet; $("backdrop").onclick = closeSheet;
+
+$("s-save").onclick = async () => {
+  if (!current) return;
+  const code = shortcode(current.permalink);
+  if (!code) { toast("이 게시물은 인스타 링크가 없어 저장할 수 없어요"); return; }
+  const adf = $("s-adf").value.trim();
+  const payload = {
+    shortcode: code, permalink: current.permalink,
+    category: $("s-cat").value || null, person: $("s-person").value || null,
+    ad_follows: adf === "" ? null : Number(adf),
+    kpt_keep: $("s-keep").value.trim() || null, kpt_problem: $("s-problem").value.trim() || null, kpt_try: $("s-try").value.trim() || null,
+    updated_at: new Date().toISOString(),
+  };
+  $("s-save").disabled = true; $("s-save").textContent = "저장 중…";
+  const { error } = await db.from("ogongo_content").upsert(payload, { onConflict: "shortcode" });
+  $("s-save").disabled = false; $("s-save").textContent = "저장";
+  if (error) { toast("저장 실패: " + error.message); return; }
+  current.meta = { category: payload.category, person: payload.person, ad_follows: payload.ad_follows, kpt_keep: payload.kpt_keep, kpt_problem: payload.kpt_problem, kpt_try: payload.kpt_try };
+  if (current.ad && payload.ad_follows != null) current.ad.follows = payload.ad_follows;
+  renderRetro(); renderGallery();
+  toast("저장했어요");
+  closeSheet();
+};
+
+// ─────────── 탭 ───────────
+document.querySelectorAll(".tab").forEach((t) => t.onclick = () => {
+  document.querySelectorAll(".tab").forEach((x) => x.setAttribute("aria-selected", x === t));
+  $("p-gallery").hidden = t.dataset.tab !== "gallery";
+  $("p-retro").hidden = t.dataset.tab !== "retro";
+});
+
+// ─────────── 로딩 ───────────
+async function loadManual() {
   try {
-    const [posts, sync] = await Promise.all([
-      fetch("data/posts.json", { cache: "no-store" }).then((r) => { if (!r.ok) throw new Error(); return r.json(); }),
-      fetch("data/sync.json", { cache: "no-store" }).then((r) => (r.ok ? r.json() : null)).catch(() => null),
-    ]);
-    state.posts = posts;
-    const months = [...new Set(posts.map((p) => p.date.slice(0, 7)))].sort().reverse();
-    $("f-month").insertAdjacentHTML("beforeend",
-      months.map((m) => `<option value="${m}">${m.slice(0, 4)}년 ${Number(m.slice(5))}월</option>`).join(""));
-    if (sync) {
-      const d = new Date(sync.syncedAt).toLocaleString("ko-KR", { timeZone: "Asia/Seoul", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hour12: false });
-      $("synced").textContent = `마지막 갱신 ${d}`;
-    }
-    render();
-  } catch {
-    render();
-    $("list").innerHTML = `<div class="empty"><p>아직 수집된 데이터가 없습니다</p><small>GitHub 저장소의 Actions 탭에서 '메타 성과 수집'을 한 번 실행하세요.</small></div>`;
+    const { data, error } = await db.from("ogongo_content").select("*");
+    if (error) throw error;
+    const map = new Map();
+    for (const row of data) map.set(row.shortcode, row);
+    return map;
+  } catch (e) {
+    $("r-banner").innerHTML = `<div class="banner err">Supabase에서 회고·분류 데이터를 못 불러왔어요 (${esc(e.message || e)}). 표의 자동 지표는 정상 표시됩니다.</div>`;
+    return new Map();
   }
+}
+async function load() {
+  const [postsRes, syncRes, manual] = await Promise.all([
+    fetch("data/posts.json", { cache: "no-store" }).then((r) => (r.ok ? r.json() : null)).catch(() => null),
+    fetch("data/sync.json", { cache: "no-store" }).then((r) => (r.ok ? r.json() : null)).catch(() => null),
+    loadManual(),
+  ]);
+  if (!postsRes) {
+    renderGallery(); renderRetro();
+    $("list").innerHTML = `<div class="empty"><p>아직 수집된 데이터가 없습니다</p><small>Actions 탭에서 '메타 성과 수집'을 한 번 실행하세요.</small></div>`;
+    return;
+  }
+  // 자동 지표 + 수동 데이터 병합 (인스타 링크 shortcode 기준)
+  state.posts = postsRes.map((p) => {
+    const code = shortcode(p.permalink), row = code ? manual.get(code) : null;
+    if (row) {
+      p.meta = { category: row.category, person: row.person, ad_follows: row.ad_follows, kpt_keep: row.kpt_keep, kpt_problem: row.kpt_problem, kpt_try: row.kpt_try };
+      if (p.ad && row.ad_follows != null) p.ad.follows = row.ad_follows; // 광고 팔로우는 Supabase 값 우선
+    } else p.meta = null;
+    return p;
+  });
+  const months = [...new Set(state.posts.map((p) => p.date.slice(0, 7)))].sort().reverse();
+  $("f-month").insertAdjacentHTML("beforeend", months.map((m) => `<option value="${m}">${m.slice(0, 4)}년 ${Number(m.slice(5))}월</option>`).join(""));
+  if (syncRes) {
+    const d = new Date(syncRes.syncedAt).toLocaleString("ko-KR", { timeZone: "Asia/Seoul", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hour12: false });
+    $("synced").textContent = `마지막 갱신 ${d}`;
+  }
+  renderGallery(); renderRetro();
 }
 load();
 </script>
