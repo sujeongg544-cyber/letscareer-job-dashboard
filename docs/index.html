@@ -437,7 +437,7 @@ async function upsertMeta(p, patch) {
   const prev = p.meta ? { ...p.meta } : null;
   p.meta = { ...(p.meta || {}), ...patch };
   const payload = {
-    shortcode: code, permalink: p.permalink,
+    shortcode: code, permalink: p.permalink, title: nameOf(p),
     category: p.meta.category || null, person: p.meta.person || null,
     ad_follows: p.meta.ad_follows != null ? p.meta.ad_follows : null,
     kpt_keep: p.meta.kpt_keep || null, kpt_problem: p.meta.kpt_problem || null, kpt_try: p.meta.kpt_try || null,
@@ -491,7 +491,7 @@ $("s-save").onclick = async () => {
   if (!code) { toast("이 게시물은 인스타 링크가 없어 저장할 수 없어요"); return; }
   const adf = $("s-adf").value.trim();
   const payload = {
-    shortcode: code, permalink: current.permalink,
+    shortcode: code, permalink: current.permalink, title: nameOf(current),
     category: $("s-cat").value || null, person: $("s-person").value || null,
     ad_follows: adf === "" ? null : Number(adf),
     kpt_keep: $("s-keep").value.trim() || null, kpt_problem: $("s-problem").value.trim() || null, kpt_try: $("s-try").value.trim() || null,
