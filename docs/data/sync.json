@@ -1,13 +1,13 @@
 {
-  "syncedAt": "2026-10-15T23:15:39.574Z",
+  "syncedAt": "2026-10-17T01:00:03.466Z",
   "account": "letscareer.job",
   "campaignKeyword": "오공고",
   "startDate": "2026-01-01",
-  "mediaListed": 337,
-  "mediaCount": 338,
+  "mediaListed": 338,
+  "mediaCount": 339,
   "mediaRange": {
     "oldest": "2026-01-01",
-    "newest": "2026-10-15"
+    "newest": "2026-10-16"
   },
   "addedFromAds": 49,
   "mergedAdPosts": {
@@ -36,9 +36,9 @@
     ]
   },
   "adOnlyPosts": 1,
-  "adCount": 51,
+  "adCount": 52,
   "adsMatched": 49,
-  "adsWithoutPost": 2,
+  "adsWithoutPost": 3,
   "adsUnmatched": 0,
   "unmatchedSample": [],
   "adPostsWithFollows": 0,
