@@ -1,17 +1,17 @@
 {
-  "syncedAt": "2026-10-30T02:22:54.483Z",
+  "syncedAt": "2026-10-31T01:58:57.870Z",
   "account": "letscareer.job",
   "campaignKeyword": "오공고",
   "startDate": "2026-01-01",
-  "mediaListed": 353,
-  "mediaCount": 354,
+  "mediaListed": 354,
+  "mediaCount": 355,
   "mediaRange": {
     "oldest": "2026-01-01",
-    "newest": "2026-10-29"
+    "newest": "2026-10-30"
   },
-  "addedFromAds": 50,
+  "addedFromAds": 51,
   "mergedAdPosts": {
-    "count": 49,
+    "count": 50,
     "sample": [
       {
         "adPost": "https://www.instagram.com/p/DXwLvm2DDM5/",
@@ -36,13 +36,13 @@
     ]
   },
   "adOnlyPosts": 1,
-  "adCount": 53,
-  "adsMatched": 50,
+  "adCount": 54,
+  "adsMatched": 51,
   "adsWithoutPost": 3,
   "adsUnmatched": 0,
   "unmatchedSample": [],
   "adPostsWithFollows": 0,
-  "adPosts": 50,
+  "adPosts": 51,
   "objectives": [
     "LINK_CLICKS / LINK_CLICKS",
     "LINK_CLICKS / PROFILE_VISIT"
