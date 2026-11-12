@@ -1,17 +1,17 @@
 {
-  "syncedAt": "2026-11-11T02:29:27.460Z",
+  "syncedAt": "2026-11-12T03:34:21.902Z",
   "account": "letscareer.job",
   "campaignKeyword": "오공고",
   "startDate": "2026-01-01",
-  "mediaListed": 371,
-  "mediaCount": 372,
+  "mediaListed": 373,
+  "mediaCount": 374,
   "mediaRange": {
     "oldest": "2026-01-01",
-    "newest": "2026-11-10"
+    "newest": "2026-11-11"
   },
-  "addedFromAds": 51,
+  "addedFromAds": 53,
   "mergedAdPosts": {
-    "count": 50,
+    "count": 52,
     "sample": [
       {
         "adPost": "https://www.instagram.com/p/DXwLvm2DDM5/",
@@ -36,22 +36,28 @@
     ]
   },
   "adOnlyPosts": 1,
-  "adCount": 55,
-  "adsMatched": 51,
+  "adCount": 57,
+  "adsMatched": 53,
   "adsWithoutPost": 4,
   "adsUnmatched": 0,
   "unmatchedSample": [],
   "adPostsWithFollows": 0,
-  "adPosts": 51,
+  "adPosts": 53,
   "objectives": [
+    "LINK_CLICKS / LANDING_PAGE_VIEWS",
     "LINK_CLICKS / LINK_CLICKS",
     "LINK_CLICKS / PROFILE_VISIT"
   ],
   "resultIndicators": [
     "actions:link_click",
+    "actions:omni_landing_page_view",
     "profile_visit_view"
   ],
   "unsupportedMetrics": {
+    "REELS": [
+      "profile_visits",
+      "follows"
+    ],
     "AD": [
       "views",
       "likes",
@@ -62,6 +68,14 @@
     ]
   },
   "insightErrors": [
+    {
+      "error": "REELS | (#100) The Media Insights API does not support the profile_visits metric for this media product type.",
+      "posts": 1
+    },
+    {
+      "error": "REELS | (#100) The Media Insights API does not support the follows metric for this media product type.",
+      "posts": 1
+    },
     {
       "error": "AD | (#100) The Media Insights API does not support the views metric for this media product type.",
       "posts": 1
