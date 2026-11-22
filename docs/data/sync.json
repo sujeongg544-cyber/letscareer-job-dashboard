@@ -1,13 +1,13 @@
 {
-  "syncedAt": "2026-11-21T03:43:56.950Z",
+  "syncedAt": "2026-11-22T02:47:43.484Z",
   "account": "letscareer.job",
   "campaignKeyword": "오공고",
   "startDate": "2026-01-01",
-  "mediaListed": 399,
-  "mediaCount": 400,
+  "mediaListed": 401,
+  "mediaCount": 402,
   "mediaRange": {
     "oldest": "2026-01-01",
-    "newest": "2026-11-20"
+    "newest": "2026-11-21"
   },
   "addedFromAds": 53,
   "mergedAdPosts": {
@@ -69,12 +69,12 @@
   },
   "insightErrors": [
     {
-      "error": "REELS | (#100) The Media Insights API does not support the profile_visits metric for this media product type.",
+      "error": "REELS | (#100) The Media Insights API does not support the follows metric for this media product type.",
       "posts": 5
     },
     {
-      "error": "REELS | (#100) The Media Insights API does not support the follows metric for this media product type.",
-      "posts": 5
+      "error": "REELS | (#100) The Media Insights API does not support the profile_visits metric for this media product type.",
+      "posts": 4
     },
     {
       "error": "AD | (#100) The Media Insights API does not support the views metric for this media product type.",
